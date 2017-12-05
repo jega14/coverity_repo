@@ -1,0 +1,326 @@
+<error>
+<domain>STATIC_C</domain>
+<lang>C</lang>
+<checker>RESOURCE_LEAK</checker>
+<type>resource_leak</type>
+<subtype>memory</subtype>
+<file>/root/coverity_project/make-3.81/main.c</file>
+<function>enter_command_line_file</function>
+<score>100</score>
+<ordered>true</ordered>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{name[0] == 0}}}}}}</description>
+<line>548</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>549</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{name[0] == '~'}}}}}}</description>
+<line>551</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>alloc_fn</tag>
+<description>{CovLStrv2{{t{Storage is returned from allocation function {0}.}{{code{tilde_expand}}}}}}</description>
+<line>553</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>/root/coverity_project/make-3.81/read.c</file>
+<function>tilde_expand</function>
+<key>c4743c72585df807458e6e62498b604e</key>
+<id>5</id>
+</model_ptr>
+</event>
+<event>
+<tag>var_assign</tag>
+<description>{CovLStrv2{{t{Assigning: {0} = storage returned from {1}.}{{code{expanded}}}{{code{tilde_expand(name)}}}}}}</description>
+<line>553</line>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{expanded != NULL}}}}}}</description>
+<line>554</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>var_assign</tag>
+<description>{CovLStrv2{{t{Assigning: {0} = {1}.}{{code{name}}}{{code{expanded}}}}}}</description>
+<line>555</line>
+</event>
+<event>
+<tag>leaked_storage</tag>
+<description>{CovLStrv2{{t{Variable {0} going out of scope leaks the storage it points to.}{{code{expanded}}}}}}</description>
+<line>556</line>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{name[0] == '.'}}}}}}</description>
+<line>561</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{name[1] == '/'}}}}}}</description>
+<line>561</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{name[2] != 0}}}}}}</description>
+<line>561</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{*name == '/'}}}}}}</description>
+<line>564</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>loop</tag>
+<description>{CovLStrv2{{t{Jumping back to the beginning of the loop.}}}}</description>
+<line>566</line>
+<path_event>
+<jump>true</jump>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>loop_begin</tag>
+<description>{CovLStrv2{{t{Jumped back to beginning of loop.}}}}</description>
+<line>564</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{*name == '/'}}}}}}</description>
+<line>564</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>loop_end</tag>
+<description>{CovLStrv2{{t{Reached end of loop.}}}}</description>
+<line>566</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>loop</tag>
+<description>{CovLStrv2{{t{Jumping back to the beginning of the loop.}}}}</description>
+<line>567</line>
+<path_event>
+<jump>true</jump>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>loop_begin</tag>
+<description>{CovLStrv2{{t{Jumped back to beginning of loop.}}}}</description>
+<line>561</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{name[0] == '.'}}}}}}</description>
+<line>561</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{name[1] == '/'}}}}}}</description>
+<line>561</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{name[2] != 0}}}}}}</description>
+<line>561</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>loop_end</tag>
+<description>{CovLStrv2{{t{Reached end of loop.}}}}</description>
+<line>567</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{*name == 0}}}}}}</description>
+<line>569</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{name[0] != '.'}}}}}}</description>
+<line>575</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>loop_begin</tag>
+<description>{CovLStrv2{{t{Jumped back to beginning of loop.}}}}</description>
+<line>574</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{name[0] != '.'}}}}}}</description>
+<line>575</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>noescape</tag>
+<description>{CovLStrv2{{t{Resource {0} is not freed or pointed-to in {1}.}{{code{name}}}{{code{xstrdup}}}}}}</description>
+<line>579</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>/root/coverity_project/make-3.81/misc.c</file>
+<function>xstrdup</function>
+<key>1b2132060ab52d1717711fbe0beda918</key>
+<id>0</id>
+</model_ptr>
+</event>
+<event>
+<main>true</main>
+<tag>leaked_storage</tag>
+<description>{CovLStrv2{{t{Returning without freeing {0} leaks the storage that it points to.}{{code{name}}}}}}</description>
+<line>579</line>
+</event>
+<extra>expanded</extra>
+<subcategory>none</subcategory>
+</error>
+<error>
+<domain>STATIC_C</domain>
+<lang>C</lang>
+<checker>RESOURCE_LEAK</checker>
+<type>resource_leak</type>
+<subtype>memory</subtype>
+<file>/root/coverity_project/make-3.81/read.c</file>
+<function>record_files</function>
+<score>100</score>
+<ordered>true</ordered>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{snapped_deps}}}}}}</description>
+<line>1885</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>1886</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{commands_idx &gt; 0}}}}}}</description>
+<line>1888</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>alloc_fn</tag>
+<description>{CovLStrv2{{t{Storage is returned from allocation function {0}.}{{code{xmalloc}}}}}}</description>
+<line>1890</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>/root/coverity_project/make-3.81/misc.c</file>
+<function>xmalloc</function>
+<key>0a50e4a16a64076b30dc9166b6735b1b</key>
+<id>1</id>
+</model_ptr>
+</event>
+<event>
+<tag>var_assign</tag>
+<description>{CovLStrv2{{t{Assigning: {0} = storage returned from {1}.}{{code{cmds}}}{{code{xmalloc(56U)}}}}}}</description>
+<line>1890</line>
+</event>
+<event>
+<tag>if_fallthrough</tag>
+<description>{CovLStrv2{{t{Falling through to end of if statement.}}}}</description>
+<line>1895</line>
+<path_event>
+<jump>true</jump>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>1897</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{filenames != NULL}}}}}}</description>
+<line>1899</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>loop_end</tag>
+<description>{CovLStrv2{{t{Reached end of loop.}}}}</description>
+<line>2119</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{implicit}}}}}}</description>
+<line>2121</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>2129</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<main>true</main>
+<tag>leaked_storage</tag>
+<description>{CovLStrv2{{t{Variable {0} going out of scope leaks the storage it points to.}{{code{cmds}}}}}}</description>
+<line>2130</line>
+</event>
+<extra>cmds</extra>
+<subcategory>none</subcategory>
+</error>

@@ -1,0 +1,1211 @@
+2017-12-05T08:50:42.747709Z|cov-build|14519|info|> cov-build 2017.07-SP1 (build 75a994d703 p-milo1-push-30112.467.287)
+2017-12-05T08:50:42.747760Z|cov-build|14519|info|> Coverity Build Capture (64-bit) version 2017.07-SP1 on Linux 3.10.0-693.2.2.el7.x86_64 x86_64
+2017-12-05T08:50:42.747760Z|cov-build|14519|info|> Internal version numbers: 75a994d703 p-milo1-push-30112.467.287
+2017-12-05T08:50:42.747760Z|cov-build|14519|info|> 
+2017-12-05T08:50:42.747769Z|cov-build|14519|info|> Dumping from hostname : euca-10-254-76-20.eucalyptus.internal
+2017-12-05T08:50:42.747769Z|cov-build|14519|info|> 
+2017-12-05T08:50:42.747774Z|cov-build|14519|info|> Platform info:
+2017-12-05T08:50:42.747774Z|cov-build|14519|info|> Sysname = Linux
+2017-12-05T08:50:42.747774Z|cov-build|14519|info|> Release = 3.10.0-693.2.2.el7.x86_64
+2017-12-05T08:50:42.747774Z|cov-build|14519|info|> Machine = x86_64
+2017-12-05T08:50:42.747774Z|cov-build|14519|info|> 
+2017-12-05T08:50:42.747774Z|cov-build|14519|info|> 
+2017-12-05T08:50:42.747786Z|cov-build|14519|info|> cov-build command: /ephemeral/analyzer/bin/cov-build --dir coverity_project/int_dir make all 
+2017-12-05T08:50:42.747793Z|cov-build|14519|info|> cov-build expanded command: /ephemeral/analyzer/bin/cov-build --dir coverity_project/int_dir make all 
+2017-12-05T08:50:42.748018Z|cov-build|14519|info|> build command: /usr/bin/make all
+2017-12-05T08:50:42.748026Z|cov-build|14519|info|> thunk command: /ephemeral/analyzer/bin/cov-internal-thunk.sh make all
+2017-12-05T08:50:42.748026Z|cov-build|14519|info|> 
+2017-12-05T08:50:42.748033Z|cov-build|14519|info|> Set UseSharedCompilation to false.
+2017-12-05T08:50:42.748045Z|cov-build|14519|info|> Set COVERITY_BIN to /ephemeral/analyzer/bin
+2017-12-05T08:50:42.748057Z|cov-build|14519|info|> Set COVERITY_SITE_CC to g++;g++-3;g++-4;gcc;gcc-3;gcc-4;ld
+2017-12-05T08:50:42.748064Z|cov-build|14519|info|> Set COVERITY_TEMP to /tmp/cov-root/7e39f342ff8e4d082e863f1bfefb11ee
+2017-12-05T08:50:42.748075Z|cov-build|14519|info|> Set COVERITY_COMMON_TEMP to /tmp
+2017-12-05T08:50:42.748084Z|cov-build|14519|info|> Set COVERITY_IDIR to /root/coverity_project/make-3.81/coverity_project/int_dir
+2017-12-05T08:50:42.748104Z|cov-build|14519|info|> Set COVERITY_OUTPUT to /root/coverity_project/make-3.81/coverity_project/int_dir/build-log.txt
+2017-12-05T08:50:42.748109Z|cov-build|14519|info|> Set COVERITY_LOG to /root/coverity_project/make-3.81/coverity_project/int_dir/build-log.txt
+2017-12-05T08:50:42.748124Z|cov-build|14519|info|> Set COVERITY_OUTPUT_ENCODING to UTF-8
+2017-12-05T08:50:42.748129Z|cov-build|14519|info|> Set COVERITY_SYSTEM_ENCODING to UTF-8
+2017-12-05T08:50:42.748135Z|cov-build|14519|info|> Set COVERITY_EMIT to /root/coverity_project/make-3.81/coverity_project/int_dir/emit
+2017-12-05T08:50:42.748150Z|cov-build|14519|info|> Set COVERITY_IS_COMPILER to 0
+2017-12-05T08:50:42.748154Z|cov-build|14519|info|> Set COVERITY_TOP_PROCESS to 0
+2017-12-05T08:50:42.748158Z|cov-build|14519|info|> Set COVERITY_IS_COMPILER_DESCENDANT to 0
+2017-12-05T08:50:42.748178Z|cov-build|14519|info|> 
+2017-12-05T08:50:42.748178Z|cov-build|14519|info|> 
+2017-12-05T08:50:42.748178Z|cov-build|14519|info|> Dumping configuration:
+2017-12-05T08:50:42.748178Z|cov-build|14519|info|> 
+2017-12-05T08:50:42.748185Z|cov-build|14519|info|> User/default configuration:
+2017-12-05T08:50:42.748185Z|cov-build|14519|info|> 
+2017-12-05T08:50:42.748189Z|cov-build|14519|info|> Configuration read from: command-line
+2017-12-05T08:50:42.748189Z|cov-build|14519|info|> Node: coverity
+2017-12-05T08:50:42.748189Z|cov-build|14519|info|>   Node: config
+2017-12-05T08:50:42.748189Z|cov-build|14519|info|>     Node: include Value: /ephemeral/analyzer/config/coverity_config.xml
+2017-12-05T08:50:42.748189Z|cov-build|14519|info|>   Node: config
+2017-12-05T08:50:42.748189Z|cov-build|14519|info|>     Node: prevent
+2017-12-05T08:50:42.748189Z|cov-build|14519|info|>       Node: dir Value: /root/coverity_project/make-3.81/coverity_project/int_dir
+2017-12-05T08:50:42.748189Z|cov-build|14519|info|> 
+2017-12-05T08:50:42.748203Z|cov-build|14519|info|> Configuration read from: /ephemeral/analyzer/config/coverity_config.xml
+2017-12-05T08:50:42.748203Z|cov-build|14519|info|> Node: coverity
+2017-12-05T08:50:42.748203Z|cov-build|14519|info|>   Node: cit_version Value: 1
+2017-12-05T08:50:42.748203Z|cov-build|14519|info|>   Node: config
+2017-12-05T08:50:42.748203Z|cov-build|14519|info|>     Node: include Value: /ephemeral/analyzer/config/template-gcc-config-0/coverity_config.xml
+2017-12-05T08:50:42.748203Z|cov-build|14519|info|>     Node: include Value: /ephemeral/analyzer/config/template-g++-config-0/coverity_config.xml
+2017-12-05T08:50:42.748203Z|cov-build|14519|info|>     Node: include Value: /ephemeral/analyzer/config/template-gcc-config-1/coverity_config.xml
+2017-12-05T08:50:42.748203Z|cov-build|14519|info|>     Node: include Value: /ephemeral/analyzer/config/template-gcc-config-2/coverity_config.xml
+2017-12-05T08:50:42.748203Z|cov-build|14519|info|>     Node: include Value: /ephemeral/analyzer/config/template-g++-config-1/coverity_config.xml
+2017-12-05T08:50:42.748203Z|cov-build|14519|info|>     Node: include Value: /ephemeral/analyzer/config/template-g++-config-2/coverity_config.xml
+2017-12-05T08:50:42.748203Z|cov-build|14519|info|>     Node: include Value: /ephemeral/analyzer/config/template-ld-config-0/coverity_config.xml
+2017-12-05T08:50:42.748203Z|cov-build|14519|info|>     Node: include Value: /ephemeral/analyzer/config/template-gcc-config-3/coverity_config.xml
+2017-12-05T08:50:42.748203Z|cov-build|14519|info|>     Node: include Value: /ephemeral/analyzer/config/template-g++-config-3/coverity_config.xml
+2017-12-05T08:50:42.748203Z|cov-build|14519|info|>     Node: include Value: /ephemeral/analyzer/config/template-gcc-config-4/coverity_config.xml
+2017-12-05T08:50:42.748203Z|cov-build|14519|info|>     Node: include Value: /ephemeral/analyzer/config/template-gcc-config-5/coverity_config.xml
+2017-12-05T08:50:42.748203Z|cov-build|14519|info|>     Node: include Value: /ephemeral/analyzer/config/template-g++-config-4/coverity_config.xml
+2017-12-05T08:50:42.748203Z|cov-build|14519|info|>     Node: include Value: /ephemeral/analyzer/config/template-g++-config-5/coverity_config.xml
+2017-12-05T08:50:42.748203Z|cov-build|14519|info|>     Node: include Value: /ephemeral/analyzer/config/template-ld-config-1/coverity_config.xml
+2017-12-05T08:50:42.748203Z|cov-build|14519|info|> 
+2017-12-05T08:50:42.748271Z|cov-build|14519|info|> Configuration read from: /ephemeral/analyzer/config/template-gcc-config-0/coverity_config.xml
+2017-12-05T08:50:42.748271Z|cov-build|14519|info|> Node: coverity
+2017-12-05T08:50:42.748271Z|cov-build|14519|info|>   Node: cit_version Value: 1
+2017-12-05T08:50:42.748271Z|cov-build|14519|info|>   Node: config
+2017-12-05T08:50:42.748271Z|cov-build|14519|info|>     Node: build
+2017-12-05T08:50:42.748271Z|cov-build|14519|info|>       Node: compiler
+2017-12-05T08:50:42.748271Z|cov-build|14519|info|>         Node: template_compiler Value: true
+2017-12-05T08:50:42.748271Z|cov-build|14519|info|>         Node: comp_name Value: gcc
+2017-12-05T08:50:42.748271Z|cov-build|14519|info|>         Node: comp_translator Value: gcc
+2017-12-05T08:50:42.748271Z|cov-build|14519|info|>         Node: comp_lang Value: C/C++
+2017-12-05T08:50:42.748271Z|cov-build|14519|info|>         Node: comp_generic Value: gnu
+2017-12-05T08:50:42.748271Z|cov-build|14519|info|>       Node: options
+2017-12-05T08:50:42.748271Z|cov-build|14519|info|>         Node: id Value: gcc-gcc-.*
+2017-12-05T08:50:42.748271Z|cov-build|14519|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-gcc-config-0/../user_nodefs.h
+2017-12-05T08:50:42.748271Z|cov-build|14519|info|>         Node: begin_command_line_config
+2017-12-05T08:50:42.748271Z|cov-build|14519|info|>       Node: options
+2017-12-05T08:50:42.748271Z|cov-build|14519|info|>         Node: id Value: g++-gcc-.*
+2017-12-05T08:50:42.748271Z|cov-build|14519|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-gcc-config-0/../user_nodefs.h
+2017-12-05T08:50:42.748271Z|cov-build|14519|info|>         Node: begin_command_line_config
+2017-12-05T08:50:42.748271Z|cov-build|14519|info|>       Node: options
+2017-12-05T08:50:42.748271Z|cov-build|14519|info|>         Node: id Value: g++cc-gcc-.*
+2017-12-05T08:50:42.748271Z|cov-build|14519|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-gcc-config-0/../user_nodefs.h
+2017-12-05T08:50:42.748271Z|cov-build|14519|info|>         Node: begin_command_line_config
+2017-12-05T08:50:42.748271Z|cov-build|14519|info|>   Node: md5 Value: 220ab2f621b426ef21b5bff0d14bd626
+2017-12-05T08:50:42.748271Z|cov-build|14519|info|> 
+2017-12-05T08:50:42.748307Z|cov-build|14519|info|> Configuration read from: /ephemeral/analyzer/config/template-g++-config-0/coverity_config.xml
+2017-12-05T08:50:42.748307Z|cov-build|14519|info|> Node: coverity
+2017-12-05T08:50:42.748307Z|cov-build|14519|info|>   Node: cit_version Value: 1
+2017-12-05T08:50:42.748307Z|cov-build|14519|info|>   Node: config
+2017-12-05T08:50:42.748307Z|cov-build|14519|info|>     Node: build
+2017-12-05T08:50:42.748307Z|cov-build|14519|info|>       Node: compiler
+2017-12-05T08:50:42.748307Z|cov-build|14519|info|>         Node: template_compiler Value: true
+2017-12-05T08:50:42.748307Z|cov-build|14519|info|>         Node: comp_name Value: g++
+2017-12-05T08:50:42.748307Z|cov-build|14519|info|>         Node: comp_translator Value: g++
+2017-12-05T08:50:42.748307Z|cov-build|14519|info|>         Node: comp_lang Value: C/C++
+2017-12-05T08:50:42.748307Z|cov-build|14519|info|>         Node: comp_generic Value: gnu
+2017-12-05T08:50:42.748307Z|cov-build|14519|info|>       Node: options
+2017-12-05T08:50:42.748307Z|cov-build|14519|info|>         Node: id Value: g++-g++-.*
+2017-12-05T08:50:42.748307Z|cov-build|14519|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-g++-config-0/../user_nodefs.h
+2017-12-05T08:50:42.748307Z|cov-build|14519|info|>         Node: begin_command_line_config
+2017-12-05T08:50:42.748307Z|cov-build|14519|info|>       Node: options
+2017-12-05T08:50:42.748307Z|cov-build|14519|info|>         Node: id Value: g++cc-g++-.*
+2017-12-05T08:50:42.748307Z|cov-build|14519|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-g++-config-0/../user_nodefs.h
+2017-12-05T08:50:42.748307Z|cov-build|14519|info|>         Node: begin_command_line_config
+2017-12-05T08:50:42.748307Z|cov-build|14519|info|>   Node: md5 Value: d8da15d655e23f85d5c6ae35de65d439
+2017-12-05T08:50:42.748307Z|cov-build|14519|info|> 
+2017-12-05T08:50:42.748335Z|cov-build|14519|info|> Configuration read from: /ephemeral/analyzer/config/template-gcc-config-1/coverity_config.xml
+2017-12-05T08:50:42.748335Z|cov-build|14519|info|> Node: coverity
+2017-12-05T08:50:42.748335Z|cov-build|14519|info|>   Node: cit_version Value: 1
+2017-12-05T08:50:42.748335Z|cov-build|14519|info|>   Node: config
+2017-12-05T08:50:42.748335Z|cov-build|14519|info|>     Node: build
+2017-12-05T08:50:42.748335Z|cov-build|14519|info|>       Node: compiler
+2017-12-05T08:50:42.748335Z|cov-build|14519|info|>         Node: template_compiler Value: true
+2017-12-05T08:50:42.748335Z|cov-build|14519|info|>         Node: comp_name Value: gcc-3
+2017-12-05T08:50:42.748335Z|cov-build|14519|info|>         Node: comp_translator Value: gcc
+2017-12-05T08:50:42.748335Z|cov-build|14519|info|>         Node: comp_lang Value: C/C++
+2017-12-05T08:50:42.748335Z|cov-build|14519|info|>         Node: comp_generic Value: gnu
+2017-12-05T08:50:42.748335Z|cov-build|14519|info|>       Node: options
+2017-12-05T08:50:42.748335Z|cov-build|14519|info|>         Node: id Value: gcc-gcc-3-.*
+2017-12-05T08:50:42.748335Z|cov-build|14519|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-gcc-config-1/../user_nodefs.h
+2017-12-05T08:50:42.748335Z|cov-build|14519|info|>         Node: begin_command_line_config
+2017-12-05T08:50:42.748335Z|cov-build|14519|info|>       Node: options
+2017-12-05T08:50:42.748335Z|cov-build|14519|info|>         Node: id Value: g++-gcc-3-.*
+2017-12-05T08:50:42.748335Z|cov-build|14519|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-gcc-config-1/../user_nodefs.h
+2017-12-05T08:50:42.748335Z|cov-build|14519|info|>         Node: begin_command_line_config
+2017-12-05T08:50:42.748335Z|cov-build|14519|info|>       Node: options
+2017-12-05T08:50:42.748335Z|cov-build|14519|info|>         Node: id Value: g++cc-gcc-3-.*
+2017-12-05T08:50:42.748335Z|cov-build|14519|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-gcc-config-1/../user_nodefs.h
+2017-12-05T08:50:42.748335Z|cov-build|14519|info|>         Node: begin_command_line_config
+2017-12-05T08:50:42.748335Z|cov-build|14519|info|>   Node: md5 Value: 6a6dc6f1a6c9360514c721c673fa1951
+2017-12-05T08:50:42.748335Z|cov-build|14519|info|> 
+2017-12-05T08:50:42.748370Z|cov-build|14519|info|> Configuration read from: /ephemeral/analyzer/config/template-gcc-config-2/coverity_config.xml
+2017-12-05T08:50:42.748370Z|cov-build|14519|info|> Node: coverity
+2017-12-05T08:50:42.748370Z|cov-build|14519|info|>   Node: cit_version Value: 1
+2017-12-05T08:50:42.748370Z|cov-build|14519|info|>   Node: config
+2017-12-05T08:50:42.748370Z|cov-build|14519|info|>     Node: build
+2017-12-05T08:50:42.748370Z|cov-build|14519|info|>       Node: compiler
+2017-12-05T08:50:42.748370Z|cov-build|14519|info|>         Node: template_compiler Value: true
+2017-12-05T08:50:42.748370Z|cov-build|14519|info|>         Node: comp_name Value: gcc-4
+2017-12-05T08:50:42.748370Z|cov-build|14519|info|>         Node: comp_translator Value: gcc
+2017-12-05T08:50:42.748370Z|cov-build|14519|info|>         Node: comp_lang Value: C/C++
+2017-12-05T08:50:42.748370Z|cov-build|14519|info|>         Node: comp_generic Value: gnu
+2017-12-05T08:50:42.748370Z|cov-build|14519|info|>       Node: options
+2017-12-05T08:50:42.748370Z|cov-build|14519|info|>         Node: id Value: gcc-gcc-4-.*
+2017-12-05T08:50:42.748370Z|cov-build|14519|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-gcc-config-2/../user_nodefs.h
+2017-12-05T08:50:42.748370Z|cov-build|14519|info|>         Node: begin_command_line_config
+2017-12-05T08:50:42.748370Z|cov-build|14519|info|>       Node: options
+2017-12-05T08:50:42.748370Z|cov-build|14519|info|>         Node: id Value: g++-gcc-4-.*
+2017-12-05T08:50:42.748370Z|cov-build|14519|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-gcc-config-2/../user_nodefs.h
+2017-12-05T08:50:42.748370Z|cov-build|14519|info|>         Node: begin_command_line_config
+2017-12-05T08:50:42.748370Z|cov-build|14519|info|>       Node: options
+2017-12-05T08:50:42.748370Z|cov-build|14519|info|>         Node: id Value: g++cc-gcc-4-.*
+2017-12-05T08:50:42.748370Z|cov-build|14519|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-gcc-config-2/../user_nodefs.h
+2017-12-05T08:50:42.748370Z|cov-build|14519|info|>         Node: begin_command_line_config
+2017-12-05T08:50:42.748370Z|cov-build|14519|info|>   Node: md5 Value: 6f1a220d892e908cc9817e94bdeb7bc5
+2017-12-05T08:50:42.748370Z|cov-build|14519|info|> 
+2017-12-05T08:50:42.748402Z|cov-build|14519|info|> Configuration read from: /ephemeral/analyzer/config/template-g++-config-1/coverity_config.xml
+2017-12-05T08:50:42.748402Z|cov-build|14519|info|> Node: coverity
+2017-12-05T08:50:42.748402Z|cov-build|14519|info|>   Node: cit_version Value: 1
+2017-12-05T08:50:42.748402Z|cov-build|14519|info|>   Node: config
+2017-12-05T08:50:42.748402Z|cov-build|14519|info|>     Node: build
+2017-12-05T08:50:42.748402Z|cov-build|14519|info|>       Node: compiler
+2017-12-05T08:50:42.748402Z|cov-build|14519|info|>         Node: template_compiler Value: true
+2017-12-05T08:50:42.748402Z|cov-build|14519|info|>         Node: comp_name Value: g++-3
+2017-12-05T08:50:42.748402Z|cov-build|14519|info|>         Node: comp_translator Value: g++
+2017-12-05T08:50:42.748402Z|cov-build|14519|info|>         Node: comp_lang Value: C/C++
+2017-12-05T08:50:42.748402Z|cov-build|14519|info|>         Node: comp_generic Value: gnu
+2017-12-05T08:50:42.748402Z|cov-build|14519|info|>       Node: options
+2017-12-05T08:50:42.748402Z|cov-build|14519|info|>         Node: id Value: g++-g++-3-.*
+2017-12-05T08:50:42.748402Z|cov-build|14519|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-g++-config-1/../user_nodefs.h
+2017-12-05T08:50:42.748402Z|cov-build|14519|info|>         Node: begin_command_line_config
+2017-12-05T08:50:42.748402Z|cov-build|14519|info|>       Node: options
+2017-12-05T08:50:42.748402Z|cov-build|14519|info|>         Node: id Value: g++cc-g++-3-.*
+2017-12-05T08:50:42.748402Z|cov-build|14519|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-g++-config-1/../user_nodefs.h
+2017-12-05T08:50:42.748402Z|cov-build|14519|info|>         Node: begin_command_line_config
+2017-12-05T08:50:42.748402Z|cov-build|14519|info|>   Node: md5 Value: ada4013796c1b19ed1fe7ebb4197cd2d
+2017-12-05T08:50:42.748402Z|cov-build|14519|info|> 
+2017-12-05T08:50:42.748433Z|cov-build|14519|info|> Configuration read from: /ephemeral/analyzer/config/template-g++-config-2/coverity_config.xml
+2017-12-05T08:50:42.748433Z|cov-build|14519|info|> Node: coverity
+2017-12-05T08:50:42.748433Z|cov-build|14519|info|>   Node: cit_version Value: 1
+2017-12-05T08:50:42.748433Z|cov-build|14519|info|>   Node: config
+2017-12-05T08:50:42.748433Z|cov-build|14519|info|>     Node: build
+2017-12-05T08:50:42.748433Z|cov-build|14519|info|>       Node: compiler
+2017-12-05T08:50:42.748433Z|cov-build|14519|info|>         Node: template_compiler Value: true
+2017-12-05T08:50:42.748433Z|cov-build|14519|info|>         Node: comp_name Value: g++-4
+2017-12-05T08:50:42.748433Z|cov-build|14519|info|>         Node: comp_translator Value: g++
+2017-12-05T08:50:42.748433Z|cov-build|14519|info|>         Node: comp_lang Value: C/C++
+2017-12-05T08:50:42.748433Z|cov-build|14519|info|>         Node: comp_generic Value: gnu
+2017-12-05T08:50:42.748433Z|cov-build|14519|info|>       Node: options
+2017-12-05T08:50:42.748433Z|cov-build|14519|info|>         Node: id Value: g++-g++-4-.*
+2017-12-05T08:50:42.748433Z|cov-build|14519|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-g++-config-2/../user_nodefs.h
+2017-12-05T08:50:42.748433Z|cov-build|14519|info|>         Node: begin_command_line_config
+2017-12-05T08:50:42.748433Z|cov-build|14519|info|>       Node: options
+2017-12-05T08:50:42.748433Z|cov-build|14519|info|>         Node: id Value: g++cc-g++-4-.*
+2017-12-05T08:50:42.748433Z|cov-build|14519|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-g++-config-2/../user_nodefs.h
+2017-12-05T08:50:42.748433Z|cov-build|14519|info|>         Node: begin_command_line_config
+2017-12-05T08:50:42.748433Z|cov-build|14519|info|>   Node: md5 Value: deb1268a1fd912fa66d290aac3a8d6e1
+2017-12-05T08:50:42.748433Z|cov-build|14519|info|> 
+2017-12-05T08:50:42.748521Z|cov-build|14519|info|> Configuration read from: /ephemeral/analyzer/config/template-ld-config-0/coverity_config.xml
+2017-12-05T08:50:42.748521Z|cov-build|14519|info|> Node: coverity
+2017-12-05T08:50:42.748521Z|cov-build|14519|info|>   Node: cit_version Value: 1
+2017-12-05T08:50:42.748521Z|cov-build|14519|info|>   Node: config
+2017-12-05T08:50:42.748521Z|cov-build|14519|info|>     Node: build
+2017-12-05T08:50:42.748521Z|cov-build|14519|info|>       Node: compiler
+2017-12-05T08:50:42.748521Z|cov-build|14519|info|>         Node: template_compiler Value: true
+2017-12-05T08:50:42.748521Z|cov-build|14519|info|>         Node: comp_name Value: ld
+2017-12-05T08:50:42.748521Z|cov-build|14519|info|>         Node: comp_translator Value: ld
+2017-12-05T08:50:42.748521Z|cov-build|14519|info|>         Node: comp_lang Value: C/C++
+2017-12-05T08:50:42.748521Z|cov-build|14519|info|>         Node: comp_generic Value: gnu
+2017-12-05T08:50:42.748521Z|cov-build|14519|info|>       Node: options
+2017-12-05T08:50:42.748521Z|cov-build|14519|info|>         Node: id Value: ld-ld-.*
+2017-12-05T08:50:42.748521Z|cov-build|14519|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-ld-config-0/../user_nodefs.h
+2017-12-05T08:50:42.748521Z|cov-build|14519|info|>         Node: begin_command_line_config
+2017-12-05T08:50:42.748521Z|cov-build|14519|info|>   Node: md5 Value: a31ebdf549aecdabc7c15e5c23be5e63
+2017-12-05T08:50:42.748521Z|cov-build|14519|info|> 
+2017-12-05T08:50:42.748551Z|cov-build|14519|info|> Configuration read from: /ephemeral/analyzer/config/template-gcc-config-3/coverity_config.xml
+2017-12-05T08:50:42.748551Z|cov-build|14519|info|> Node: coverity
+2017-12-05T08:50:42.748551Z|cov-build|14519|info|>   Node: cit_version Value: 1
+2017-12-05T08:50:42.748551Z|cov-build|14519|info|>   Node: config
+2017-12-05T08:50:42.748551Z|cov-build|14519|info|>     Node: build
+2017-12-05T08:50:42.748551Z|cov-build|14519|info|>       Node: compiler
+2017-12-05T08:50:42.748551Z|cov-build|14519|info|>         Node: template_compiler Value: true
+2017-12-05T08:50:42.748551Z|cov-build|14519|info|>         Node: comp_name Value: gcc
+2017-12-05T08:50:42.748551Z|cov-build|14519|info|>         Node: comp_translator Value: gcc
+2017-12-05T08:50:42.748551Z|cov-build|14519|info|>         Node: comp_lang Value: C/C++
+2017-12-05T08:50:42.748551Z|cov-build|14519|info|>         Node: comp_generic Value: gnu
+2017-12-05T08:50:42.748551Z|cov-build|14519|info|>       Node: options
+2017-12-05T08:50:42.748551Z|cov-build|14519|info|>         Node: id Value: gcc-gcc-.*
+2017-12-05T08:50:42.748551Z|cov-build|14519|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-gcc-config-3/../user_nodefs.h
+2017-12-05T08:50:42.748551Z|cov-build|14519|info|>         Node: begin_command_line_config
+2017-12-05T08:50:42.748551Z|cov-build|14519|info|>       Node: options
+2017-12-05T08:50:42.748551Z|cov-build|14519|info|>         Node: id Value: g++-gcc-.*
+2017-12-05T08:50:42.748551Z|cov-build|14519|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-gcc-config-3/../user_nodefs.h
+2017-12-05T08:50:42.748551Z|cov-build|14519|info|>         Node: begin_command_line_config
+2017-12-05T08:50:42.748551Z|cov-build|14519|info|>       Node: options
+2017-12-05T08:50:42.748551Z|cov-build|14519|info|>         Node: id Value: g++cc-gcc-.*
+2017-12-05T08:50:42.748551Z|cov-build|14519|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-gcc-config-3/../user_nodefs.h
+2017-12-05T08:50:42.748551Z|cov-build|14519|info|>         Node: begin_command_line_config
+2017-12-05T08:50:42.748551Z|cov-build|14519|info|>   Node: md5 Value: 220ab2f621b426ef21b5bff0d14bd626
+2017-12-05T08:50:42.748551Z|cov-build|14519|info|> 
+2017-12-05T08:50:42.748587Z|cov-build|14519|info|> Configuration read from: /ephemeral/analyzer/config/template-g++-config-3/coverity_config.xml
+2017-12-05T08:50:42.748587Z|cov-build|14519|info|> Node: coverity
+2017-12-05T08:50:42.748587Z|cov-build|14519|info|>   Node: cit_version Value: 1
+2017-12-05T08:50:42.748587Z|cov-build|14519|info|>   Node: config
+2017-12-05T08:50:42.748587Z|cov-build|14519|info|>     Node: build
+2017-12-05T08:50:42.748587Z|cov-build|14519|info|>       Node: compiler
+2017-12-05T08:50:42.748587Z|cov-build|14519|info|>         Node: template_compiler Value: true
+2017-12-05T08:50:42.748587Z|cov-build|14519|info|>         Node: comp_name Value: g++
+2017-12-05T08:50:42.748587Z|cov-build|14519|info|>         Node: comp_translator Value: g++
+2017-12-05T08:50:42.748587Z|cov-build|14519|info|>         Node: comp_lang Value: C/C++
+2017-12-05T08:50:42.748587Z|cov-build|14519|info|>         Node: comp_generic Value: gnu
+2017-12-05T08:50:42.748587Z|cov-build|14519|info|>       Node: options
+2017-12-05T08:50:42.748587Z|cov-build|14519|info|>         Node: id Value: g++-g++-.*
+2017-12-05T08:50:42.748587Z|cov-build|14519|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-g++-config-3/../user_nodefs.h
+2017-12-05T08:50:42.748587Z|cov-build|14519|info|>         Node: begin_command_line_config
+2017-12-05T08:50:42.748587Z|cov-build|14519|info|>       Node: options
+2017-12-05T08:50:42.748587Z|cov-build|14519|info|>         Node: id Value: g++cc-g++-.*
+2017-12-05T08:50:42.748587Z|cov-build|14519|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-g++-config-3/../user_nodefs.h
+2017-12-05T08:50:42.748587Z|cov-build|14519|info|>         Node: begin_command_line_config
+2017-12-05T08:50:42.748587Z|cov-build|14519|info|>   Node: md5 Value: d8da15d655e23f85d5c6ae35de65d439
+2017-12-05T08:50:42.748587Z|cov-build|14519|info|> 
+2017-12-05T08:50:42.748638Z|cov-build|14519|info|> Configuration read from: /ephemeral/analyzer/config/template-gcc-config-4/coverity_config.xml
+2017-12-05T08:50:42.748638Z|cov-build|14519|info|> Node: coverity
+2017-12-05T08:50:42.748638Z|cov-build|14519|info|>   Node: cit_version Value: 1
+2017-12-05T08:50:42.748638Z|cov-build|14519|info|>   Node: config
+2017-12-05T08:50:42.748638Z|cov-build|14519|info|>     Node: build
+2017-12-05T08:50:42.748638Z|cov-build|14519|info|>       Node: compiler
+2017-12-05T08:50:42.748638Z|cov-build|14519|info|>         Node: template_compiler Value: true
+2017-12-05T08:50:42.748638Z|cov-build|14519|info|>         Node: comp_name Value: gcc-3
+2017-12-05T08:50:42.748638Z|cov-build|14519|info|>         Node: comp_translator Value: gcc
+2017-12-05T08:50:42.748638Z|cov-build|14519|info|>         Node: comp_lang Value: C/C++
+2017-12-05T08:50:42.748638Z|cov-build|14519|info|>         Node: comp_generic Value: gnu
+2017-12-05T08:50:42.748638Z|cov-build|14519|info|>       Node: options
+2017-12-05T08:50:42.748638Z|cov-build|14519|info|>         Node: id Value: gcc-gcc-3-.*
+2017-12-05T08:50:42.748638Z|cov-build|14519|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-gcc-config-4/../user_nodefs.h
+2017-12-05T08:50:42.748638Z|cov-build|14519|info|>         Node: begin_command_line_config
+2017-12-05T08:50:42.748638Z|cov-build|14519|info|>       Node: options
+2017-12-05T08:50:42.748638Z|cov-build|14519|info|>         Node: id Value: g++-gcc-3-.*
+2017-12-05T08:50:42.748638Z|cov-build|14519|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-gcc-config-4/../user_nodefs.h
+2017-12-05T08:50:42.748638Z|cov-build|14519|info|>         Node: begin_command_line_config
+2017-12-05T08:50:42.748638Z|cov-build|14519|info|>       Node: options
+2017-12-05T08:50:42.748638Z|cov-build|14519|info|>         Node: id Value: g++cc-gcc-3-.*
+2017-12-05T08:50:42.748638Z|cov-build|14519|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-gcc-config-4/../user_nodefs.h
+2017-12-05T08:50:42.748638Z|cov-build|14519|info|>         Node: begin_command_line_config
+2017-12-05T08:50:42.748638Z|cov-build|14519|info|>   Node: md5 Value: 6a6dc6f1a6c9360514c721c673fa1951
+2017-12-05T08:50:42.748638Z|cov-build|14519|info|> 
+2017-12-05T08:50:42.748675Z|cov-build|14519|info|> Configuration read from: /ephemeral/analyzer/config/template-gcc-config-5/coverity_config.xml
+2017-12-05T08:50:42.748675Z|cov-build|14519|info|> Node: coverity
+2017-12-05T08:50:42.748675Z|cov-build|14519|info|>   Node: cit_version Value: 1
+2017-12-05T08:50:42.748675Z|cov-build|14519|info|>   Node: config
+2017-12-05T08:50:42.748675Z|cov-build|14519|info|>     Node: build
+2017-12-05T08:50:42.748675Z|cov-build|14519|info|>       Node: compiler
+2017-12-05T08:50:42.748675Z|cov-build|14519|info|>         Node: template_compiler Value: true
+2017-12-05T08:50:42.748675Z|cov-build|14519|info|>         Node: comp_name Value: gcc-4
+2017-12-05T08:50:42.748675Z|cov-build|14519|info|>         Node: comp_translator Value: gcc
+2017-12-05T08:50:42.748675Z|cov-build|14519|info|>         Node: comp_lang Value: C/C++
+2017-12-05T08:50:42.748675Z|cov-build|14519|info|>         Node: comp_generic Value: gnu
+2017-12-05T08:50:42.748675Z|cov-build|14519|info|>       Node: options
+2017-12-05T08:50:42.748675Z|cov-build|14519|info|>         Node: id Value: gcc-gcc-4-.*
+2017-12-05T08:50:42.748675Z|cov-build|14519|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-gcc-config-5/../user_nodefs.h
+2017-12-05T08:50:42.748675Z|cov-build|14519|info|>         Node: begin_command_line_config
+2017-12-05T08:50:42.748675Z|cov-build|14519|info|>       Node: options
+2017-12-05T08:50:42.748675Z|cov-build|14519|info|>         Node: id Value: g++-gcc-4-.*
+2017-12-05T08:50:42.748675Z|cov-build|14519|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-gcc-config-5/../user_nodefs.h
+2017-12-05T08:50:42.748675Z|cov-build|14519|info|>         Node: begin_command_line_config
+2017-12-05T08:50:42.748675Z|cov-build|14519|info|>       Node: options
+2017-12-05T08:50:42.748675Z|cov-build|14519|info|>         Node: id Value: g++cc-gcc-4-.*
+2017-12-05T08:50:42.748675Z|cov-build|14519|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-gcc-config-5/../user_nodefs.h
+2017-12-05T08:50:42.748675Z|cov-build|14519|info|>         Node: begin_command_line_config
+2017-12-05T08:50:42.748675Z|cov-build|14519|info|>   Node: md5 Value: 6f1a220d892e908cc9817e94bdeb7bc5
+2017-12-05T08:50:42.748675Z|cov-build|14519|info|> 
+2017-12-05T08:50:42.748715Z|cov-build|14519|info|> Configuration read from: /ephemeral/analyzer/config/template-g++-config-4/coverity_config.xml
+2017-12-05T08:50:42.748715Z|cov-build|14519|info|> Node: coverity
+2017-12-05T08:50:42.748715Z|cov-build|14519|info|>   Node: cit_version Value: 1
+2017-12-05T08:50:42.748715Z|cov-build|14519|info|>   Node: config
+2017-12-05T08:50:42.748715Z|cov-build|14519|info|>     Node: build
+2017-12-05T08:50:42.748715Z|cov-build|14519|info|>       Node: compiler
+2017-12-05T08:50:42.748715Z|cov-build|14519|info|>         Node: template_compiler Value: true
+2017-12-05T08:50:42.748715Z|cov-build|14519|info|>         Node: comp_name Value: g++-3
+2017-12-05T08:50:42.748715Z|cov-build|14519|info|>         Node: comp_translator Value: g++
+2017-12-05T08:50:42.748715Z|cov-build|14519|info|>         Node: comp_lang Value: C/C++
+2017-12-05T08:50:42.748715Z|cov-build|14519|info|>         Node: comp_generic Value: gnu
+2017-12-05T08:50:42.748715Z|cov-build|14519|info|>       Node: options
+2017-12-05T08:50:42.748715Z|cov-build|14519|info|>         Node: id Value: g++-g++-3-.*
+2017-12-05T08:50:42.748715Z|cov-build|14519|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-g++-config-4/../user_nodefs.h
+2017-12-05T08:50:42.748715Z|cov-build|14519|info|>         Node: begin_command_line_config
+2017-12-05T08:50:42.748715Z|cov-build|14519|info|>       Node: options
+2017-12-05T08:50:42.748715Z|cov-build|14519|info|>         Node: id Value: g++cc-g++-3-.*
+2017-12-05T08:50:42.748715Z|cov-build|14519|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-g++-config-4/../user_nodefs.h
+2017-12-05T08:50:42.748715Z|cov-build|14519|info|>         Node: begin_command_line_config
+2017-12-05T08:50:42.748715Z|cov-build|14519|info|>   Node: md5 Value: ada4013796c1b19ed1fe7ebb4197cd2d
+2017-12-05T08:50:42.748715Z|cov-build|14519|info|> 
+2017-12-05T08:50:42.748747Z|cov-build|14519|info|> Configuration read from: /ephemeral/analyzer/config/template-g++-config-5/coverity_config.xml
+2017-12-05T08:50:42.748747Z|cov-build|14519|info|> Node: coverity
+2017-12-05T08:50:42.748747Z|cov-build|14519|info|>   Node: cit_version Value: 1
+2017-12-05T08:50:42.748747Z|cov-build|14519|info|>   Node: config
+2017-12-05T08:50:42.748747Z|cov-build|14519|info|>     Node: build
+2017-12-05T08:50:42.748747Z|cov-build|14519|info|>       Node: compiler
+2017-12-05T08:50:42.748747Z|cov-build|14519|info|>         Node: template_compiler Value: true
+2017-12-05T08:50:42.748747Z|cov-build|14519|info|>         Node: comp_name Value: g++-4
+2017-12-05T08:50:42.748747Z|cov-build|14519|info|>         Node: comp_translator Value: g++
+2017-12-05T08:50:42.748747Z|cov-build|14519|info|>         Node: comp_lang Value: C/C++
+2017-12-05T08:50:42.748747Z|cov-build|14519|info|>         Node: comp_generic Value: gnu
+2017-12-05T08:50:42.748747Z|cov-build|14519|info|>       Node: options
+2017-12-05T08:50:42.748747Z|cov-build|14519|info|>         Node: id Value: g++-g++-4-.*
+2017-12-05T08:50:42.748747Z|cov-build|14519|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-g++-config-5/../user_nodefs.h
+2017-12-05T08:50:42.748747Z|cov-build|14519|info|>         Node: begin_command_line_config
+2017-12-05T08:50:42.748747Z|cov-build|14519|info|>       Node: options
+2017-12-05T08:50:42.748747Z|cov-build|14519|info|>         Node: id Value: g++cc-g++-4-.*
+2017-12-05T08:50:42.748747Z|cov-build|14519|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-g++-config-5/../user_nodefs.h
+2017-12-05T08:50:42.748747Z|cov-build|14519|info|>         Node: begin_command_line_config
+2017-12-05T08:50:42.748747Z|cov-build|14519|info|>   Node: md5 Value: deb1268a1fd912fa66d290aac3a8d6e1
+2017-12-05T08:50:42.748747Z|cov-build|14519|info|> 
+2017-12-05T08:50:42.748782Z|cov-build|14519|info|> Configuration read from: /ephemeral/analyzer/config/template-ld-config-1/coverity_config.xml
+2017-12-05T08:50:42.748782Z|cov-build|14519|info|> Node: coverity
+2017-12-05T08:50:42.748782Z|cov-build|14519|info|>   Node: cit_version Value: 1
+2017-12-05T08:50:42.748782Z|cov-build|14519|info|>   Node: config
+2017-12-05T08:50:42.748782Z|cov-build|14519|info|>     Node: build
+2017-12-05T08:50:42.748782Z|cov-build|14519|info|>       Node: compiler
+2017-12-05T08:50:42.748782Z|cov-build|14519|info|>         Node: template_compiler Value: true
+2017-12-05T08:50:42.748782Z|cov-build|14519|info|>         Node: comp_name Value: ld
+2017-12-05T08:50:42.748782Z|cov-build|14519|info|>         Node: comp_translator Value: ld
+2017-12-05T08:50:42.748782Z|cov-build|14519|info|>         Node: comp_lang Value: C/C++
+2017-12-05T08:50:42.748782Z|cov-build|14519|info|>         Node: comp_generic Value: gnu
+2017-12-05T08:50:42.748782Z|cov-build|14519|info|>       Node: options
+2017-12-05T08:50:42.748782Z|cov-build|14519|info|>         Node: id Value: ld-ld-.*
+2017-12-05T08:50:42.748782Z|cov-build|14519|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-ld-config-1/../user_nodefs.h
+2017-12-05T08:50:42.748782Z|cov-build|14519|info|>         Node: begin_command_line_config
+2017-12-05T08:50:42.748782Z|cov-build|14519|info|>   Node: md5 Value: a31ebdf549aecdabc7c15e5c23be5e63
+2017-12-05T08:50:42.748782Z|cov-build|14519|info|> 
+2017-12-05T08:50:42.751073Z|cov-build|14519|info|> Using LD_PRELOAD = /ephemeral/analyzer/bin/libcapture-linux64-${PLATFORM}.so
+[14522] EXECUTING: make all
+[14524] EXECUTING: /bin/sh -c "failcom='exit 1'; \
+for f in x $MAKEFLAGS; do \
+  case $f in \
+    *=* | --[!k]*);; \
+    *k*) failcom='fail=yes';; \
+  esac; \
+done; \
+dot_seen=no; \
+target=`echo all-recursive | sed s/-recursive//`; \
+list='glob config po doc '; for subdir in $list; do \
+  echo "Making $target in $subdir"; \
+  if test "$subdir" = "."; then \
+    dot_seen=yes; \
+    local_target="$target-am"; \
+  else \
+    local_target="$target"; \
+  fi; \
+  (cd $subdir && make  $local_target) \
+  || eval $failcom; \
+done; \
+if test "$dot_seen" = "no"; then \
+  make  "$target-am" || exit 1; \
+fi; test -z "$fail""
+[14527] EXECUTING: sed s/-recursive//
+[14529] EXECUTING: make all
+[14531] EXECUTING: make all
+[14533] EXECUTING: make all
+[14535] EXECUTING: make all
+[14536] EXECUTING: make all-am
+[14537] EXECUTING: /bin/sh -c "if gcc -DLOCALEDIR=\"/usr/local/share/locale\" -DLIBDIR=\"/usr/local/lib\" -DINCLUDEDIR=\"/usr/local/include\" -DHAVE_CONFIG_H -I. -I. -I.      -g -O2 -MT ar.o -MD -MP -MF ".deps/ar.Tpo" -c -o ar.o ar.c; \
+then mv -f ".deps/ar.Tpo" ".deps/ar.Po"; else rm -f ".deps/ar.Tpo"; exit 1; fi"
+[14538] EXECUTING: gcc -DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT ar.o -MD -MP -MF .deps/ar.Tpo -c -o ar.o ar.c
+[14539] CWD: /root/coverity_project/make-3.81
+[14539] COMPILING: /ephemeral/analyzer/bin/cov-translate gcc -DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT ar.o -MD -MP -MF .deps/ar.Tpo -c -o ar.o ar.c
+Encountered compiler /usr/bin/gcc for the first time, configuring it
+* Configuring /usr/bin/gcc as a C compiler
+[STATUS] gcc-config-0: Running sanity tests on native compiler
+[STATUS] gcc-config-0: Detecting size and alignment of fundamental types.
+Looking for macros in standard headers. This can take a long time.
+|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/
+[STATUS] gcc-config-0: Retrieving values for macros
+* Configuring /usr/bin/gcc as a C++ compiler
+[STATUS] g++-config-0: Running sanity tests on native compiler
+Error: Unable to run native compiler sanity test
+Error generating configuration for compiler gcc of type g++
+--force given, creating configuration anyway
+* Configuring /usr/bin/gcc as a C compiler
+[STATUS] g++cc-config-0: Running sanity tests on native compiler
+[STATUS] g++cc-config-0: Detecting size and alignment of fundamental types.
+Looking for macros in standard headers. This can take a long time.
+[STATUS] g++cc-config-0: Retrieving values for macros
+* Configuring /usr/bin/ld as a C++ compiler
+Added template compiler configuration instance /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/coverity_config.xml
+Configuration read from: /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/coverity_config.xml
+Node: coverity
+  Node: cit_version Value: 1
+  Node: config
+    Node: include Value: /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity_config.xml
+    Node: include Value: /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/g++-config-0/coverity_config.xml
+    Node: include Value: /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/g++cc-config-0/coverity_config.xml
+    Node: include Value: /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/ld-config-0/coverity_config.xml
+Configuration read from: /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity_config.xml
+Node: coverity
+  Node: cit_version Value: 1
+  Node: config
+    Node: build
+      Node: compiler
+        Node: comp_name Value: gcc
+        Node: comp_dir Value: /usr/bin
+        Node: comp_translator Value: gcc
+        Node: comp_lang Value: C/C++
+        Node: comp_front_end Value: cov-emit
+        Node: comp_desc Value: GNU C compiler
+        Node: comp_next_type Value: g++
+        Node: comp_generic Value: gnu
+        Node: comp_require
+        Node: id Value: gcc-gcc-4.8.5-e9364d34081f270147cc41780381ec9f-0
+        Node: version Value: 4.8.5
+        Node: is_compiler Value: true
+        Node: is_linker Value: true
+        Node: target_platform Value: all
+      Node: options
+        Node: id Value: gcc-gcc-4.8.5-e9364d34081f270147cc41780381ec9f-0
+        Node: instrument_predicates
+          Node: remove_regex Value: (^|\s)\-Werror(=\S*)?(\s|$)
+          Node: if
+            Node: conditions
+              Node: or_cond
+                Node: cond
+                  Node: contains_regex Value: (^|\s)[^-]
+                Node: cond
+                  Node: contains_regex Value: (^|\s)\-l
+            Node: then
+              Node: insert
+                Node: insertion_string Value: -L[[:cov_lib_path:]] -Wl,-rpath=[[:cov_lib_deployment_path:]] [[:cov_lib_gcc:]] -I[[:cov_lib_header_path:]]
+                Node: precedes_regex Value: nothing
+        Node: instrument_variable
+          Node: var_name Value: cov_instrument_config_version
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: 3
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_deployment_path
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: /ephemeral/analyzer/lib
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_gcc
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: -lci-runtime -Wl,--no-as-needed -pthread -lpthread -lrt -lc
+          Node: cond_platform_value
+            Node: platform_name Value: mingw
+            Node: var_value Value: -lci-runtime-x86
+          Node: cond_platform_value
+            Node: platform_name Value: mingw64
+            Node: var_value Value: -lci-runtime-x64
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_header_path
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: /ephemeral/analyzer/sdk/runtime/ta-runtime
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_path
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: /ephemeral/analyzer/lib
+        Node: template_config_option_id Value: gcc-gcc-.*
+        Node: sysinclude_dir Value: /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include
+        Node: sysinclude_dir Value: /usr/local/include
+        Node: sysinclude_dir Value: /usr/include
+        Node: dryrun_switch Value: -E
+        Node: dryrun_switch Value: -v
+        Node: dump_macros_arg Value: -dM
+        Node: dump_macros_arg Value: -E
+        Node: preprocess_remove_arg Value: -o.+
+        Node: preprocess_remove_arg Value: -c
+        Node: preprocess_remove_arg Value: -Werror
+        Node: preprocess_remove_next_arg Value: -o
+        Node: preprocess_switch Value: -E
+        Node: preprocess_switch Value: -U__BLOCKS__
+        Node: preprocess_switch Value: -xc
+        Node: preprocess_compile_switch Value: -C
+        Node: supports_pch Value: true
+        Node: native_pch_suffix Value: .gch
+        Node: preprocess_output Value: -
+        Node: dryrun_output Value: 2
+        Node: pre_preinclude_file Value: /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity-macro-compat.h
+        Node: pre_preinclude_file Value: /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity-compiler-compat.h
+        Node: prepend_arg Value: --add_type_modifier=__coverity___fpreg
+        Node: prepend_arg Value: --add_type_modifier=__coverity_decimal
+        Node: prepend_arg Value: --no_predefined_feature_test_macros
+        Node: prepend_arg Value: --no_stdarg_builtin
+        Node: prepend_arg Value: --incompat_proto
+        Node: prepend_arg Value: --no_predefined_cplusplus
+        Node: prepend_arg Value: -w
+        Node: prepend_arg Value: --no_predefines
+        Node: prepend_arg Value: --comp_ver
+        Node: prepend_arg Value: 4.8.5
+        Node: prepend_arg Value: --size_t_type=m
+        Node: prepend_arg Value: --ptrdiff_t_type=l
+        Node: prepend_arg Value: --type_sizes=xl8i4s2e16d8f4P8
+        Node: prepend_arg Value: --type_alignments=xl8i4s2e16d8f4P8
+        Node: prepend_arg Value: --char_bit_size=8
+        Node: prepend_arg Value: --gnu_carriage_return_line_terminator
+        Node: prepend_arg Value: --wchar_t_type=i
+        Node: prepend_arg Value: --no_multiline_string
+        Node: prepend_arg Value: --no_trigraphs
+        Node: prepend_arg Value: --ignore_calling_convention
+        Node: prepend_arg Value: --enable_80bit_float
+        Node: prepend_arg Value: --enable_128bit_float
+        Node: prepend_arg Value: --allow__bool
+        Node: prepend_arg Value: --macro_stack_pragmas
+        Node: prepend_arg Value: --inline_keyword
+        Node: prepend_arg Value: --no_predefines
+        Node: skip_arg Value: -###
+        Node: skip_arg Value: -E
+        Node: skip_arg Value: -fsyntax-only
+        Node: skip_arg Value: -M
+        Node: skip_arg Value: -MM
+        Node: skip_arg Value: -wrapper
+        Node: skip_arg Value: --version
+        Node: skip_file Value: conftest\.c{1,2}$
+        Node: skip_file Value: conftest\.cpp$
+        Node: opt_preinclude_file Value: /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/../user_nodefs.h
+        Node: expand
+          Node: options
+            Node: replace_arg_regex
+              Node: replace Value: @(.*)
+              Node: with Value: --coverity_resp_file=$1
+        Node: pre_trans
+          Node: options
+            Node: intern_trans Value: gnu_pre_translate
+        Node: trans
+          Node: options
+            Node: includes_from_env_var Value: CPATH
+            Node: includes_from_env_var_empty_is_cwd Value: true
+        Node: trans
+          Node: options
+            Node: includes_from_env_var Value: C_INCLUDE_PATH
+            Node: pre_prepend_arg Value: --c
+        Node: begin_command_line_config
+  Node: md5 Value: dee75e684a0d286e760ebeaa8e3b4c85
+Configuration read from: /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/g++-config-0/coverity_config.xml
+Node: coverity
+  Node: cit_version Value: 1
+  Node: config
+    Node: build
+      Node: compiler
+        Node: comp_name Value: gcc
+        Node: comp_dir Value: /usr/bin
+        Node: comp_translator Value: g++
+        Node: comp_lang Value: C/C++
+        Node: comp_front_end Value: cov-emit
+        Node: comp_desc Value: GNU C++ Compiler
+        Node: comp_cxx Value: true
+        Node: comp_next_type Value: g++cc
+        Node: comp_generic Value: gnu
+        Node: comp_require
+        Node: id Value: g++-gcc-4.8.5-e9364d34081f270147cc41780381ec9f-0
+        Node: version Value: 4.8.5
+        Node: is_compiler Value: true
+        Node: is_linker Value: true
+      Node: options
+        Node: id Value: g++-gcc-4.8.5-e9364d34081f270147cc41780381ec9f-0
+        Node: instrument_predicates
+          Node: remove_regex Value: (^|\s)\-Werror(=\S*)?(\s|$)
+          Node: if
+            Node: conditions
+              Node: or_cond
+                Node: cond
+                  Node: contains_regex Value: (^|\s)[^-]
+                Node: cond
+                  Node: contains_regex Value: (^|\s)\-l
+            Node: then
+              Node: insert
+                Node: insertion_string Value: -L[[:cov_lib_path:]] -Wl,-rpath=[[:cov_lib_deployment_path:]] [[:cov_lib_gcc:]] -I[[:cov_lib_header_path:]]
+                Node: precedes_regex Value: nothing
+        Node: instrument_variable
+          Node: var_name Value: cov_instrument_config_version
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: 3
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_deployment_path
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: /ephemeral/analyzer/lib
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_gcc
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: -lci-runtime -Wl,--no-as-needed -pthread -lpthread -lrt -lc
+          Node: cond_platform_value
+            Node: platform_name Value: mingw
+            Node: var_value Value: -lci-runtime-x86
+          Node: cond_platform_value
+            Node: platform_name Value: mingw64
+            Node: var_value Value: -lci-runtime-x64
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_header_path
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: /ephemeral/analyzer/sdk/runtime/ta-runtime
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_path
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: /ephemeral/analyzer/lib
+        Node: template_config_option_id Value: g++-gcc-.*
+        Node: dryrun_switch Value: -E
+        Node: dryrun_switch Value: -v
+        Node: dump_macros_arg Value: -dM
+        Node: dump_macros_arg Value: -E
+        Node: preprocess_remove_arg Value: -o.+
+        Node: preprocess_remove_arg Value: -c
+        Node: preprocess_remove_arg Value: -Werror
+        Node: preprocess_remove_next_arg Value: -o
+        Node: preprocess_switch Value: -xc++
+        Node: preprocess_switch Value: -E
+        Node: preprocess_switch Value: -U__BLOCKS__
+        Node: preprocess_compile_switch Value: -C
+        Node: supports_pch Value: true
+        Node: native_pch_suffix Value: .gch
+        Node: preprocess_output Value: -
+        Node: dryrun_output Value: 2
+        Node: pre_preinclude_file Value: /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/g++-config-0/coverity-macro-compat.h
+        Node: pre_preinclude_file Value: /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/g++-config-0/coverity-compiler-compat.h
+        Node: prepend_arg Value: --add_type_modifier=__coverity___fpreg
+        Node: prepend_arg Value: --add_type_modifier=__coverity_decimal
+        Node: prepend_arg Value: --no_predefined_feature_test_macros
+        Node: prepend_arg Value: --no_stdarg_builtin
+        Node: prepend_arg Value: --incompat_proto
+        Node: prepend_arg Value: --no_predefined_cplusplus
+        Node: prepend_arg Value: -w
+        Node: prepend_arg Value: --no_predefines
+        Node: prepend_arg Value: --no_stdarg_builtin
+        Node: prepend_arg Value: --wchar_t_keyword
+        Node: skip_arg Value: -###
+        Node: skip_arg Value: -E
+        Node: skip_arg Value: -fsyntax-only
+        Node: skip_arg Value: -M
+        Node: skip_arg Value: -MM
+        Node: skip_arg Value: -wrapper
+        Node: skip_arg Value: --version
+        Node: skip_file Value: conftest\.c{1,2}$
+        Node: skip_file Value: conftest\.cpp$
+        Node: opt_preinclude_file Value: /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/g++-config-0/../user_nodefs.h
+        Node: trans
+          Node: options
+            Node: includes_from_env_var Value: CPLUS_INCLUDE_PATH
+            Node: pre_prepend_arg Value: --c++
+        Node: expand
+          Node: options
+            Node: replace_arg_regex
+              Node: replace Value: @(.*)
+              Node: with Value: --coverity_resp_file=$1
+        Node: pre_trans
+          Node: options
+            Node: intern_trans Value: gnu_pre_translate
+        Node: trans
+          Node: options
+            Node: includes_from_env_var Value: CPATH
+            Node: includes_from_env_var_empty_is_cwd Value: true
+        Node: begin_command_line_config
+  Node: md5 Value: d59955f90c1c03981bf5951c2b119bc3
+Configuration read from: /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/g++cc-config-0/coverity_config.xml
+Node: coverity
+  Node: cit_version Value: 1
+  Node: config
+    Node: build
+      Node: compiler
+        Node: comp_name Value: gcc
+        Node: comp_dir Value: /usr/bin
+        Node: comp_translator Value: g++cc
+        Node: comp_lang Value: C/C++
+        Node: comp_front_end Value: cov-emit
+        Node: comp_desc Value: GNU C++ Compiler
+        Node: comp_generic Value: gnu
+        Node: comp_require
+        Node: id Value: g++cc-gcc-4.8.5-e9364d34081f270147cc41780381ec9f-0
+        Node: version Value: 4.8.5
+        Node: is_compiler Value: true
+        Node: is_linker Value: true
+        Node: target_platform Value: all
+      Node: options
+        Node: id Value: g++cc-gcc-4.8.5-e9364d34081f270147cc41780381ec9f-0
+        Node: instrument_predicates
+          Node: remove_regex Value: (^|\s)\-Werror(=\S*)?(\s|$)
+          Node: if
+            Node: conditions
+              Node: or_cond
+                Node: cond
+                  Node: contains_regex Value: (^|\s)[^-]
+                Node: cond
+                  Node: contains_regex Value: (^|\s)\-l
+            Node: then
+              Node: insert
+                Node: insertion_string Value: -L[[:cov_lib_path:]] -Wl,-rpath=[[:cov_lib_deployment_path:]] [[:cov_lib_gcc:]] -I[[:cov_lib_header_path:]]
+                Node: precedes_regex Value: nothing
+        Node: instrument_variable
+          Node: var_name Value: cov_instrument_config_version
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: 3
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_deployment_path
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: /ephemeral/analyzer/lib
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_gcc
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: -lci-runtime -Wl,--no-as-needed -pthread -lpthread -lrt -lc
+          Node: cond_platform_value
+            Node: platform_name Value: mingw
+            Node: var_value Value: -lci-runtime-x86
+          Node: cond_platform_value
+            Node: platform_name Value: mingw64
+            Node: var_value Value: -lci-runtime-x64
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_header_path
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: /ephemeral/analyzer/sdk/runtime/ta-runtime
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_path
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: /ephemeral/analyzer/lib
+        Node: template_config_option_id Value: g++cc-gcc-.*
+        Node: sysinclude_dir Value: /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include
+        Node: sysinclude_dir Value: /usr/local/include
+        Node: sysinclude_dir Value: /usr/include
+        Node: dryrun_switch Value: -xc
+        Node: dryrun_switch Value: -E
+        Node: dryrun_switch Value: -v
+        Node: dump_macros_arg Value: -xc
+        Node: dump_macros_arg Value: -dM
+        Node: dump_macros_arg Value: -E
+        Node: preprocess_remove_arg Value: -o.+
+        Node: preprocess_remove_arg Value: -c
+        Node: preprocess_remove_arg Value: -Werror
+        Node: preprocess_remove_next_arg Value: -o
+        Node: preprocess_switch Value: -E
+        Node: preprocess_switch Value: -U__BLOCKS__
+        Node: preprocess_switch Value: -xc
+        Node: preprocess_compile_switch Value: -C
+        Node: supports_pch Value: true
+        Node: native_pch_suffix Value: .gch
+        Node: preprocess_output Value: -
+        Node: dryrun_output Value: 2
+        Node: pre_preinclude_file Value: /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/g++cc-config-0/coverity-macro-compat.h
+        Node: pre_preinclude_file Value: /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/g++cc-config-0/coverity-compiler-compat.h
+        Node: prepend_arg Value: --add_type_modifier=__coverity___fpreg
+        Node: prepend_arg Value: --add_type_modifier=__coverity_decimal
+        Node: prepend_arg Value: --no_predefined_feature_test_macros
+        Node: prepend_arg Value: --no_stdarg_builtin
+        Node: prepend_arg Value: --incompat_proto
+        Node: prepend_arg Value: --no_predefined_cplusplus
+        Node: prepend_arg Value: -w
+        Node: prepend_arg Value: --no_predefines
+        Node: prepend_arg Value: --comp_ver
+        Node: prepend_arg Value: 4.8.5
+        Node: prepend_arg Value: --size_t_type=m
+        Node: prepend_arg Value: --ptrdiff_t_type=l
+        Node: prepend_arg Value: --type_sizes=xl8i4s2e16d8f4P8
+        Node: prepend_arg Value: --type_alignments=xl8i4s2e16d8f4P8
+        Node: prepend_arg Value: --char_bit_size=8
+        Node: prepend_arg Value: --gnu_carriage_return_line_terminator
+        Node: prepend_arg Value: --wchar_t_type=i
+        Node: prepend_arg Value: --no_multiline_string
+        Node: prepend_arg Value: --no_trigraphs
+        Node: prepend_arg Value: --ignore_calling_convention
+        Node: prepend_arg Value: --enable_80bit_float
+        Node: prepend_arg Value: --enable_128bit_float
+        Node: prepend_arg Value: --allow__bool
+        Node: prepend_arg Value: --macro_stack_pragmas
+        Node: prepend_arg Value: --inline_keyword
+        Node: prepend_arg Value: --no_predefines
+        Node: skip_arg Value: -###
+        Node: skip_arg Value: -E
+        Node: skip_arg Value: -fsyntax-only
+        Node: skip_arg Value: -M
+        Node: skip_arg Value: -MM
+        Node: skip_arg Value: -wrapper
+        Node: skip_arg Value: --version
+        Node: skip_file Value: conftest\.c{1,2}$
+        Node: skip_file Value: conftest\.cpp$
+        Node: opt_preinclude_file Value: /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/g++cc-config-0/../user_nodefs.h
+        Node: pre_trans
+          Node: options
+            Node: pre_prepend_arg Value: -coverity_cxx_suffixes=c;i
+            Node: pre_prepend_arg Value: -coverity_cxx_header_suffixes=h
+        Node: expand
+          Node: options
+            Node: replace_arg_regex
+              Node: replace Value: @(.*)
+              Node: with Value: --coverity_resp_file=$1
+        Node: pre_trans
+          Node: options
+            Node: intern_trans Value: gnu_pre_translate
+        Node: trans
+          Node: options
+            Node: includes_from_env_var Value: CPATH
+            Node: includes_from_env_var_empty_is_cwd Value: true
+        Node: trans
+          Node: options
+            Node: includes_from_env_var Value: C_INCLUDE_PATH
+            Node: pre_prepend_arg Value: --c
+        Node: begin_command_line_config
+  Node: md5 Value: 045d3d45813f4aaca115a1d91b4c08e4
+Configuration read from: /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/ld-config-0/coverity_config.xml
+Node: coverity
+  Node: cit_version Value: 1
+  Node: config
+    Node: build
+      Node: compiler
+        Node: comp_name Value: ld
+        Node: comp_name Value: ld.bfd
+        Node: comp_dir Value: /usr/bin
+        Node: comp_translator Value: ld
+        Node: comp_lang Value: C/C++
+        Node: comp_front_end Value: cov-emit
+        Node: comp_desc Value: GNU C/C++ Linker
+        Node: comp_cxx Value: true
+        Node: comp_generic Value: gnu
+        Node: comp_require
+        Node: id Value: ld-ld-e9364d34081f270147cc41780381ec9f-0
+        Node: is_compiler Value: false
+        Node: is_linker Value: true
+      Node: options
+        Node: id Value: ld-ld-e9364d34081f270147cc41780381ec9f-0
+        Node: instrument_predicates
+          Node: if
+            Node: conditions
+              Node: cond
+                Node: contains_regex Value: (^|\s)(\-Ur|\-r|\-\-relocatable|\-i)(\s|$)
+            Node: then
+          Node: elif
+            Node: conditions
+              Node: cond
+                Node: contains_regex Value: /crtend\.o(\s|$)
+            Node: then
+              Node: insert
+                Node: insertion_string Value: -L[[:cov_lib_path:]] -rpath=[[:cov_lib_deployment_path:]] [[:cov_lib_ld:]] 
+                Node: precedes_regex Value: /crtend\.o(\s|$)
+          Node: elif
+            Node: conditions
+              Node: cond
+                Node: contains_regex Value: \-lc\b
+            Node: then
+              Node: insert
+                Node: insertion_string Value: -L[[:cov_lib_path:]] -rpath=[[:cov_lib_deployment_path:]] [[:cov_lib_ld:]] 
+                Node: follows_regex Value: \-lc\b
+          Node: else
+            Node: insert
+              Node: insertion_string Value: -L[[:cov_lib_path:]] -rpath=[[:cov_lib_deployment_path:]] [[:cov_lib_ld:]] 
+              Node: precedes_regex Value: nothing
+        Node: instrument_variable
+          Node: var_name Value: cov_instrument_config_version
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: 3
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_deployment_path
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: /ephemeral/analyzer/lib
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_gcc
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: -lci-runtime -Wl,--no-as-needed -pthread -lpthread -lrt -lc
+          Node: cond_platform_value
+            Node: platform_name Value: mingw
+            Node: var_value Value: -lci-runtime-x86
+          Node: cond_platform_value
+            Node: platform_name Value: mingw64
+            Node: var_value Value: -lci-runtime-x64
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_header_path
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: /ephemeral/analyzer/sdk/runtime/ta-runtime
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_ld
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: -lci-runtime --no-as-needed -lpthread -lrt -lc
+          Node: cond_platform_value
+            Node: platform_name Value: mingw
+            Node: var_value Value: -lci-runtime-x86
+          Node: cond_platform_value
+            Node: platform_name Value: mingw64
+            Node: var_value Value: -lci-runtime-x64
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_path
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: /ephemeral/analyzer/lib
+        Node: template_config_option_id Value: ld-ld-.*
+        Node: begin_command_line_config
+  Node: md5 Value: fff96d93c6150f7b855524b1c0619f48
+COV_TRANSLATE EXPANDED ARGS: "-DLOCALEDIR="/usr/local/share/locale"" "-DLIBDIR="/usr/local/lib"" "-DINCLUDEDIR="/usr/local/include"" "-DHAVE_CONFIG_H" "-I." "-I." "-I." "-g" "-O2" "-MT" "ar.o" "-MD" "-MP" "-MF" ".deps/ar.Tpo" "-c" "-o" "ar.o" "ar.c"
+[STATUS] Compiling ar.c
+/ephemeral/analyzer/bin/cov-emit --dir=/root/coverity_project/make-3.81/coverity_project/int_dir --ignore_path=/tmp/cov-root/7e39f342ff8e4d082e863f1bfefb11ee/cov-configure --ignore_path=/tmp/cov-root/7e39f342ff8e4d082e863f1bfefb11ee/cov-root/624fd5a26bf7d5acd5925aeaa416468d --add_type_modifier=__coverity___fpreg --add_type_modifier=__coverity_decimal --no_predefined_feature_test_macros --no_stdarg_builtin --incompat_proto --no_predefined_cplusplus -w --no_predefines --comp_ver 4.8.5 --char_bit_size=8 --gnu_carriage_return_line_terminator --no_multiline_string --no_trigraphs --ignore_calling_convention --enable_80bit_float --enable_128bit_float --allow__bool --macro_stack_pragmas --inline_keyword --no_predefines --pre_preinclude /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity-macro-compat.h --pre_preinclude /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity-compiler-compat.h --preinclude /ephemeral/analyzer/config/template-gcc-config-0/../user_nodefs.h --preinclude /ephemeral/analyzer/config/template-gcc-config-3/../user_nodefs.h --c --gcc --gnu_version 40805 -I. --sys_include /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include --sys_include /usr/local/include --sys_include /usr/include -DHAVE_CONFIG_H -DINCLUDEDIR="/usr/local/include" -DLIBDIR="/usr/local/lib" -DLOCALEDIR="/usr/local/share/locale" -D__OPTIMIZE__ --type_sizes=e16Pdlx8fi4s2 --type_alignments=e16Pdlx8fi4s2 --size_t_type=m --wchar_t_type=i --ptrdiff_t_type=l ar.c 
+Emit for file '/root/coverity_project/make-3.81/ar.c' complete.
+[15123] EXECUTING: /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1 -quiet -I . -I . -I . -MD ar.d -MF .deps/ar.Tpo -MP -MT ar.o -D LOCALEDIR="/usr/local/share/locale" -D LIBDIR="/usr/local/lib" -D INCLUDEDIR="/usr/local/include" -D HAVE_CONFIG_H ar.c -quiet -dumpbase ar.c -mtune=generic -march=x86-64 -auxbase-strip ar.o -g -O2 -o /tmp/cctQbbaI.s
+[15125] EXECUTING: mv -f .deps/ar.Tpo .deps/ar.Po
+[15126] EXECUTING: /bin/sh -c "if gcc -DLOCALEDIR=\"/usr/local/share/locale\" -DLIBDIR=\"/usr/local/lib\" -DINCLUDEDIR=\"/usr/local/include\" -DHAVE_CONFIG_H -I. -I. -I.      -g -O2 -MT arscan.o -MD -MP -MF ".deps/arscan.Tpo" -c -o arscan.o arscan.c; \
+then mv -f ".deps/arscan.Tpo" ".deps/arscan.Po"; else rm -f ".deps/arscan.Tpo"; exit 1; fi"
+[15127] EXECUTING: gcc -DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT arscan.o -MD -MP -MF .deps/arscan.Tpo -c -o arscan.o arscan.c
+[15128] CWD: /root/coverity_project/make-3.81
+[15128] COMPILING: /ephemeral/analyzer/bin/cov-translate gcc -DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT arscan.o -MD -MP -MF .deps/arscan.Tpo -c -o arscan.o arscan.c
+Using cached template compiler configuration instance /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/coverity_config.xml
+COV_TRANSLATE EXPANDED ARGS: "-DLOCALEDIR="/usr/local/share/locale"" "-DLIBDIR="/usr/local/lib"" "-DINCLUDEDIR="/usr/local/include"" "-DHAVE_CONFIG_H" "-I." "-I." "-I." "-g" "-O2" "-MT" "arscan.o" "-MD" "-MP" "-MF" ".deps/arscan.Tpo" "-c" "-o" "arscan.o" "arscan.c"
+[STATUS] Compiling arscan.c
+/ephemeral/analyzer/bin/cov-emit --dir=/root/coverity_project/make-3.81/coverity_project/int_dir --ignore_path=/tmp/cov-root/7e39f342ff8e4d082e863f1bfefb11ee/cov-configure --ignore_path=/tmp/cov-root/7e39f342ff8e4d082e863f1bfefb11ee/cov-root/1a9b2accc9ecb8026ca38e7dddd25d55 --add_type_modifier=__coverity___fpreg --add_type_modifier=__coverity_decimal --no_predefined_feature_test_macros --no_stdarg_builtin --incompat_proto --no_predefined_cplusplus -w --no_predefines --comp_ver 4.8.5 --char_bit_size=8 --gnu_carriage_return_line_terminator --no_multiline_string --no_trigraphs --ignore_calling_convention --enable_80bit_float --enable_128bit_float --allow__bool --macro_stack_pragmas --inline_keyword --no_predefines --pre_preinclude /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity-macro-compat.h --pre_preinclude /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity-compiler-compat.h --preinclude /ephemeral/analyzer/config/template-gcc-config-0/../user_nodefs.h --preinclude /ephemeral/analyzer/config/template-gcc-config-3/../user_nodefs.h --c --gcc --gnu_version 40805 -I. --sys_include /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include --sys_include /usr/local/include --sys_include /usr/include -DHAVE_CONFIG_H -DINCLUDEDIR="/usr/local/include" -DLIBDIR="/usr/local/lib" -DLOCALEDIR="/usr/local/share/locale" -D__OPTIMIZE__ --type_sizes=e16Pdlx8fi4s2 --type_alignments=e16Pdlx8fi4s2 --size_t_type=m --wchar_t_type=i --ptrdiff_t_type=l arscan.c 
+Emit for file '/root/coverity_project/make-3.81/arscan.c' complete.
+[15130] EXECUTING: /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1 -quiet -I . -I . -I . -MD arscan.d -MF .deps/arscan.Tpo -MP -MT arscan.o -D LOCALEDIR="/usr/local/share/locale" -D LIBDIR="/usr/local/lib" -D INCLUDEDIR="/usr/local/include" -D HAVE_CONFIG_H arscan.c -quiet -dumpbase arscan.c -mtune=generic -march=x86-64 -auxbase-strip arscan.o -g -O2 -o /tmp/cccveFRS.s
+[15132] EXECUTING: mv -f .deps/arscan.Tpo .deps/arscan.Po
+[15133] EXECUTING: /bin/sh -c "if gcc -DLOCALEDIR=\"/usr/local/share/locale\" -DLIBDIR=\"/usr/local/lib\" -DINCLUDEDIR=\"/usr/local/include\" -DHAVE_CONFIG_H -I. -I. -I.      -g -O2 -MT commands.o -MD -MP -MF ".deps/commands.Tpo" -c -o commands.o commands.c; \
+then mv -f ".deps/commands.Tpo" ".deps/commands.Po"; else rm -f ".deps/commands.Tpo"; exit 1; fi"
+[15134] EXECUTING: gcc -DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT commands.o -MD -MP -MF .deps/commands.Tpo -c -o commands.o commands.c
+[15135] CWD: /root/coverity_project/make-3.81
+[15135] COMPILING: /ephemeral/analyzer/bin/cov-translate gcc -DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT commands.o -MD -MP -MF .deps/commands.Tpo -c -o commands.o commands.c
+Using cached template compiler configuration instance /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/coverity_config.xml
+COV_TRANSLATE EXPANDED ARGS: "-DLOCALEDIR="/usr/local/share/locale"" "-DLIBDIR="/usr/local/lib"" "-DINCLUDEDIR="/usr/local/include"" "-DHAVE_CONFIG_H" "-I." "-I." "-I." "-g" "-O2" "-MT" "commands.o" "-MD" "-MP" "-MF" ".deps/commands.Tpo" "-c" "-o" "commands.o" "commands.c"
+[STATUS] Compiling commands.c
+/ephemeral/analyzer/bin/cov-emit --dir=/root/coverity_project/make-3.81/coverity_project/int_dir --ignore_path=/tmp/cov-root/7e39f342ff8e4d082e863f1bfefb11ee/cov-configure --ignore_path=/tmp/cov-root/7e39f342ff8e4d082e863f1bfefb11ee/cov-root/6a81934c8326522ed03ee0a91bddb2a8 --add_type_modifier=__coverity___fpreg --add_type_modifier=__coverity_decimal --no_predefined_feature_test_macros --no_stdarg_builtin --incompat_proto --no_predefined_cplusplus -w --no_predefines --comp_ver 4.8.5 --char_bit_size=8 --gnu_carriage_return_line_terminator --no_multiline_string --no_trigraphs --ignore_calling_convention --enable_80bit_float --enable_128bit_float --allow__bool --macro_stack_pragmas --inline_keyword --no_predefines --pre_preinclude /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity-macro-compat.h --pre_preinclude /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity-compiler-compat.h --preinclude /ephemeral/analyzer/config/template-gcc-config-0/../user_nodefs.h --preinclude /ephemeral/analyzer/config/template-gcc-config-3/../user_nodefs.h --c --gcc --gnu_version 40805 -I. --sys_include /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include --sys_include /usr/local/include --sys_include /usr/include -DHAVE_CONFIG_H -DINCLUDEDIR="/usr/local/include" -DLIBDIR="/usr/local/lib" -DLOCALEDIR="/usr/local/share/locale" -D__OPTIMIZE__ --type_sizes=e16Pdlx8fi4s2 --type_alignments=e16Pdlx8fi4s2 --size_t_type=m --wchar_t_type=i --ptrdiff_t_type=l commands.c 
+Emit for file '/root/coverity_project/make-3.81/commands.c' complete.
+[15137] EXECUTING: /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1 -quiet -I . -I . -I . -MD commands.d -MF .deps/commands.Tpo -MP -MT commands.o -D LOCALEDIR="/usr/local/share/locale" -D LIBDIR="/usr/local/lib" -D INCLUDEDIR="/usr/local/include" -D HAVE_CONFIG_H commands.c -quiet -dumpbase commands.c -mtune=generic -march=x86-64 -auxbase-strip commands.o -g -O2 -o /tmp/ccjqfOqg.s
+[15139] EXECUTING: mv -f .deps/commands.Tpo .deps/commands.Po
+[15140] EXECUTING: /bin/sh -c "if gcc -DLOCALEDIR=\"/usr/local/share/locale\" -DLIBDIR=\"/usr/local/lib\" -DINCLUDEDIR=\"/usr/local/include\" -DHAVE_CONFIG_H -I. -I. -I.      -g -O2 -MT default.o -MD -MP -MF ".deps/default.Tpo" -c -o default.o default.c; \
+then mv -f ".deps/default.Tpo" ".deps/default.Po"; else rm -f ".deps/default.Tpo"; exit 1; fi"
+[15141] EXECUTING: gcc -DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT default.o -MD -MP -MF .deps/default.Tpo -c -o default.o default.c
+[15142] CWD: /root/coverity_project/make-3.81
+[15142] COMPILING: /ephemeral/analyzer/bin/cov-translate gcc -DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT default.o -MD -MP -MF .deps/default.Tpo -c -o default.o default.c
+Using cached template compiler configuration instance /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/coverity_config.xml
+COV_TRANSLATE EXPANDED ARGS: "-DLOCALEDIR="/usr/local/share/locale"" "-DLIBDIR="/usr/local/lib"" "-DINCLUDEDIR="/usr/local/include"" "-DHAVE_CONFIG_H" "-I." "-I." "-I." "-g" "-O2" "-MT" "default.o" "-MD" "-MP" "-MF" ".deps/default.Tpo" "-c" "-o" "default.o" "default.c"
+[STATUS] Compiling default.c
+/ephemeral/analyzer/bin/cov-emit --dir=/root/coverity_project/make-3.81/coverity_project/int_dir --ignore_path=/tmp/cov-root/7e39f342ff8e4d082e863f1bfefb11ee/cov-configure --ignore_path=/tmp/cov-root/7e39f342ff8e4d082e863f1bfefb11ee/cov-root/24c37c0087466069f56dd384af080e2a --add_type_modifier=__coverity___fpreg --add_type_modifier=__coverity_decimal --no_predefined_feature_test_macros --no_stdarg_builtin --incompat_proto --no_predefined_cplusplus -w --no_predefines --comp_ver 4.8.5 --char_bit_size=8 --gnu_carriage_return_line_terminator --no_multiline_string --no_trigraphs --ignore_calling_convention --enable_80bit_float --enable_128bit_float --allow__bool --macro_stack_pragmas --inline_keyword --no_predefines --pre_preinclude /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity-macro-compat.h --pre_preinclude /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity-compiler-compat.h --preinclude /ephemeral/analyzer/config/template-gcc-config-0/../user_nodefs.h --preinclude /ephemeral/analyzer/config/template-gcc-config-3/../user_nodefs.h --c --gcc --gnu_version 40805 -I. --sys_include /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include --sys_include /usr/local/include --sys_include /usr/include -DHAVE_CONFIG_H -DINCLUDEDIR="/usr/local/include" -DLIBDIR="/usr/local/lib" -DLOCALEDIR="/usr/local/share/locale" -D__OPTIMIZE__ --type_sizes=e16Pdlx8fi4s2 --type_alignments=e16Pdlx8fi4s2 --size_t_type=m --wchar_t_type=i --ptrdiff_t_type=l default.c 
+Emit for file '/root/coverity_project/make-3.81/default.c' complete.
+[15144] EXECUTING: /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1 -quiet -I . -I . -I . -MD default.d -MF .deps/default.Tpo -MP -MT default.o -D LOCALEDIR="/usr/local/share/locale" -D LIBDIR="/usr/local/lib" -D INCLUDEDIR="/usr/local/include" -D HAVE_CONFIG_H default.c -quiet -dumpbase default.c -mtune=generic -march=x86-64 -auxbase-strip default.o -g -O2 -o /tmp/ccAkqASC.s
+[15146] EXECUTING: mv -f .deps/default.Tpo .deps/default.Po
+[15147] EXECUTING: /bin/sh -c "if gcc -DLOCALEDIR=\"/usr/local/share/locale\" -DLIBDIR=\"/usr/local/lib\" -DINCLUDEDIR=\"/usr/local/include\" -DHAVE_CONFIG_H -I. -I. -I.      -g -O2 -MT dir.o -MD -MP -MF ".deps/dir.Tpo" -c -o dir.o dir.c; \
+then mv -f ".deps/dir.Tpo" ".deps/dir.Po"; else rm -f ".deps/dir.Tpo"; exit 1; fi"
+[15148] EXECUTING: gcc -DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT dir.o -MD -MP -MF .deps/dir.Tpo -c -o dir.o dir.c
+[15149] CWD: /root/coverity_project/make-3.81
+[15149] COMPILING: /ephemeral/analyzer/bin/cov-translate gcc -DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT dir.o -MD -MP -MF .deps/dir.Tpo -c -o dir.o dir.c
+Using cached template compiler configuration instance /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/coverity_config.xml
+COV_TRANSLATE EXPANDED ARGS: "-DLOCALEDIR="/usr/local/share/locale"" "-DLIBDIR="/usr/local/lib"" "-DINCLUDEDIR="/usr/local/include"" "-DHAVE_CONFIG_H" "-I." "-I." "-I." "-g" "-O2" "-MT" "dir.o" "-MD" "-MP" "-MF" ".deps/dir.Tpo" "-c" "-o" "dir.o" "dir.c"
+[STATUS] Compiling dir.c
+/ephemeral/analyzer/bin/cov-emit --dir=/root/coverity_project/make-3.81/coverity_project/int_dir --ignore_path=/tmp/cov-root/7e39f342ff8e4d082e863f1bfefb11ee/cov-configure --ignore_path=/tmp/cov-root/7e39f342ff8e4d082e863f1bfefb11ee/cov-root/8431e37ed84e71cd9cf5e4ad559fee38 --add_type_modifier=__coverity___fpreg --add_type_modifier=__coverity_decimal --no_predefined_feature_test_macros --no_stdarg_builtin --incompat_proto --no_predefined_cplusplus -w --no_predefines --comp_ver 4.8.5 --char_bit_size=8 --gnu_carriage_return_line_terminator --no_multiline_string --no_trigraphs --ignore_calling_convention --enable_80bit_float --enable_128bit_float --allow__bool --macro_stack_pragmas --inline_keyword --no_predefines --pre_preinclude /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity-macro-compat.h --pre_preinclude /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity-compiler-compat.h --preinclude /ephemeral/analyzer/config/template-gcc-config-0/../user_nodefs.h --preinclude /ephemeral/analyzer/config/template-gcc-config-3/../user_nodefs.h --c --gcc --gnu_version 40805 -I. --sys_include /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include --sys_include /usr/local/include --sys_include /usr/include -DHAVE_CONFIG_H -DINCLUDEDIR="/usr/local/include" -DLIBDIR="/usr/local/lib" -DLOCALEDIR="/usr/local/share/locale" -D__OPTIMIZE__ --type_sizes=e16Pdlx8fi4s2 --type_alignments=e16Pdlx8fi4s2 --size_t_type=m --wchar_t_type=i --ptrdiff_t_type=l dir.c 
+Emit for file '/root/coverity_project/make-3.81/dir.c' complete.
+[15151] EXECUTING: /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1 -quiet -I . -I . -I . -MD dir.d -MF .deps/dir.Tpo -MP -MT dir.o -D LOCALEDIR="/usr/local/share/locale" -D LIBDIR="/usr/local/lib" -D INCLUDEDIR="/usr/local/include" -D HAVE_CONFIG_H dir.c -quiet -dumpbase dir.c -mtune=generic -march=x86-64 -auxbase-strip dir.o -g -O2 -o /tmp/ccju3YfY.s
+[15153] EXECUTING: mv -f .deps/dir.Tpo .deps/dir.Po
+[15154] EXECUTING: /bin/sh -c "if gcc -DLOCALEDIR=\"/usr/local/share/locale\" -DLIBDIR=\"/usr/local/lib\" -DINCLUDEDIR=\"/usr/local/include\" -DHAVE_CONFIG_H -I. -I. -I.      -g -O2 -MT expand.o -MD -MP -MF ".deps/expand.Tpo" -c -o expand.o expand.c; \
+then mv -f ".deps/expand.Tpo" ".deps/expand.Po"; else rm -f ".deps/expand.Tpo"; exit 1; fi"
+[15155] EXECUTING: gcc -DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT expand.o -MD -MP -MF .deps/expand.Tpo -c -o expand.o expand.c
+[15156] CWD: /root/coverity_project/make-3.81
+[15156] COMPILING: /ephemeral/analyzer/bin/cov-translate gcc -DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT expand.o -MD -MP -MF .deps/expand.Tpo -c -o expand.o expand.c
+Using cached template compiler configuration instance /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/coverity_config.xml
+COV_TRANSLATE EXPANDED ARGS: "-DLOCALEDIR="/usr/local/share/locale"" "-DLIBDIR="/usr/local/lib"" "-DINCLUDEDIR="/usr/local/include"" "-DHAVE_CONFIG_H" "-I." "-I." "-I." "-g" "-O2" "-MT" "expand.o" "-MD" "-MP" "-MF" ".deps/expand.Tpo" "-c" "-o" "expand.o" "expand.c"
+[STATUS] Compiling expand.c
+/ephemeral/analyzer/bin/cov-emit --dir=/root/coverity_project/make-3.81/coverity_project/int_dir --ignore_path=/tmp/cov-root/7e39f342ff8e4d082e863f1bfefb11ee/cov-configure --ignore_path=/tmp/cov-root/7e39f342ff8e4d082e863f1bfefb11ee/cov-root/7d19fb513e064d1f0fa1b67ba9bb833c --add_type_modifier=__coverity___fpreg --add_type_modifier=__coverity_decimal --no_predefined_feature_test_macros --no_stdarg_builtin --incompat_proto --no_predefined_cplusplus -w --no_predefines --comp_ver 4.8.5 --char_bit_size=8 --gnu_carriage_return_line_terminator --no_multiline_string --no_trigraphs --ignore_calling_convention --enable_80bit_float --enable_128bit_float --allow__bool --macro_stack_pragmas --inline_keyword --no_predefines --pre_preinclude /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity-macro-compat.h --pre_preinclude /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity-compiler-compat.h --preinclude /ephemeral/analyzer/config/template-gcc-config-0/../user_nodefs.h --preinclude /ephemeral/analyzer/config/template-gcc-config-3/../user_nodefs.h --c --gcc --gnu_version 40805 -I. --sys_include /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include --sys_include /usr/local/include --sys_include /usr/include -DHAVE_CONFIG_H -DINCLUDEDIR="/usr/local/include" -DLIBDIR="/usr/local/lib" -DLOCALEDIR="/usr/local/share/locale" -D__OPTIMIZE__ --type_sizes=e16Pdlx8fi4s2 --type_alignments=e16Pdlx8fi4s2 --size_t_type=m --wchar_t_type=i --ptrdiff_t_type=l expand.c 
+Emit for file '/root/coverity_project/make-3.81/expand.c' complete.
+[15158] EXECUTING: /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1 -quiet -I . -I . -I . -MD expand.d -MF .deps/expand.Tpo -MP -MT expand.o -D LOCALEDIR="/usr/local/share/locale" -D LIBDIR="/usr/local/lib" -D INCLUDEDIR="/usr/local/include" -D HAVE_CONFIG_H expand.c -quiet -dumpbase expand.c -mtune=generic -march=x86-64 -auxbase-strip expand.o -g -O2 -o /tmp/cc1deAde.s
+[15160] EXECUTING: mv -f .deps/expand.Tpo .deps/expand.Po
+[15161] EXECUTING: /bin/sh -c "if gcc -DLOCALEDIR=\"/usr/local/share/locale\" -DLIBDIR=\"/usr/local/lib\" -DINCLUDEDIR=\"/usr/local/include\" -DHAVE_CONFIG_H -I. -I. -I.      -g -O2 -MT file.o -MD -MP -MF ".deps/file.Tpo" -c -o file.o file.c; \
+then mv -f ".deps/file.Tpo" ".deps/file.Po"; else rm -f ".deps/file.Tpo"; exit 1; fi"
+[15162] EXECUTING: gcc -DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT file.o -MD -MP -MF .deps/file.Tpo -c -o file.o file.c
+[15163] CWD: /root/coverity_project/make-3.81
+[15163] COMPILING: /ephemeral/analyzer/bin/cov-translate gcc -DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT file.o -MD -MP -MF .deps/file.Tpo -c -o file.o file.c
+Using cached template compiler configuration instance /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/coverity_config.xml
+COV_TRANSLATE EXPANDED ARGS: "-DLOCALEDIR="/usr/local/share/locale"" "-DLIBDIR="/usr/local/lib"" "-DINCLUDEDIR="/usr/local/include"" "-DHAVE_CONFIG_H" "-I." "-I." "-I." "-g" "-O2" "-MT" "file.o" "-MD" "-MP" "-MF" ".deps/file.Tpo" "-c" "-o" "file.o" "file.c"
+[STATUS] Compiling file.c
+/ephemeral/analyzer/bin/cov-emit --dir=/root/coverity_project/make-3.81/coverity_project/int_dir --ignore_path=/tmp/cov-root/7e39f342ff8e4d082e863f1bfefb11ee/cov-configure --ignore_path=/tmp/cov-root/7e39f342ff8e4d082e863f1bfefb11ee/cov-root/34537456617c545eb84ceec9347ce08a --add_type_modifier=__coverity___fpreg --add_type_modifier=__coverity_decimal --no_predefined_feature_test_macros --no_stdarg_builtin --incompat_proto --no_predefined_cplusplus -w --no_predefines --comp_ver 4.8.5 --char_bit_size=8 --gnu_carriage_return_line_terminator --no_multiline_string --no_trigraphs --ignore_calling_convention --enable_80bit_float --enable_128bit_float --allow__bool --macro_stack_pragmas --inline_keyword --no_predefines --pre_preinclude /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity-macro-compat.h --pre_preinclude /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity-compiler-compat.h --preinclude /ephemeral/analyzer/config/template-gcc-config-0/../user_nodefs.h --preinclude /ephemeral/analyzer/config/template-gcc-config-3/../user_nodefs.h --c --gcc --gnu_version 40805 -I. --sys_include /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include --sys_include /usr/local/include --sys_include /usr/include -DHAVE_CONFIG_H -DINCLUDEDIR="/usr/local/include" -DLIBDIR="/usr/local/lib" -DLOCALEDIR="/usr/local/share/locale" -D__OPTIMIZE__ --type_sizes=e16Pdlx8fi4s2 --type_alignments=e16Pdlx8fi4s2 --size_t_type=m --wchar_t_type=i --ptrdiff_t_type=l file.c 
+Emit for file '/root/coverity_project/make-3.81/file.c' complete.
+[15165] EXECUTING: /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1 -quiet -I . -I . -I . -MD file.d -MF .deps/file.Tpo -MP -MT file.o -D LOCALEDIR="/usr/local/share/locale" -D LIBDIR="/usr/local/lib" -D INCLUDEDIR="/usr/local/include" -D HAVE_CONFIG_H file.c -quiet -dumpbase file.c -mtune=generic -march=x86-64 -auxbase-strip file.o -g -O2 -o /tmp/ccaD6BVF.s
+[15167] EXECUTING: mv -f .deps/file.Tpo .deps/file.Po
+[15168] EXECUTING: /bin/sh -c "if gcc -DLOCALEDIR=\"/usr/local/share/locale\" -DLIBDIR=\"/usr/local/lib\" -DINCLUDEDIR=\"/usr/local/include\" -DHAVE_CONFIG_H -I. -I. -I.      -g -O2 -MT function.o -MD -MP -MF ".deps/function.Tpo" -c -o function.o function.c; \
+then mv -f ".deps/function.Tpo" ".deps/function.Po"; else rm -f ".deps/function.Tpo"; exit 1; fi"
+[15169] EXECUTING: gcc -DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT function.o -MD -MP -MF .deps/function.Tpo -c -o function.o function.c
+[15170] CWD: /root/coverity_project/make-3.81
+[15170] COMPILING: /ephemeral/analyzer/bin/cov-translate gcc -DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT function.o -MD -MP -MF .deps/function.Tpo -c -o function.o function.c
+Using cached template compiler configuration instance /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/coverity_config.xml
+COV_TRANSLATE EXPANDED ARGS: "-DLOCALEDIR="/usr/local/share/locale"" "-DLIBDIR="/usr/local/lib"" "-DINCLUDEDIR="/usr/local/include"" "-DHAVE_CONFIG_H" "-I." "-I." "-I." "-g" "-O2" "-MT" "function.o" "-MD" "-MP" "-MF" ".deps/function.Tpo" "-c" "-o" "function.o" "function.c"
+[STATUS] Compiling function.c
+/ephemeral/analyzer/bin/cov-emit --dir=/root/coverity_project/make-3.81/coverity_project/int_dir --ignore_path=/tmp/cov-root/7e39f342ff8e4d082e863f1bfefb11ee/cov-configure --ignore_path=/tmp/cov-root/7e39f342ff8e4d082e863f1bfefb11ee/cov-root/2ce73b8304a53a68ae847d8669de56ab --add_type_modifier=__coverity___fpreg --add_type_modifier=__coverity_decimal --no_predefined_feature_test_macros --no_stdarg_builtin --incompat_proto --no_predefined_cplusplus -w --no_predefines --comp_ver 4.8.5 --char_bit_size=8 --gnu_carriage_return_line_terminator --no_multiline_string --no_trigraphs --ignore_calling_convention --enable_80bit_float --enable_128bit_float --allow__bool --macro_stack_pragmas --inline_keyword --no_predefines --pre_preinclude /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity-macro-compat.h --pre_preinclude /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity-compiler-compat.h --preinclude /ephemeral/analyzer/config/template-gcc-config-0/../user_nodefs.h --preinclude /ephemeral/analyzer/config/template-gcc-config-3/../user_nodefs.h --c --gcc --gnu_version 40805 -I. --sys_include /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include --sys_include /usr/local/include --sys_include /usr/include -DHAVE_CONFIG_H -DINCLUDEDIR="/usr/local/include" -DLIBDIR="/usr/local/lib" -DLOCALEDIR="/usr/local/share/locale" -D__OPTIMIZE__ --type_sizes=e16Pdlx8fi4s2 --type_alignments=e16Pdlx8fi4s2 --size_t_type=m --wchar_t_type=i --ptrdiff_t_type=l function.c 
+Emit for file '/root/coverity_project/make-3.81/function.c' complete.
+[15172] EXECUTING: /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1 -quiet -I . -I . -I . -MD function.d -MF .deps/function.Tpo -MP -MT function.o -D LOCALEDIR="/usr/local/share/locale" -D LIBDIR="/usr/local/lib" -D INCLUDEDIR="/usr/local/include" -D HAVE_CONFIG_H function.c -quiet -dumpbase function.c -mtune=generic -march=x86-64 -auxbase-strip function.o -g -O2 -o /tmp/ccHRagf4.s
+[15174] EXECUTING: mv -f .deps/function.Tpo .deps/function.Po
+[15175] EXECUTING: /bin/sh -c "if gcc -DLOCALEDIR=\"/usr/local/share/locale\" -DLIBDIR=\"/usr/local/lib\" -DINCLUDEDIR=\"/usr/local/include\" -DHAVE_CONFIG_H -I. -I. -I.      -g -O2 -MT getopt.o -MD -MP -MF ".deps/getopt.Tpo" -c -o getopt.o getopt.c; \
+then mv -f ".deps/getopt.Tpo" ".deps/getopt.Po"; else rm -f ".deps/getopt.Tpo"; exit 1; fi"
+[15176] EXECUTING: gcc -DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT getopt.o -MD -MP -MF .deps/getopt.Tpo -c -o getopt.o getopt.c
+[15177] CWD: /root/coverity_project/make-3.81
+[15177] COMPILING: /ephemeral/analyzer/bin/cov-translate gcc -DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT getopt.o -MD -MP -MF .deps/getopt.Tpo -c -o getopt.o getopt.c
+Using cached template compiler configuration instance /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/coverity_config.xml
+COV_TRANSLATE EXPANDED ARGS: "-DLOCALEDIR="/usr/local/share/locale"" "-DLIBDIR="/usr/local/lib"" "-DINCLUDEDIR="/usr/local/include"" "-DHAVE_CONFIG_H" "-I." "-I." "-I." "-g" "-O2" "-MT" "getopt.o" "-MD" "-MP" "-MF" ".deps/getopt.Tpo" "-c" "-o" "getopt.o" "getopt.c"
+[STATUS] Compiling getopt.c
+/ephemeral/analyzer/bin/cov-emit --dir=/root/coverity_project/make-3.81/coverity_project/int_dir --ignore_path=/tmp/cov-root/7e39f342ff8e4d082e863f1bfefb11ee/cov-configure --ignore_path=/tmp/cov-root/7e39f342ff8e4d082e863f1bfefb11ee/cov-root/368818a32ab7ef9b36acd2a98a54d47f --add_type_modifier=__coverity___fpreg --add_type_modifier=__coverity_decimal --no_predefined_feature_test_macros --no_stdarg_builtin --incompat_proto --no_predefined_cplusplus -w --no_predefines --comp_ver 4.8.5 --char_bit_size=8 --gnu_carriage_return_line_terminator --no_multiline_string --no_trigraphs --ignore_calling_convention --enable_80bit_float --enable_128bit_float --allow__bool --macro_stack_pragmas --inline_keyword --no_predefines --pre_preinclude /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity-macro-compat.h --pre_preinclude /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity-compiler-compat.h --preinclude /ephemeral/analyzer/config/template-gcc-config-0/../user_nodefs.h --preinclude /ephemeral/analyzer/config/template-gcc-config-3/../user_nodefs.h --c --gcc --gnu_version 40805 -I. --sys_include /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include --sys_include /usr/local/include --sys_include /usr/include -DHAVE_CONFIG_H -DINCLUDEDIR="/usr/local/include" -DLIBDIR="/usr/local/lib" -DLOCALEDIR="/usr/local/share/locale" -D__OPTIMIZE__ --type_sizes=e16Pdlx8fi4s2 --type_alignments=e16Pdlx8fi4s2 --size_t_type=m --wchar_t_type=i --ptrdiff_t_type=l getopt.c 
+Emit for file '/root/coverity_project/make-3.81/getopt.c' complete.
+[15179] EXECUTING: /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1 -quiet -I . -I . -I . -MD getopt.d -MF .deps/getopt.Tpo -MP -MT getopt.o -D LOCALEDIR="/usr/local/share/locale" -D LIBDIR="/usr/local/lib" -D INCLUDEDIR="/usr/local/include" -D HAVE_CONFIG_H getopt.c -quiet -dumpbase getopt.c -mtune=generic -march=x86-64 -auxbase-strip getopt.o -g -O2 -o /tmp/cchTl65E.s
+[15181] EXECUTING: mv -f .deps/getopt.Tpo .deps/getopt.Po
+[15182] EXECUTING: /bin/sh -c "if gcc -DLOCALEDIR=\"/usr/local/share/locale\" -DLIBDIR=\"/usr/local/lib\" -DINCLUDEDIR=\"/usr/local/include\" -DHAVE_CONFIG_H -I. -I. -I.      -g -O2 -MT getopt1.o -MD -MP -MF ".deps/getopt1.Tpo" -c -o getopt1.o getopt1.c; \
+then mv -f ".deps/getopt1.Tpo" ".deps/getopt1.Po"; else rm -f ".deps/getopt1.Tpo"; exit 1; fi"
+[15183] EXECUTING: gcc -DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT getopt1.o -MD -MP -MF .deps/getopt1.Tpo -c -o getopt1.o getopt1.c
+[15184] CWD: /root/coverity_project/make-3.81
+[15184] COMPILING: /ephemeral/analyzer/bin/cov-translate gcc -DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT getopt1.o -MD -MP -MF .deps/getopt1.Tpo -c -o getopt1.o getopt1.c
+Using cached template compiler configuration instance /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/coverity_config.xml
+COV_TRANSLATE EXPANDED ARGS: "-DLOCALEDIR="/usr/local/share/locale"" "-DLIBDIR="/usr/local/lib"" "-DINCLUDEDIR="/usr/local/include"" "-DHAVE_CONFIG_H" "-I." "-I." "-I." "-g" "-O2" "-MT" "getopt1.o" "-MD" "-MP" "-MF" ".deps/getopt1.Tpo" "-c" "-o" "getopt1.o" "getopt1.c"
+[STATUS] Compiling getopt1.c
+/ephemeral/analyzer/bin/cov-emit --dir=/root/coverity_project/make-3.81/coverity_project/int_dir --ignore_path=/tmp/cov-root/7e39f342ff8e4d082e863f1bfefb11ee/cov-configure --ignore_path=/tmp/cov-root/7e39f342ff8e4d082e863f1bfefb11ee/cov-root/4a5d8b0b012c30d724503f8b2a5cb4a3 --add_type_modifier=__coverity___fpreg --add_type_modifier=__coverity_decimal --no_predefined_feature_test_macros --no_stdarg_builtin --incompat_proto --no_predefined_cplusplus -w --no_predefines --comp_ver 4.8.5 --char_bit_size=8 --gnu_carriage_return_line_terminator --no_multiline_string --no_trigraphs --ignore_calling_convention --enable_80bit_float --enable_128bit_float --allow__bool --macro_stack_pragmas --inline_keyword --no_predefines --pre_preinclude /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity-macro-compat.h --pre_preinclude /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity-compiler-compat.h --preinclude /ephemeral/analyzer/config/template-gcc-config-0/../user_nodefs.h --preinclude /ephemeral/analyzer/config/template-gcc-config-3/../user_nodefs.h --c --gcc --gnu_version 40805 -I. --sys_include /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include --sys_include /usr/local/include --sys_include /usr/include -DHAVE_CONFIG_H -DINCLUDEDIR="/usr/local/include" -DLIBDIR="/usr/local/lib" -DLOCALEDIR="/usr/local/share/locale" -D__OPTIMIZE__ --type_sizes=e16Pdlx8fi4s2 --type_alignments=e16Pdlx8fi4s2 --size_t_type=m --wchar_t_type=i --ptrdiff_t_type=l getopt1.c 
+Emit for file '/root/coverity_project/make-3.81/getopt1.c' complete.
+[15186] EXECUTING: /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1 -quiet -I . -I . -I . -MD getopt1.d -MF .deps/getopt1.Tpo -MP -MT getopt1.o -D LOCALEDIR="/usr/local/share/locale" -D LIBDIR="/usr/local/lib" -D INCLUDEDIR="/usr/local/include" -D HAVE_CONFIG_H getopt1.c -quiet -dumpbase getopt1.c -mtune=generic -march=x86-64 -auxbase-strip getopt1.o -g -O2 -o /tmp/ccq7UOnL.s
+[15188] EXECUTING: mv -f .deps/getopt1.Tpo .deps/getopt1.Po
+[15189] EXECUTING: /bin/sh -c "if gcc -DLOCALEDIR=\"/usr/local/share/locale\" -DLIBDIR=\"/usr/local/lib\" -DINCLUDEDIR=\"/usr/local/include\" -DHAVE_CONFIG_H -I. -I. -I.      -g -O2 -MT implicit.o -MD -MP -MF ".deps/implicit.Tpo" -c -o implicit.o implicit.c; \
+then mv -f ".deps/implicit.Tpo" ".deps/implicit.Po"; else rm -f ".deps/implicit.Tpo"; exit 1; fi"
+[15190] EXECUTING: gcc -DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT implicit.o -MD -MP -MF .deps/implicit.Tpo -c -o implicit.o implicit.c
+[15191] CWD: /root/coverity_project/make-3.81
+[15191] COMPILING: /ephemeral/analyzer/bin/cov-translate gcc -DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT implicit.o -MD -MP -MF .deps/implicit.Tpo -c -o implicit.o implicit.c
+Using cached template compiler configuration instance /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/coverity_config.xml
+COV_TRANSLATE EXPANDED ARGS: "-DLOCALEDIR="/usr/local/share/locale"" "-DLIBDIR="/usr/local/lib"" "-DINCLUDEDIR="/usr/local/include"" "-DHAVE_CONFIG_H" "-I." "-I." "-I." "-g" "-O2" "-MT" "implicit.o" "-MD" "-MP" "-MF" ".deps/implicit.Tpo" "-c" "-o" "implicit.o" "implicit.c"
+[STATUS] Compiling implicit.c
+/ephemeral/analyzer/bin/cov-emit --dir=/root/coverity_project/make-3.81/coverity_project/int_dir --ignore_path=/tmp/cov-root/7e39f342ff8e4d082e863f1bfefb11ee/cov-configure --ignore_path=/tmp/cov-root/7e39f342ff8e4d082e863f1bfefb11ee/cov-root/1d078bd193735360fae1a3af956a1411 --add_type_modifier=__coverity___fpreg --add_type_modifier=__coverity_decimal --no_predefined_feature_test_macros --no_stdarg_builtin --incompat_proto --no_predefined_cplusplus -w --no_predefines --comp_ver 4.8.5 --char_bit_size=8 --gnu_carriage_return_line_terminator --no_multiline_string --no_trigraphs --ignore_calling_convention --enable_80bit_float --enable_128bit_float --allow__bool --macro_stack_pragmas --inline_keyword --no_predefines --pre_preinclude /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity-macro-compat.h --pre_preinclude /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity-compiler-compat.h --preinclude /ephemeral/analyzer/config/template-gcc-config-0/../user_nodefs.h --preinclude /ephemeral/analyzer/config/template-gcc-config-3/../user_nodefs.h --c --gcc --gnu_version 40805 -I. --sys_include /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include --sys_include /usr/local/include --sys_include /usr/include -DHAVE_CONFIG_H -DINCLUDEDIR="/usr/local/include" -DLIBDIR="/usr/local/lib" -DLOCALEDIR="/usr/local/share/locale" -D__OPTIMIZE__ --type_sizes=e16Pdlx8fi4s2 --type_alignments=e16Pdlx8fi4s2 --size_t_type=m --wchar_t_type=i --ptrdiff_t_type=l implicit.c 
+Emit for file '/root/coverity_project/make-3.81/implicit.c' complete.
+[15193] EXECUTING: /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1 -quiet -I . -I . -I . -MD implicit.d -MF .deps/implicit.Tpo -MP -MT implicit.o -D LOCALEDIR="/usr/local/share/locale" -D LIBDIR="/usr/local/lib" -D INCLUDEDIR="/usr/local/include" -D HAVE_CONFIG_H implicit.c -quiet -dumpbase implicit.c -mtune=generic -march=x86-64 -auxbase-strip implicit.o -g -O2 -o /tmp/ccP8DIc3.s
+[15195] EXECUTING: mv -f .deps/implicit.Tpo .deps/implicit.Po
+[15196] EXECUTING: /bin/sh -c "if gcc -DLOCALEDIR=\"/usr/local/share/locale\" -DLIBDIR=\"/usr/local/lib\" -DINCLUDEDIR=\"/usr/local/include\" -DHAVE_CONFIG_H -I. -I. -I.      -g -O2 -MT job.o -MD -MP -MF ".deps/job.Tpo" -c -o job.o job.c; \
+then mv -f ".deps/job.Tpo" ".deps/job.Po"; else rm -f ".deps/job.Tpo"; exit 1; fi"
+[15197] EXECUTING: gcc -DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT job.o -MD -MP -MF .deps/job.Tpo -c -o job.o job.c
+[15198] CWD: /root/coverity_project/make-3.81
+[15198] COMPILING: /ephemeral/analyzer/bin/cov-translate gcc -DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT job.o -MD -MP -MF .deps/job.Tpo -c -o job.o job.c
+Using cached template compiler configuration instance /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/coverity_config.xml
+COV_TRANSLATE EXPANDED ARGS: "-DLOCALEDIR="/usr/local/share/locale"" "-DLIBDIR="/usr/local/lib"" "-DINCLUDEDIR="/usr/local/include"" "-DHAVE_CONFIG_H" "-I." "-I." "-I." "-g" "-O2" "-MT" "job.o" "-MD" "-MP" "-MF" ".deps/job.Tpo" "-c" "-o" "job.o" "job.c"
+[STATUS] Compiling job.c
+/ephemeral/analyzer/bin/cov-emit --dir=/root/coverity_project/make-3.81/coverity_project/int_dir --ignore_path=/tmp/cov-root/7e39f342ff8e4d082e863f1bfefb11ee/cov-configure --ignore_path=/tmp/cov-root/7e39f342ff8e4d082e863f1bfefb11ee/cov-root/2f42422bff1d95c129cb0070d777a0d0 --add_type_modifier=__coverity___fpreg --add_type_modifier=__coverity_decimal --no_predefined_feature_test_macros --no_stdarg_builtin --incompat_proto --no_predefined_cplusplus -w --no_predefines --comp_ver 4.8.5 --char_bit_size=8 --gnu_carriage_return_line_terminator --no_multiline_string --no_trigraphs --ignore_calling_convention --enable_80bit_float --enable_128bit_float --allow__bool --macro_stack_pragmas --inline_keyword --no_predefines --pre_preinclude /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity-macro-compat.h --pre_preinclude /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity-compiler-compat.h --preinclude /ephemeral/analyzer/config/template-gcc-config-0/../user_nodefs.h --preinclude /ephemeral/analyzer/config/template-gcc-config-3/../user_nodefs.h --c --gcc --gnu_version 40805 -I. --sys_include /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include --sys_include /usr/local/include --sys_include /usr/include -DHAVE_CONFIG_H -DINCLUDEDIR="/usr/local/include" -DLIBDIR="/usr/local/lib" -DLOCALEDIR="/usr/local/share/locale" -D__OPTIMIZE__ --type_sizes=e16Pdlx8fi4s2 --type_alignments=e16Pdlx8fi4s2 --size_t_type=m --wchar_t_type=i --ptrdiff_t_type=l job.c 
+Emit for file '/root/coverity_project/make-3.81/job.c' complete.
+[15200] EXECUTING: /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1 -quiet -I . -I . -I . -MD job.d -MF .deps/job.Tpo -MP -MT job.o -D LOCALEDIR="/usr/local/share/locale" -D LIBDIR="/usr/local/lib" -D INCLUDEDIR="/usr/local/include" -D HAVE_CONFIG_H job.c -quiet -dumpbase job.c -mtune=generic -march=x86-64 -auxbase-strip job.o -g -O2 -o /tmp/ccdeRcGo.s
+[15202] EXECUTING: mv -f .deps/job.Tpo .deps/job.Po
+[15203] EXECUTING: /bin/sh -c "if gcc -DLOCALEDIR=\"/usr/local/share/locale\" -DLIBDIR=\"/usr/local/lib\" -DINCLUDEDIR=\"/usr/local/include\" -DHAVE_CONFIG_H -I. -I. -I.      -g -O2 -MT main.o -MD -MP -MF ".deps/main.Tpo" -c -o main.o main.c; \
+then mv -f ".deps/main.Tpo" ".deps/main.Po"; else rm -f ".deps/main.Tpo"; exit 1; fi"
+[15204] EXECUTING: gcc -DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT main.o -MD -MP -MF .deps/main.Tpo -c -o main.o main.c
+[15205] CWD: /root/coverity_project/make-3.81
+[15205] COMPILING: /ephemeral/analyzer/bin/cov-translate gcc -DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT main.o -MD -MP -MF .deps/main.Tpo -c -o main.o main.c
+Using cached template compiler configuration instance /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/coverity_config.xml
+COV_TRANSLATE EXPANDED ARGS: "-DLOCALEDIR="/usr/local/share/locale"" "-DLIBDIR="/usr/local/lib"" "-DINCLUDEDIR="/usr/local/include"" "-DHAVE_CONFIG_H" "-I." "-I." "-I." "-g" "-O2" "-MT" "main.o" "-MD" "-MP" "-MF" ".deps/main.Tpo" "-c" "-o" "main.o" "main.c"
+[STATUS] Compiling main.c
+/ephemeral/analyzer/bin/cov-emit --dir=/root/coverity_project/make-3.81/coverity_project/int_dir --ignore_path=/tmp/cov-root/7e39f342ff8e4d082e863f1bfefb11ee/cov-configure --ignore_path=/tmp/cov-root/7e39f342ff8e4d082e863f1bfefb11ee/cov-root/9baa77d715cf35a8b16e48dc346e375a --add_type_modifier=__coverity___fpreg --add_type_modifier=__coverity_decimal --no_predefined_feature_test_macros --no_stdarg_builtin --incompat_proto --no_predefined_cplusplus -w --no_predefines --comp_ver 4.8.5 --char_bit_size=8 --gnu_carriage_return_line_terminator --no_multiline_string --no_trigraphs --ignore_calling_convention --enable_80bit_float --enable_128bit_float --allow__bool --macro_stack_pragmas --inline_keyword --no_predefines --pre_preinclude /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity-macro-compat.h --pre_preinclude /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity-compiler-compat.h --preinclude /ephemeral/analyzer/config/template-gcc-config-0/../user_nodefs.h --preinclude /ephemeral/analyzer/config/template-gcc-config-3/../user_nodefs.h --c --gcc --gnu_version 40805 -I. --sys_include /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include --sys_include /usr/local/include --sys_include /usr/include -DHAVE_CONFIG_H -DINCLUDEDIR="/usr/local/include" -DLIBDIR="/usr/local/lib" -DLOCALEDIR="/usr/local/share/locale" -D__OPTIMIZE__ --type_sizes=e16Pdlx8fi4s2 --type_alignments=e16Pdlx8fi4s2 --size_t_type=m --wchar_t_type=i --ptrdiff_t_type=l main.c 
+Emit for file '/root/coverity_project/make-3.81/main.c' complete.
+[15207] EXECUTING: /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1 -quiet -I . -I . -I . -MD main.d -MF .deps/main.Tpo -MP -MT main.o -D LOCALEDIR="/usr/local/share/locale" -D LIBDIR="/usr/local/lib" -D INCLUDEDIR="/usr/local/include" -D HAVE_CONFIG_H main.c -quiet -dumpbase main.c -mtune=generic -march=x86-64 -auxbase-strip main.o -g -O2 -o /tmp/ccUTjjq1.s
+[15209] EXECUTING: mv -f .deps/main.Tpo .deps/main.Po
+[15210] EXECUTING: /bin/sh -c "if gcc -DLOCALEDIR=\"/usr/local/share/locale\" -DLIBDIR=\"/usr/local/lib\" -DINCLUDEDIR=\"/usr/local/include\" -DHAVE_CONFIG_H -I. -I. -I.      -g -O2 -MT misc.o -MD -MP -MF ".deps/misc.Tpo" -c -o misc.o misc.c; \
+then mv -f ".deps/misc.Tpo" ".deps/misc.Po"; else rm -f ".deps/misc.Tpo"; exit 1; fi"
+[15211] EXECUTING: gcc -DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT misc.o -MD -MP -MF .deps/misc.Tpo -c -o misc.o misc.c
+[15212] CWD: /root/coverity_project/make-3.81
+[15212] COMPILING: /ephemeral/analyzer/bin/cov-translate gcc -DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT misc.o -MD -MP -MF .deps/misc.Tpo -c -o misc.o misc.c
+Using cached template compiler configuration instance /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/coverity_config.xml
+COV_TRANSLATE EXPANDED ARGS: "-DLOCALEDIR="/usr/local/share/locale"" "-DLIBDIR="/usr/local/lib"" "-DINCLUDEDIR="/usr/local/include"" "-DHAVE_CONFIG_H" "-I." "-I." "-I." "-g" "-O2" "-MT" "misc.o" "-MD" "-MP" "-MF" ".deps/misc.Tpo" "-c" "-o" "misc.o" "misc.c"
+[STATUS] Compiling misc.c
+/ephemeral/analyzer/bin/cov-emit --dir=/root/coverity_project/make-3.81/coverity_project/int_dir --ignore_path=/tmp/cov-root/7e39f342ff8e4d082e863f1bfefb11ee/cov-configure --ignore_path=/tmp/cov-root/7e39f342ff8e4d082e863f1bfefb11ee/cov-root/a04d12b32d9ca62c2d59d232d86ea851 --add_type_modifier=__coverity___fpreg --add_type_modifier=__coverity_decimal --no_predefined_feature_test_macros --no_stdarg_builtin --incompat_proto --no_predefined_cplusplus -w --no_predefines --comp_ver 4.8.5 --char_bit_size=8 --gnu_carriage_return_line_terminator --no_multiline_string --no_trigraphs --ignore_calling_convention --enable_80bit_float --enable_128bit_float --allow__bool --macro_stack_pragmas --inline_keyword --no_predefines --pre_preinclude /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity-macro-compat.h --pre_preinclude /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity-compiler-compat.h --preinclude /ephemeral/analyzer/config/template-gcc-config-0/../user_nodefs.h --preinclude /ephemeral/analyzer/config/template-gcc-config-3/../user_nodefs.h --c --gcc --gnu_version 40805 -I. --sys_include /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include --sys_include /usr/local/include --sys_include /usr/include -DHAVE_CONFIG_H -DINCLUDEDIR="/usr/local/include" -DLIBDIR="/usr/local/lib" -DLOCALEDIR="/usr/local/share/locale" -D__OPTIMIZE__ --type_sizes=e16Pdlx8fi4s2 --type_alignments=e16Pdlx8fi4s2 --size_t_type=m --wchar_t_type=i --ptrdiff_t_type=l misc.c 
+Emit for file '/root/coverity_project/make-3.81/misc.c' complete.
+[15214] EXECUTING: /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1 -quiet -I . -I . -I . -MD misc.d -MF .deps/misc.Tpo -MP -MT misc.o -D LOCALEDIR="/usr/local/share/locale" -D LIBDIR="/usr/local/lib" -D INCLUDEDIR="/usr/local/include" -D HAVE_CONFIG_H misc.c -quiet -dumpbase misc.c -mtune=generic -march=x86-64 -auxbase-strip misc.o -g -O2 -o /tmp/ccTmBDou.s
+[15216] EXECUTING: mv -f .deps/misc.Tpo .deps/misc.Po
+[15217] EXECUTING: /bin/sh -c "if gcc -DLOCALEDIR=\"/usr/local/share/locale\" -DLIBDIR=\"/usr/local/lib\" -DINCLUDEDIR=\"/usr/local/include\" -DHAVE_CONFIG_H -I. -I. -I.      -g -O2 -MT read.o -MD -MP -MF ".deps/read.Tpo" -c -o read.o read.c; \
+then mv -f ".deps/read.Tpo" ".deps/read.Po"; else rm -f ".deps/read.Tpo"; exit 1; fi"
+[15218] EXECUTING: gcc -DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT read.o -MD -MP -MF .deps/read.Tpo -c -o read.o read.c
+[15219] CWD: /root/coverity_project/make-3.81
+[15219] COMPILING: /ephemeral/analyzer/bin/cov-translate gcc -DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT read.o -MD -MP -MF .deps/read.Tpo -c -o read.o read.c
+Using cached template compiler configuration instance /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/coverity_config.xml
+COV_TRANSLATE EXPANDED ARGS: "-DLOCALEDIR="/usr/local/share/locale"" "-DLIBDIR="/usr/local/lib"" "-DINCLUDEDIR="/usr/local/include"" "-DHAVE_CONFIG_H" "-I." "-I." "-I." "-g" "-O2" "-MT" "read.o" "-MD" "-MP" "-MF" ".deps/read.Tpo" "-c" "-o" "read.o" "read.c"
+[STATUS] Compiling read.c
+/ephemeral/analyzer/bin/cov-emit --dir=/root/coverity_project/make-3.81/coverity_project/int_dir --ignore_path=/tmp/cov-root/7e39f342ff8e4d082e863f1bfefb11ee/cov-configure --ignore_path=/tmp/cov-root/7e39f342ff8e4d082e863f1bfefb11ee/cov-root/a80dd87b953e024078c0a51a9e8b0de7 --add_type_modifier=__coverity___fpreg --add_type_modifier=__coverity_decimal --no_predefined_feature_test_macros --no_stdarg_builtin --incompat_proto --no_predefined_cplusplus -w --no_predefines --comp_ver 4.8.5 --char_bit_size=8 --gnu_carriage_return_line_terminator --no_multiline_string --no_trigraphs --ignore_calling_convention --enable_80bit_float --enable_128bit_float --allow__bool --macro_stack_pragmas --inline_keyword --no_predefines --pre_preinclude /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity-macro-compat.h --pre_preinclude /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity-compiler-compat.h --preinclude /ephemeral/analyzer/config/template-gcc-config-0/../user_nodefs.h --preinclude /ephemeral/analyzer/config/template-gcc-config-3/../user_nodefs.h --c --gcc --gnu_version 40805 -I. --sys_include /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include --sys_include /usr/local/include --sys_include /usr/include -DHAVE_CONFIG_H -DINCLUDEDIR="/usr/local/include" -DLIBDIR="/usr/local/lib" -DLOCALEDIR="/usr/local/share/locale" -D__OPTIMIZE__ --type_sizes=e16Pdlx8fi4s2 --type_alignments=e16Pdlx8fi4s2 --size_t_type=m --wchar_t_type=i --ptrdiff_t_type=l read.c 
+Emit for file '/root/coverity_project/make-3.81/read.c' complete.
+[15221] EXECUTING: /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1 -quiet -I . -I . -I . -MD read.d -MF .deps/read.Tpo -MP -MT read.o -D LOCALEDIR="/usr/local/share/locale" -D LIBDIR="/usr/local/lib" -D INCLUDEDIR="/usr/local/include" -D HAVE_CONFIG_H read.c -quiet -dumpbase read.c -mtune=generic -march=x86-64 -auxbase-strip read.o -g -O2 -o /tmp/cc9HhxZU.s
+[15223] EXECUTING: mv -f .deps/read.Tpo .deps/read.Po
+[15224] EXECUTING: /bin/sh -c "if gcc -DLOCALEDIR=\"/usr/local/share/locale\" -DLIBDIR=\"/usr/local/lib\" -DINCLUDEDIR=\"/usr/local/include\" -DHAVE_CONFIG_H -I. -I. -I.      -g -O2 -MT remake.o -MD -MP -MF ".deps/remake.Tpo" -c -o remake.o remake.c; \
+then mv -f ".deps/remake.Tpo" ".deps/remake.Po"; else rm -f ".deps/remake.Tpo"; exit 1; fi"
+[15225] EXECUTING: gcc -DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT remake.o -MD -MP -MF .deps/remake.Tpo -c -o remake.o remake.c
+[15226] CWD: /root/coverity_project/make-3.81
+[15226] COMPILING: /ephemeral/analyzer/bin/cov-translate gcc -DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT remake.o -MD -MP -MF .deps/remake.Tpo -c -o remake.o remake.c
+Using cached template compiler configuration instance /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/coverity_config.xml
+COV_TRANSLATE EXPANDED ARGS: "-DLOCALEDIR="/usr/local/share/locale"" "-DLIBDIR="/usr/local/lib"" "-DINCLUDEDIR="/usr/local/include"" "-DHAVE_CONFIG_H" "-I." "-I." "-I." "-g" "-O2" "-MT" "remake.o" "-MD" "-MP" "-MF" ".deps/remake.Tpo" "-c" "-o" "remake.o" "remake.c"
+[STATUS] Compiling remake.c
+/ephemeral/analyzer/bin/cov-emit --dir=/root/coverity_project/make-3.81/coverity_project/int_dir --ignore_path=/tmp/cov-root/7e39f342ff8e4d082e863f1bfefb11ee/cov-configure --ignore_path=/tmp/cov-root/7e39f342ff8e4d082e863f1bfefb11ee/cov-root/db417824de340695a6c12531e36fe0d9 --add_type_modifier=__coverity___fpreg --add_type_modifier=__coverity_decimal --no_predefined_feature_test_macros --no_stdarg_builtin --incompat_proto --no_predefined_cplusplus -w --no_predefines --comp_ver 4.8.5 --char_bit_size=8 --gnu_carriage_return_line_terminator --no_multiline_string --no_trigraphs --ignore_calling_convention --enable_80bit_float --enable_128bit_float --allow__bool --macro_stack_pragmas --inline_keyword --no_predefines --pre_preinclude /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity-macro-compat.h --pre_preinclude /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity-compiler-compat.h --preinclude /ephemeral/analyzer/config/template-gcc-config-0/../user_nodefs.h --preinclude /ephemeral/analyzer/config/template-gcc-config-3/../user_nodefs.h --c --gcc --gnu_version 40805 -I. --sys_include /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include --sys_include /usr/local/include --sys_include /usr/include -DHAVE_CONFIG_H -DINCLUDEDIR="/usr/local/include" -DLIBDIR="/usr/local/lib" -DLOCALEDIR="/usr/local/share/locale" -D__OPTIMIZE__ --type_sizes=e16Pdlx8fi4s2 --type_alignments=e16Pdlx8fi4s2 --size_t_type=m --wchar_t_type=i --ptrdiff_t_type=l remake.c 
+Emit for file '/root/coverity_project/make-3.81/remake.c' complete.
+[15228] EXECUTING: /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1 -quiet -I . -I . -I . -MD remake.d -MF .deps/remake.Tpo -MP -MT remake.o -D LOCALEDIR="/usr/local/share/locale" -D LIBDIR="/usr/local/lib" -D INCLUDEDIR="/usr/local/include" -D HAVE_CONFIG_H remake.c -quiet -dumpbase remake.c -mtune=generic -march=x86-64 -auxbase-strip remake.o -g -O2 -o /tmp/ccjX1k9I.s
+[15230] EXECUTING: mv -f .deps/remake.Tpo .deps/remake.Po
+[15231] EXECUTING: /bin/sh -c "if gcc -DLOCALEDIR=\"/usr/local/share/locale\" -DLIBDIR=\"/usr/local/lib\" -DINCLUDEDIR=\"/usr/local/include\" -DHAVE_CONFIG_H -I. -I. -I.      -g -O2 -MT remote-stub.o -MD -MP -MF ".deps/remote-stub.Tpo" -c -o remote-stub.o remote-stub.c; \
+then mv -f ".deps/remote-stub.Tpo" ".deps/remote-stub.Po"; else rm -f ".deps/remote-stub.Tpo"; exit 1; fi"
+[15232] EXECUTING: gcc -DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT remote-stub.o -MD -MP -MF .deps/remote-stub.Tpo -c -o remote-stub.o remote-stub.c
+[15233] CWD: /root/coverity_project/make-3.81
+[15233] COMPILING: /ephemeral/analyzer/bin/cov-translate gcc -DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT remote-stub.o -MD -MP -MF .deps/remote-stub.Tpo -c -o remote-stub.o remote-stub.c
+Using cached template compiler configuration instance /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/coverity_config.xml
+COV_TRANSLATE EXPANDED ARGS: "-DLOCALEDIR="/usr/local/share/locale"" "-DLIBDIR="/usr/local/lib"" "-DINCLUDEDIR="/usr/local/include"" "-DHAVE_CONFIG_H" "-I." "-I." "-I." "-g" "-O2" "-MT" "remote-stub.o" "-MD" "-MP" "-MF" ".deps/remote-stub.Tpo" "-c" "-o" "remote-stub.o" "remote-stub.c"
+[STATUS] Compiling remote-stub.c
+/ephemeral/analyzer/bin/cov-emit --dir=/root/coverity_project/make-3.81/coverity_project/int_dir --ignore_path=/tmp/cov-root/7e39f342ff8e4d082e863f1bfefb11ee/cov-configure --ignore_path=/tmp/cov-root/7e39f342ff8e4d082e863f1bfefb11ee/cov-root/5224326eee5f82d4731130e35b0f2dce --add_type_modifier=__coverity___fpreg --add_type_modifier=__coverity_decimal --no_predefined_feature_test_macros --no_stdarg_builtin --incompat_proto --no_predefined_cplusplus -w --no_predefines --comp_ver 4.8.5 --char_bit_size=8 --gnu_carriage_return_line_terminator --no_multiline_string --no_trigraphs --ignore_calling_convention --enable_80bit_float --enable_128bit_float --allow__bool --macro_stack_pragmas --inline_keyword --no_predefines --pre_preinclude /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity-macro-compat.h --pre_preinclude /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity-compiler-compat.h --preinclude /ephemeral/analyzer/config/template-gcc-config-0/../user_nodefs.h --preinclude /ephemeral/analyzer/config/template-gcc-config-3/../user_nodefs.h --c --gcc --gnu_version 40805 -I. --sys_include /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include --sys_include /usr/local/include --sys_include /usr/include -DHAVE_CONFIG_H -DINCLUDEDIR="/usr/local/include" -DLIBDIR="/usr/local/lib" -DLOCALEDIR="/usr/local/share/locale" -D__OPTIMIZE__ --type_sizes=e16Pdlx8fi4s2 --type_alignments=e16Pdlx8fi4s2 --size_t_type=m --wchar_t_type=i --ptrdiff_t_type=l remote-stub.c 
+Emit for file '/root/coverity_project/make-3.81/remote-stub.c' complete.
+[15235] EXECUTING: /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1 -quiet -I . -I . -I . -MD remote-stub.d -MF .deps/remote-stub.Tpo -MP -MT remote-stub.o -D LOCALEDIR="/usr/local/share/locale" -D LIBDIR="/usr/local/lib" -D INCLUDEDIR="/usr/local/include" -D HAVE_CONFIG_H remote-stub.c -quiet -dumpbase remote-stub.c -mtune=generic -march=x86-64 -auxbase-strip remote-stub.o -g -O2 -o /tmp/cc5YoAsc.s
+[15237] EXECUTING: mv -f .deps/remote-stub.Tpo .deps/remote-stub.Po
+[15238] EXECUTING: /bin/sh -c "if gcc -DLOCALEDIR=\"/usr/local/share/locale\" -DLIBDIR=\"/usr/local/lib\" -DINCLUDEDIR=\"/usr/local/include\" -DHAVE_CONFIG_H -I. -I. -I.      -g -O2 -MT rule.o -MD -MP -MF ".deps/rule.Tpo" -c -o rule.o rule.c; \
+then mv -f ".deps/rule.Tpo" ".deps/rule.Po"; else rm -f ".deps/rule.Tpo"; exit 1; fi"
+[15239] EXECUTING: gcc -DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT rule.o -MD -MP -MF .deps/rule.Tpo -c -o rule.o rule.c
+[15240] CWD: /root/coverity_project/make-3.81
+[15240] COMPILING: /ephemeral/analyzer/bin/cov-translate gcc -DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT rule.o -MD -MP -MF .deps/rule.Tpo -c -o rule.o rule.c
+Using cached template compiler configuration instance /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/coverity_config.xml
+COV_TRANSLATE EXPANDED ARGS: "-DLOCALEDIR="/usr/local/share/locale"" "-DLIBDIR="/usr/local/lib"" "-DINCLUDEDIR="/usr/local/include"" "-DHAVE_CONFIG_H" "-I." "-I." "-I." "-g" "-O2" "-MT" "rule.o" "-MD" "-MP" "-MF" ".deps/rule.Tpo" "-c" "-o" "rule.o" "rule.c"
+[STATUS] Compiling rule.c
+/ephemeral/analyzer/bin/cov-emit --dir=/root/coverity_project/make-3.81/coverity_project/int_dir --ignore_path=/tmp/cov-root/7e39f342ff8e4d082e863f1bfefb11ee/cov-configure --ignore_path=/tmp/cov-root/7e39f342ff8e4d082e863f1bfefb11ee/cov-root/5be6b8a98f9f4b0f378135d4eccb232c --add_type_modifier=__coverity___fpreg --add_type_modifier=__coverity_decimal --no_predefined_feature_test_macros --no_stdarg_builtin --incompat_proto --no_predefined_cplusplus -w --no_predefines --comp_ver 4.8.5 --char_bit_size=8 --gnu_carriage_return_line_terminator --no_multiline_string --no_trigraphs --ignore_calling_convention --enable_80bit_float --enable_128bit_float --allow__bool --macro_stack_pragmas --inline_keyword --no_predefines --pre_preinclude /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity-macro-compat.h --pre_preinclude /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity-compiler-compat.h --preinclude /ephemeral/analyzer/config/template-gcc-config-0/../user_nodefs.h --preinclude /ephemeral/analyzer/config/template-gcc-config-3/../user_nodefs.h --c --gcc --gnu_version 40805 -I. --sys_include /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include --sys_include /usr/local/include --sys_include /usr/include -DHAVE_CONFIG_H -DINCLUDEDIR="/usr/local/include" -DLIBDIR="/usr/local/lib" -DLOCALEDIR="/usr/local/share/locale" -D__OPTIMIZE__ --type_sizes=e16Pdlx8fi4s2 --type_alignments=e16Pdlx8fi4s2 --size_t_type=m --wchar_t_type=i --ptrdiff_t_type=l rule.c 
+Emit for file '/root/coverity_project/make-3.81/rule.c' complete.
+[15242] EXECUTING: /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1 -quiet -I . -I . -I . -MD rule.d -MF .deps/rule.Tpo -MP -MT rule.o -D LOCALEDIR="/usr/local/share/locale" -D LIBDIR="/usr/local/lib" -D INCLUDEDIR="/usr/local/include" -D HAVE_CONFIG_H rule.c -quiet -dumpbase rule.c -mtune=generic -march=x86-64 -auxbase-strip rule.o -g -O2 -o /tmp/ccOl8zkq.s
+[15244] EXECUTING: mv -f .deps/rule.Tpo .deps/rule.Po
+[15245] EXECUTING: /bin/sh -c "if gcc -DLOCALEDIR=\"/usr/local/share/locale\" -DLIBDIR=\"/usr/local/lib\" -DINCLUDEDIR=\"/usr/local/include\" -DHAVE_CONFIG_H -I. -I. -I.      -g -O2 -MT signame.o -MD -MP -MF ".deps/signame.Tpo" -c -o signame.o signame.c; \
+then mv -f ".deps/signame.Tpo" ".deps/signame.Po"; else rm -f ".deps/signame.Tpo"; exit 1; fi"
+[15246] EXECUTING: gcc -DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT signame.o -MD -MP -MF .deps/signame.Tpo -c -o signame.o signame.c
+[15247] CWD: /root/coverity_project/make-3.81
+[15247] COMPILING: /ephemeral/analyzer/bin/cov-translate gcc -DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT signame.o -MD -MP -MF .deps/signame.Tpo -c -o signame.o signame.c
+Using cached template compiler configuration instance /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/coverity_config.xml
+COV_TRANSLATE EXPANDED ARGS: "-DLOCALEDIR="/usr/local/share/locale"" "-DLIBDIR="/usr/local/lib"" "-DINCLUDEDIR="/usr/local/include"" "-DHAVE_CONFIG_H" "-I." "-I." "-I." "-g" "-O2" "-MT" "signame.o" "-MD" "-MP" "-MF" ".deps/signame.Tpo" "-c" "-o" "signame.o" "signame.c"
+[STATUS] Compiling signame.c
+/ephemeral/analyzer/bin/cov-emit --dir=/root/coverity_project/make-3.81/coverity_project/int_dir --ignore_path=/tmp/cov-root/7e39f342ff8e4d082e863f1bfefb11ee/cov-configure --ignore_path=/tmp/cov-root/7e39f342ff8e4d082e863f1bfefb11ee/cov-root/500115089b22b3e37edf7a5ade5c8183 --add_type_modifier=__coverity___fpreg --add_type_modifier=__coverity_decimal --no_predefined_feature_test_macros --no_stdarg_builtin --incompat_proto --no_predefined_cplusplus -w --no_predefines --comp_ver 4.8.5 --char_bit_size=8 --gnu_carriage_return_line_terminator --no_multiline_string --no_trigraphs --ignore_calling_convention --enable_80bit_float --enable_128bit_float --allow__bool --macro_stack_pragmas --inline_keyword --no_predefines --pre_preinclude /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity-macro-compat.h --pre_preinclude /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity-compiler-compat.h --preinclude /ephemeral/analyzer/config/template-gcc-config-0/../user_nodefs.h --preinclude /ephemeral/analyzer/config/template-gcc-config-3/../user_nodefs.h --c --gcc --gnu_version 40805 -I. --sys_include /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include --sys_include /usr/local/include --sys_include /usr/include -DHAVE_CONFIG_H -DINCLUDEDIR="/usr/local/include" -DLIBDIR="/usr/local/lib" -DLOCALEDIR="/usr/local/share/locale" -D__OPTIMIZE__ --type_sizes=e16Pdlx8fi4s2 --type_alignments=e16Pdlx8fi4s2 --size_t_type=m --wchar_t_type=i --ptrdiff_t_type=l signame.c 
+Emit for file '/root/coverity_project/make-3.81/signame.c' complete.
+[15249] EXECUTING: /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1 -quiet -I . -I . -I . -MD signame.d -MF .deps/signame.Tpo -MP -MT signame.o -D LOCALEDIR="/usr/local/share/locale" -D LIBDIR="/usr/local/lib" -D INCLUDEDIR="/usr/local/include" -D HAVE_CONFIG_H signame.c -quiet -dumpbase signame.c -mtune=generic -march=x86-64 -auxbase-strip signame.o -g -O2 -o /tmp/cc84nwQO.s
+[15251] EXECUTING: mv -f .deps/signame.Tpo .deps/signame.Po
+[15252] EXECUTING: /bin/sh -c "if gcc -DLOCALEDIR=\"/usr/local/share/locale\" -DLIBDIR=\"/usr/local/lib\" -DINCLUDEDIR=\"/usr/local/include\" -DHAVE_CONFIG_H -I. -I. -I.      -g -O2 -MT strcache.o -MD -MP -MF ".deps/strcache.Tpo" -c -o strcache.o strcache.c; \
+then mv -f ".deps/strcache.Tpo" ".deps/strcache.Po"; else rm -f ".deps/strcache.Tpo"; exit 1; fi"
+[15253] EXECUTING: gcc -DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT strcache.o -MD -MP -MF .deps/strcache.Tpo -c -o strcache.o strcache.c
+[15254] CWD: /root/coverity_project/make-3.81
+[15254] COMPILING: /ephemeral/analyzer/bin/cov-translate gcc -DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT strcache.o -MD -MP -MF .deps/strcache.Tpo -c -o strcache.o strcache.c
+Using cached template compiler configuration instance /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/coverity_config.xml
+COV_TRANSLATE EXPANDED ARGS: "-DLOCALEDIR="/usr/local/share/locale"" "-DLIBDIR="/usr/local/lib"" "-DINCLUDEDIR="/usr/local/include"" "-DHAVE_CONFIG_H" "-I." "-I." "-I." "-g" "-O2" "-MT" "strcache.o" "-MD" "-MP" "-MF" ".deps/strcache.Tpo" "-c" "-o" "strcache.o" "strcache.c"
+[STATUS] Compiling strcache.c
+/ephemeral/analyzer/bin/cov-emit --dir=/root/coverity_project/make-3.81/coverity_project/int_dir --ignore_path=/tmp/cov-root/7e39f342ff8e4d082e863f1bfefb11ee/cov-configure --ignore_path=/tmp/cov-root/7e39f342ff8e4d082e863f1bfefb11ee/cov-root/32069ea85053a9767945121479d3e02f --add_type_modifier=__coverity___fpreg --add_type_modifier=__coverity_decimal --no_predefined_feature_test_macros --no_stdarg_builtin --incompat_proto --no_predefined_cplusplus -w --no_predefines --comp_ver 4.8.5 --char_bit_size=8 --gnu_carriage_return_line_terminator --no_multiline_string --no_trigraphs --ignore_calling_convention --enable_80bit_float --enable_128bit_float --allow__bool --macro_stack_pragmas --inline_keyword --no_predefines --pre_preinclude /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity-macro-compat.h --pre_preinclude /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity-compiler-compat.h --preinclude /ephemeral/analyzer/config/template-gcc-config-0/../user_nodefs.h --preinclude /ephemeral/analyzer/config/template-gcc-config-3/../user_nodefs.h --c --gcc --gnu_version 40805 -I. --sys_include /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include --sys_include /usr/local/include --sys_include /usr/include -DHAVE_CONFIG_H -DINCLUDEDIR="/usr/local/include" -DLIBDIR="/usr/local/lib" -DLOCALEDIR="/usr/local/share/locale" -D__OPTIMIZE__ --type_sizes=e16Pdlx8fi4s2 --type_alignments=e16Pdlx8fi4s2 --size_t_type=m --wchar_t_type=i --ptrdiff_t_type=l strcache.c 
+Emit for file '/root/coverity_project/make-3.81/strcache.c' complete.
+[15256] EXECUTING: /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1 -quiet -I . -I . -I . -MD strcache.d -MF .deps/strcache.Tpo -MP -MT strcache.o -D LOCALEDIR="/usr/local/share/locale" -D LIBDIR="/usr/local/lib" -D INCLUDEDIR="/usr/local/include" -D HAVE_CONFIG_H strcache.c -quiet -dumpbase strcache.c -mtune=generic -march=x86-64 -auxbase-strip strcache.o -g -O2 -o /tmp/ccbEGI13.s
+[15258] EXECUTING: mv -f .deps/strcache.Tpo .deps/strcache.Po
+[15259] EXECUTING: /bin/sh -c "if gcc -DLOCALEDIR=\"/usr/local/share/locale\" -DLIBDIR=\"/usr/local/lib\" -DINCLUDEDIR=\"/usr/local/include\" -DHAVE_CONFIG_H -I. -I. -I.      -g -O2 -MT variable.o -MD -MP -MF ".deps/variable.Tpo" -c -o variable.o variable.c; \
+then mv -f ".deps/variable.Tpo" ".deps/variable.Po"; else rm -f ".deps/variable.Tpo"; exit 1; fi"
+[15260] EXECUTING: gcc -DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT variable.o -MD -MP -MF .deps/variable.Tpo -c -o variable.o variable.c
+[15261] CWD: /root/coverity_project/make-3.81
+[15261] COMPILING: /ephemeral/analyzer/bin/cov-translate gcc -DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT variable.o -MD -MP -MF .deps/variable.Tpo -c -o variable.o variable.c
+Using cached template compiler configuration instance /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/coverity_config.xml
+COV_TRANSLATE EXPANDED ARGS: "-DLOCALEDIR="/usr/local/share/locale"" "-DLIBDIR="/usr/local/lib"" "-DINCLUDEDIR="/usr/local/include"" "-DHAVE_CONFIG_H" "-I." "-I." "-I." "-g" "-O2" "-MT" "variable.o" "-MD" "-MP" "-MF" ".deps/variable.Tpo" "-c" "-o" "variable.o" "variable.c"
+[STATUS] Compiling variable.c
+/ephemeral/analyzer/bin/cov-emit --dir=/root/coverity_project/make-3.81/coverity_project/int_dir --ignore_path=/tmp/cov-root/7e39f342ff8e4d082e863f1bfefb11ee/cov-configure --ignore_path=/tmp/cov-root/7e39f342ff8e4d082e863f1bfefb11ee/cov-root/3cadeafaad8f1880a2fb250bd2ee4bff --add_type_modifier=__coverity___fpreg --add_type_modifier=__coverity_decimal --no_predefined_feature_test_macros --no_stdarg_builtin --incompat_proto --no_predefined_cplusplus -w --no_predefines --comp_ver 4.8.5 --char_bit_size=8 --gnu_carriage_return_line_terminator --no_multiline_string --no_trigraphs --ignore_calling_convention --enable_80bit_float --enable_128bit_float --allow__bool --macro_stack_pragmas --inline_keyword --no_predefines --pre_preinclude /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity-macro-compat.h --pre_preinclude /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity-compiler-compat.h --preinclude /ephemeral/analyzer/config/template-gcc-config-0/../user_nodefs.h --preinclude /ephemeral/analyzer/config/template-gcc-config-3/../user_nodefs.h --c --gcc --gnu_version 40805 -I. --sys_include /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include --sys_include /usr/local/include --sys_include /usr/include -DHAVE_CONFIG_H -DINCLUDEDIR="/usr/local/include" -DLIBDIR="/usr/local/lib" -DLOCALEDIR="/usr/local/share/locale" -D__OPTIMIZE__ --type_sizes=e16Pdlx8fi4s2 --type_alignments=e16Pdlx8fi4s2 --size_t_type=m --wchar_t_type=i --ptrdiff_t_type=l variable.c 
+Emit for file '/root/coverity_project/make-3.81/variable.c' complete.
+[15263] EXECUTING: /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1 -quiet -I . -I . -I . -MD variable.d -MF .deps/variable.Tpo -MP -MT variable.o -D LOCALEDIR="/usr/local/share/locale" -D LIBDIR="/usr/local/lib" -D INCLUDEDIR="/usr/local/include" -D HAVE_CONFIG_H variable.c -quiet -dumpbase variable.c -mtune=generic -march=x86-64 -auxbase-strip variable.o -g -O2 -o /tmp/ccViQ20h.s
+[15265] EXECUTING: mv -f .deps/variable.Tpo .deps/variable.Po
+[15266] EXECUTING: /bin/sh -c "if gcc -DLOCALEDIR=\"/usr/local/share/locale\" -DLIBDIR=\"/usr/local/lib\" -DINCLUDEDIR=\"/usr/local/include\" -DHAVE_CONFIG_H -I. -I. -I.      -g -O2 -MT vpath.o -MD -MP -MF ".deps/vpath.Tpo" -c -o vpath.o vpath.c; \
+then mv -f ".deps/vpath.Tpo" ".deps/vpath.Po"; else rm -f ".deps/vpath.Tpo"; exit 1; fi"
+[15267] EXECUTING: gcc -DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT vpath.o -MD -MP -MF .deps/vpath.Tpo -c -o vpath.o vpath.c
+[15268] CWD: /root/coverity_project/make-3.81
+[15268] COMPILING: /ephemeral/analyzer/bin/cov-translate gcc -DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT vpath.o -MD -MP -MF .deps/vpath.Tpo -c -o vpath.o vpath.c
+Using cached template compiler configuration instance /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/coverity_config.xml
+COV_TRANSLATE EXPANDED ARGS: "-DLOCALEDIR="/usr/local/share/locale"" "-DLIBDIR="/usr/local/lib"" "-DINCLUDEDIR="/usr/local/include"" "-DHAVE_CONFIG_H" "-I." "-I." "-I." "-g" "-O2" "-MT" "vpath.o" "-MD" "-MP" "-MF" ".deps/vpath.Tpo" "-c" "-o" "vpath.o" "vpath.c"
+[STATUS] Compiling vpath.c
+/ephemeral/analyzer/bin/cov-emit --dir=/root/coverity_project/make-3.81/coverity_project/int_dir --ignore_path=/tmp/cov-root/7e39f342ff8e4d082e863f1bfefb11ee/cov-configure --ignore_path=/tmp/cov-root/7e39f342ff8e4d082e863f1bfefb11ee/cov-root/fb52690c8e6467ee71f8ea8a8a9bb9e9 --add_type_modifier=__coverity___fpreg --add_type_modifier=__coverity_decimal --no_predefined_feature_test_macros --no_stdarg_builtin --incompat_proto --no_predefined_cplusplus -w --no_predefines --comp_ver 4.8.5 --char_bit_size=8 --gnu_carriage_return_line_terminator --no_multiline_string --no_trigraphs --ignore_calling_convention --enable_80bit_float --enable_128bit_float --allow__bool --macro_stack_pragmas --inline_keyword --no_predefines --pre_preinclude /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity-macro-compat.h --pre_preinclude /root/coverity_project/make-3.81/coverity_project/int_dir/emit/euca-10-254-76-20.eucalyptus.internal/config/e9364d34081f270147cc41780381ec9f/gcc-config-0/coverity-compiler-compat.h --preinclude /ephemeral/analyzer/config/template-gcc-config-0/../user_nodefs.h --preinclude /ephemeral/analyzer/config/template-gcc-config-3/../user_nodefs.h --c --gcc --gnu_version 40805 -I. --sys_include /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include --sys_include /usr/local/include --sys_include /usr/include -DHAVE_CONFIG_H -DINCLUDEDIR="/usr/local/include" -DLIBDIR="/usr/local/lib" -DLOCALEDIR="/usr/local/share/locale" -D__OPTIMIZE__ --type_sizes=e16Pdlx8fi4s2 --type_alignments=e16Pdlx8fi4s2 --size_t_type=m --wchar_t_type=i --ptrdiff_t_type=l vpath.c 
+Emit for file '/root/coverity_project/make-3.81/vpath.c' complete.
+[15270] EXECUTING: /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1 -quiet -I . -I . -I . -MD vpath.d -MF .deps/vpath.Tpo -MP -MT vpath.o -D LOCALEDIR="/usr/local/share/locale" -D LIBDIR="/usr/local/lib" -D INCLUDEDIR="/usr/local/include" -D HAVE_CONFIG_H vpath.c -quiet -dumpbase vpath.c -mtune=generic -march=x86-64 -auxbase-strip vpath.o -g -O2 -o /tmp/ccDMv0BL.s
+[15271] EXECUTING: rm -f .deps/vpath.Tpo
+2017-12-05T08:50:53.579677Z|cov-build|14519|info|> 
+2017-12-05T08:50:53.579677Z|cov-build|14519|info|> Build time (cov-build overall): 00:00:10.856872
+2017-12-05T08:50:53.579677Z|cov-build|14519|info|> 
+2017-12-05T08:50:53.580370Z|cov-build|14519|info|> Build time (C/C++ emits total): 00:00:06.730038
+2017-12-05T08:50:53.580370Z|cov-build|14519|info|> 
+2017-12-05T08:50:53.580370Z|cov-build|14519|info|> 
+2017-12-05T08:50:53.580408Z|cov-build|14519|info|> [WARNING] Build command make all exited with code 2. Please verify that the build completed successfully.
+2017-12-05T08:50:53.580408Z|cov-build|14519|info|> Emitted 22 C/C++ compilation units (100%) successfully
+2017-12-05T08:50:53.580408Z|cov-build|14519|info|> 
+2017-12-05T08:50:53.580408Z|cov-build|14519|info|> 22 C/C++ compilation units (100%) are ready for analysis
+2017-12-05T08:50:53.580408Z|cov-build|14519|info|>  For more details, please look at: 
+2017-12-05T08:50:53.580408Z|cov-build|14519|info|>     /root/coverity_project/make-3.81/coverity_project/int_dir/build-log.txt

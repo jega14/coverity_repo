@@ -1,0 +1,30 @@
+-----
+Klocwork 11.1.1.358
+Installation directory: "/ephemeral/klocwork/kw-user-11.1.1"
+Tables directory: "/make-3.81/.kwlp/workingcache/tables"
+Jobs number: 9
+-----
+Incremental build message: Updated configuration checksum: 1471522579000;2e9a7e98aec20d90f4d74531c1086f3den
+August 18, 2016 3:21:29 PM EEST: Running build preparation stage...
+Incremental build message: Analysing build specification changes...
+Incremental build message: Analysing source files dependencies...
+Incremental build message: /make-3.81/.kwps/servercache/statNPD.kb file changed. Old checksum: 2664509565. New checksum: 2801610879
+Incremental build message: C/C++ defects detection configuration files have been changed
+August 18, 2016 3:21:29 PM EEST: Build preparation stage completed
+August 18, 2016 3:21:29 PM EEST: Running compilation stage...
+August 18, 2016 3:21:29 PM EEST: Compilation stage completed
+August 18, 2016 3:21:29 PM EEST: Running C/C++ defects detection stage...
+working directory: "/make-3.81"
+executing: "/ephemeral/klocwork/kw-user-11.1.1/exec/ix86-pc-linux/kwlef" "--license-host" "eseelic070.emea.nsn-net.net" "--license-port" "27018" "--incremental-build" "--lang" "en" "--verbose" "-j" "9" "--errors-config" "/make-3.81/.kwlp/workingcache/build_time_configs/server/analysis_profile.pconf" "--errors-config" "/make-3.81/.kwlp/workingcache/build_time_configs/local/analysis_profile.pconf" "--use-prev-fbkb" "/make-3.81/.kwps/servercache/generated.kb" "--use-statnpd-kb" "/make-3.81/.kwps/servercache/statNPD.kb" "-o" "/make-3.81/.kwlp/workingcache/tables" "-m" "/make-3.81/.kwlp/workingcache/tables/obj/object-mapping.txt" "-b" "/make-3.81/.kwlp/workingcache/tables/buildspec.out"
+Used FBKBs:
+    /ephemeral/klocwork/kw-user-11.1.1/config/kb/cpp/glibc.kb
+    /ephemeral/klocwork/kw-user-11.1.1/config/kb/cpp/stdc.kb
+    /make-3.81/.kwps/servercache/generated.kb
+    /make-3.81/.kwps/servercache/statNPD.kb
+kwlef: Info: Object file directory: /make-3.81/.kwlp/workingcache/tables/obj
+INC: knowledge base for vpath.c_0.o is up-to-date
+August 18, 2016 3:21:30 PM EEST: C/C++ defects detection stage completed
+August 18, 2016 3:21:30 PM EEST: Running linking stage...
+working directory: "/make-3.81"
+executing: "/ephemeral/klocwork/kw-user-11.1.1/exec/ix86-pc-linux/kwlinker" "--encoding" "UTF-8" "--progress" "-o" "/make-3.81/.kwlp/workingcache/tables" "-w" "-D" "/make-3.81/.kwlp/workingcache/tables/obj" "--no-system-metrics"
+August 18, 2016 3:21:30 PM EEST: Linking stage completed

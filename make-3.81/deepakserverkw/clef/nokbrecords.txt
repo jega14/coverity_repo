@@ -1,0 +1,6 @@
+/home_local/kw_test/make-3.81/read.c
+/make-3.81/getopt.h
+/usr/include/bits/string2.h
+/usr/include/fnmatch.h
+/usr/include/inttypes.h
+/usr/include/libintl.h

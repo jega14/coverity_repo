@@ -1,0 +1,43 @@
+0;0.kb:1.kb 13.kb 4_pre.kb 6_pre.kb 15_pre.kb
+1;1.kb
+2;2.kb:0.kb 13.kb 16.kb 6_pre.kb 11_pre.kb 14_pre.kb 15_pre.kb 20_pre.kb
+3;3.kb:13.kb 6_pre.kb 14_pre.kb 17_pre.kb 20_pre.kb
+4;4.kb:0.kb 13.kb 23_pre.kb
+5;5.kb:13.kb 7_pre.kb 14_pre.kb 20_pre.kb
+6;6.kb:2.kb 5.kb 13.kb 7_pre.kb 14_pre.kb 20_pre.kb 23_pre.kb
+7;7.kb:4.kb 5.kb 13.kb 11_pre.kb 14_pre.kb 20_pre.kb 23_pre.kb
+8;8.kb
+9;9.kb
+10;10.kb:0.kb 2.kb 4.kb 5.kb 6.kb 13.kb 14_pre.kb 20_pre.kb 22_pre.kb
+11;11.kb:2.kb 5.kb 6.kb 13.kb 16.kb 12_pre.kb 15_pre.kb 20_pre.kb
+12;12.kb:3.kb 4.kb 5.kb 6.kb 7.kb 11.kb 13.kb 16.kb 14_pre.kb 15_pre.kb 17_pre.kb 19_pre.kb 20_pre.kb 22_pre.kb
+13;13.kb:12_pre.kb
+14;14.kb:0.kb 4.kb 5.kb 6.kb 7.kb 13.kb 17_pre.kb 19_pre.kb 20_pre.kb 22_pre.kb 23_pre.kb
+15;15.kb:0.kb 2.kb 5.kb 6.kb 10.kb 11.kb 13.kb 14.kb 22_pre.kb
+16;16.kb
+17;17.kb:2.kb 4.kb 6.kb 13.kb 14.kb
+18;18.kb
+19;19.kb:13.kb 23_pre.kb
+20;20.kb:5.kb 13.kb 23_pre.kb
+21;21.kb
+22;22.kb:4.kb 5.kb 6.kb 7.kb 13.kb 14.kb
+23;23.kb:13.kb
+24;24.kb:3.kb 4.kb 5.kb 6.kb 7.kb 11.kb 13.kb 14.kb 15.kb 16.kb 17.kb 19.kb 20.kb 22.kb
+25;0_pre.kb:1.kb 13_pre.kb
+26;2_pre.kb:0_pre.kb 13_pre.kb 16.kb
+27;3_pre.kb:13_pre.kb
+28;4_pre.kb:0_pre.kb 13_pre.kb
+29;5_pre.kb:13_pre.kb
+30;6_pre.kb:2_pre.kb 5_pre.kb 13_pre.kb
+31;7_pre.kb:4_pre.kb 5_pre.kb 13_pre.kb
+32;10_pre.kb:0_pre.kb 2_pre.kb 4_pre.kb 5_pre.kb 6_pre.kb 13_pre.kb
+33;11_pre.kb:2_pre.kb 5_pre.kb 6_pre.kb 13_pre.kb 16.kb
+34;12_pre.kb:3_pre.kb 4_pre.kb 5_pre.kb 6_pre.kb 7_pre.kb 11_pre.kb 13_pre.kb 16.kb
+35;13_pre.kb
+36;14_pre.kb:0_pre.kb 4_pre.kb 5_pre.kb 6_pre.kb 7_pre.kb 13_pre.kb
+37;15_pre.kb:0_pre.kb 2_pre.kb 5_pre.kb 6_pre.kb 10_pre.kb 11_pre.kb 13_pre.kb 14_pre.kb
+38;17_pre.kb:2_pre.kb 4_pre.kb 6_pre.kb 13_pre.kb 14_pre.kb
+39;19_pre.kb:13_pre.kb
+40;20_pre.kb:5_pre.kb 13_pre.kb
+41;22_pre.kb:4_pre.kb 5_pre.kb 6_pre.kb 7_pre.kb 13_pre.kb 14_pre.kb
+42;23_pre.kb:13_pre.kb

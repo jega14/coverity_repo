@@ -1,0 +1,105 @@
+{
+  "rule" : "default_component_owner",
+  "assignments" : [
+    {
+      "mergeKey" : "18dab6049ce0ee1c03386133558cfdc8",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "22d3c8106f387f24d72940666ff72265",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "27fd4177be0df52478c8d6802f48e825",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "299868ba7a6976495de9ced703401e0d",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "2c42b1b925a09b90f9ffe5317cb28ffc",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "3b1d3c6891e8788a8127a2a34ffccdc3",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "3c450c77c6698223542a06bd8081595d",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "490a7829bb92d725be53931062286eed",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "4a323e4a81b001897dbc1655dfbcaa27",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "6379e9bb8d8715a630f6c0ee507bc172",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "9359825f62b67c550e2e52b91c6fbe0e",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "96a00bdb0553fd26ee7bdfc043a69ccc",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "9914ccdc0af02f9534de541c5fa46392",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "99b448c523f6f0c1165520630c573c41",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "a69df2ab7e4ac24907cdc5896caab694",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "a96bf5142ee37a52c96b376055f49fcd",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "b22a9c49e47bd5a59027a6f34bffa03b",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "cc21a60b7cc6ec9eaf4c4d69060d5421",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "e1519527b1fb605b30bb9c8946fce75d",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "e15e98928d299c9c4eaca2a6fc28bb9b",
+      "cimUsername" : null,
+      "ldapServer" : null
+    }
+  ]
+}

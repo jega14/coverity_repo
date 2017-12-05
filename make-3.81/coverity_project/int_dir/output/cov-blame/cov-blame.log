@@ -1,0 +1,46 @@
+[LOG] run: /ephemeral/analyzer/bin/cov-format-errors --dir /root/coverity_project/make-3.81/coverity_project/int_dir --json-output-v6 /root/coverity_project/make-3.81/coverity_project/int_dir/output/cov-blame/errors.json --outputdir /root/coverity_project/make-3.81/coverity_project/int_dir/output
+[LOG] /ephemeral/analyzer/bin/cov-format-errors exits successfully.
+[INFO] Computing likely owner for 10018 [22d3c8106f387f24d72940666ff72265]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10011 [490a7829bb92d725be53931062286eed]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10006 [3c450c77c6698223542a06bd8081595d]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10010 [99b448c523f6f0c1165520630c573c41]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10020 [a69df2ab7e4ac24907cdc5896caab694]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10015 [6379e9bb8d8715a630f6c0ee507bc172]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10008 [a96bf5142ee37a52c96b376055f49fcd]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10024 [299868ba7a6976495de9ced703401e0d]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10022 [b22a9c49e47bd5a59027a6f34bffa03b]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10005 [9914ccdc0af02f9534de541c5fa46392]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10005 [9914ccdc0af02f9534de541c5fa46392]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10021 [e15e98928d299c9c4eaca2a6fc28bb9b]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10023 [3b1d3c6891e8788a8127a2a34ffccdc3]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10013 [cc21a60b7cc6ec9eaf4c4d69060d5421]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10016 [18dab6049ce0ee1c03386133558cfdc8]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10009 [27fd4177be0df52478c8d6802f48e825]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10012 [9359825f62b67c550e2e52b91c6fbe0e]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10017 [4a323e4a81b001897dbc1655dfbcaa27]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10019 [96a00bdb0553fd26ee7bdfc043a69ccc]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10007 [e1519527b1fb605b30bb9c8946fce75d]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10007 [e1519527b1fb605b30bb9c8946fce75d]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10014 [2c42b1b925a09b90f9ffe5317cb28ffc]:
+[INFO] 	default_component_owner: none

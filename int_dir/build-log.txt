@@ -1,0 +1,386 @@
+2017-12-05T08:49:41.913237Z|cov-build|14503|info|> cov-build 2017.07-SP1 (build 75a994d703 p-milo1-push-30112.467.287)
+2017-12-05T08:49:41.913268Z|cov-build|14503|info|> Coverity Build Capture (64-bit) version 2017.07-SP1 on Linux 3.10.0-693.2.2.el7.x86_64 x86_64
+2017-12-05T08:49:41.913268Z|cov-build|14503|info|> Internal version numbers: 75a994d703 p-milo1-push-30112.467.287
+2017-12-05T08:49:41.913268Z|cov-build|14503|info|> 
+2017-12-05T08:49:41.913275Z|cov-build|14503|info|> Dumping from hostname : euca-10-254-76-20.eucalyptus.internal
+2017-12-05T08:49:41.913275Z|cov-build|14503|info|> 
+2017-12-05T08:49:41.913298Z|cov-build|14503|info|> Platform info:
+2017-12-05T08:49:41.913298Z|cov-build|14503|info|> Sysname = Linux
+2017-12-05T08:49:41.913298Z|cov-build|14503|info|> Release = 3.10.0-693.2.2.el7.x86_64
+2017-12-05T08:49:41.913298Z|cov-build|14503|info|> Machine = x86_64
+2017-12-05T08:49:41.913298Z|cov-build|14503|info|> 
+2017-12-05T08:49:41.913298Z|cov-build|14503|info|> 
+2017-12-05T08:49:41.913311Z|cov-build|14503|info|> cov-build command: /ephemeral/analyzer/bin/cov-build --dir coverity_project/int_dir make 
+2017-12-05T08:49:41.913317Z|cov-build|14503|info|> cov-build expanded command: /ephemeral/analyzer/bin/cov-build --dir coverity_project/int_dir make 
+2017-12-05T08:49:41.913561Z|cov-build|14503|info|> build command: /usr/bin/make
+2017-12-05T08:49:41.913572Z|cov-build|14503|info|> thunk command: /ephemeral/analyzer/bin/cov-internal-thunk.sh make
+2017-12-05T08:49:41.913572Z|cov-build|14503|info|> 
+2017-12-05T08:49:41.913595Z|cov-build|14503|info|> Set UseSharedCompilation to false.
+2017-12-05T08:49:41.913608Z|cov-build|14503|info|> Set COVERITY_BIN to /ephemeral/analyzer/bin
+2017-12-05T08:49:41.913621Z|cov-build|14503|info|> Set COVERITY_SITE_CC to g++;g++-3;g++-4;gcc;gcc-3;gcc-4;ld
+2017-12-05T08:49:41.913629Z|cov-build|14503|info|> Set COVERITY_TEMP to /tmp/cov-root/78128384d170c06d0e31812db21fcafe
+2017-12-05T08:49:41.913640Z|cov-build|14503|info|> Set COVERITY_COMMON_TEMP to /tmp
+2017-12-05T08:49:41.913649Z|cov-build|14503|info|> Set COVERITY_IDIR to /root/coverity_project/int_dir
+2017-12-05T08:49:41.913667Z|cov-build|14503|info|> Set COVERITY_OUTPUT to /root/coverity_project/int_dir/build-log.txt
+2017-12-05T08:49:41.913672Z|cov-build|14503|info|> Set COVERITY_LOG to /root/coverity_project/int_dir/build-log.txt
+2017-12-05T08:49:41.913687Z|cov-build|14503|info|> Set COVERITY_OUTPUT_ENCODING to UTF-8
+2017-12-05T08:49:41.913692Z|cov-build|14503|info|> Set COVERITY_SYSTEM_ENCODING to UTF-8
+2017-12-05T08:49:41.913699Z|cov-build|14503|info|> Set COVERITY_EMIT to /root/coverity_project/int_dir/emit
+2017-12-05T08:49:41.913712Z|cov-build|14503|info|> Set COVERITY_IS_COMPILER to 0
+2017-12-05T08:49:41.913716Z|cov-build|14503|info|> Set COVERITY_TOP_PROCESS to 0
+2017-12-05T08:49:41.913720Z|cov-build|14503|info|> Set COVERITY_IS_COMPILER_DESCENDANT to 0
+2017-12-05T08:49:41.913740Z|cov-build|14503|info|> 
+2017-12-05T08:49:41.913740Z|cov-build|14503|info|> 
+2017-12-05T08:49:41.913740Z|cov-build|14503|info|> Dumping configuration:
+2017-12-05T08:49:41.913740Z|cov-build|14503|info|> 
+2017-12-05T08:49:41.913748Z|cov-build|14503|info|> User/default configuration:
+2017-12-05T08:49:41.913748Z|cov-build|14503|info|> 
+2017-12-05T08:49:41.913768Z|cov-build|14503|info|> Configuration read from: command-line
+2017-12-05T08:49:41.913768Z|cov-build|14503|info|> Node: coverity
+2017-12-05T08:49:41.913768Z|cov-build|14503|info|>   Node: config
+2017-12-05T08:49:41.913768Z|cov-build|14503|info|>     Node: include Value: /ephemeral/analyzer/config/coverity_config.xml
+2017-12-05T08:49:41.913768Z|cov-build|14503|info|>   Node: config
+2017-12-05T08:49:41.913768Z|cov-build|14503|info|>     Node: prevent
+2017-12-05T08:49:41.913768Z|cov-build|14503|info|>       Node: dir Value: /root/coverity_project/int_dir
+2017-12-05T08:49:41.913768Z|cov-build|14503|info|> 
+2017-12-05T08:49:41.913782Z|cov-build|14503|info|> Configuration read from: /ephemeral/analyzer/config/coverity_config.xml
+2017-12-05T08:49:41.913782Z|cov-build|14503|info|> Node: coverity
+2017-12-05T08:49:41.913782Z|cov-build|14503|info|>   Node: cit_version Value: 1
+2017-12-05T08:49:41.913782Z|cov-build|14503|info|>   Node: config
+2017-12-05T08:49:41.913782Z|cov-build|14503|info|>     Node: include Value: /ephemeral/analyzer/config/template-gcc-config-0/coverity_config.xml
+2017-12-05T08:49:41.913782Z|cov-build|14503|info|>     Node: include Value: /ephemeral/analyzer/config/template-g++-config-0/coverity_config.xml
+2017-12-05T08:49:41.913782Z|cov-build|14503|info|>     Node: include Value: /ephemeral/analyzer/config/template-gcc-config-1/coverity_config.xml
+2017-12-05T08:49:41.913782Z|cov-build|14503|info|>     Node: include Value: /ephemeral/analyzer/config/template-gcc-config-2/coverity_config.xml
+2017-12-05T08:49:41.913782Z|cov-build|14503|info|>     Node: include Value: /ephemeral/analyzer/config/template-g++-config-1/coverity_config.xml
+2017-12-05T08:49:41.913782Z|cov-build|14503|info|>     Node: include Value: /ephemeral/analyzer/config/template-g++-config-2/coverity_config.xml
+2017-12-05T08:49:41.913782Z|cov-build|14503|info|>     Node: include Value: /ephemeral/analyzer/config/template-ld-config-0/coverity_config.xml
+2017-12-05T08:49:41.913782Z|cov-build|14503|info|>     Node: include Value: /ephemeral/analyzer/config/template-gcc-config-3/coverity_config.xml
+2017-12-05T08:49:41.913782Z|cov-build|14503|info|>     Node: include Value: /ephemeral/analyzer/config/template-g++-config-3/coverity_config.xml
+2017-12-05T08:49:41.913782Z|cov-build|14503|info|>     Node: include Value: /ephemeral/analyzer/config/template-gcc-config-4/coverity_config.xml
+2017-12-05T08:49:41.913782Z|cov-build|14503|info|>     Node: include Value: /ephemeral/analyzer/config/template-gcc-config-5/coverity_config.xml
+2017-12-05T08:49:41.913782Z|cov-build|14503|info|>     Node: include Value: /ephemeral/analyzer/config/template-g++-config-4/coverity_config.xml
+2017-12-05T08:49:41.913782Z|cov-build|14503|info|>     Node: include Value: /ephemeral/analyzer/config/template-g++-config-5/coverity_config.xml
+2017-12-05T08:49:41.913782Z|cov-build|14503|info|>     Node: include Value: /ephemeral/analyzer/config/template-ld-config-1/coverity_config.xml
+2017-12-05T08:49:41.913782Z|cov-build|14503|info|> 
+2017-12-05T08:49:41.913815Z|cov-build|14503|info|> Configuration read from: /ephemeral/analyzer/config/template-gcc-config-0/coverity_config.xml
+2017-12-05T08:49:41.913815Z|cov-build|14503|info|> Node: coverity
+2017-12-05T08:49:41.913815Z|cov-build|14503|info|>   Node: cit_version Value: 1
+2017-12-05T08:49:41.913815Z|cov-build|14503|info|>   Node: config
+2017-12-05T08:49:41.913815Z|cov-build|14503|info|>     Node: build
+2017-12-05T08:49:41.913815Z|cov-build|14503|info|>       Node: compiler
+2017-12-05T08:49:41.913815Z|cov-build|14503|info|>         Node: template_compiler Value: true
+2017-12-05T08:49:41.913815Z|cov-build|14503|info|>         Node: comp_name Value: gcc
+2017-12-05T08:49:41.913815Z|cov-build|14503|info|>         Node: comp_translator Value: gcc
+2017-12-05T08:49:41.913815Z|cov-build|14503|info|>         Node: comp_lang Value: C/C++
+2017-12-05T08:49:41.913815Z|cov-build|14503|info|>         Node: comp_generic Value: gnu
+2017-12-05T08:49:41.913815Z|cov-build|14503|info|>       Node: options
+2017-12-05T08:49:41.913815Z|cov-build|14503|info|>         Node: id Value: gcc-gcc-.*
+2017-12-05T08:49:41.913815Z|cov-build|14503|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-gcc-config-0/../user_nodefs.h
+2017-12-05T08:49:41.913815Z|cov-build|14503|info|>         Node: begin_command_line_config
+2017-12-05T08:49:41.913815Z|cov-build|14503|info|>       Node: options
+2017-12-05T08:49:41.913815Z|cov-build|14503|info|>         Node: id Value: g++-gcc-.*
+2017-12-05T08:49:41.913815Z|cov-build|14503|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-gcc-config-0/../user_nodefs.h
+2017-12-05T08:49:41.913815Z|cov-build|14503|info|>         Node: begin_command_line_config
+2017-12-05T08:49:41.913815Z|cov-build|14503|info|>       Node: options
+2017-12-05T08:49:41.913815Z|cov-build|14503|info|>         Node: id Value: g++cc-gcc-.*
+2017-12-05T08:49:41.913815Z|cov-build|14503|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-gcc-config-0/../user_nodefs.h
+2017-12-05T08:49:41.913815Z|cov-build|14503|info|>         Node: begin_command_line_config
+2017-12-05T08:49:41.913815Z|cov-build|14503|info|>   Node: md5 Value: 220ab2f621b426ef21b5bff0d14bd626
+2017-12-05T08:49:41.913815Z|cov-build|14503|info|> 
+2017-12-05T08:49:41.913851Z|cov-build|14503|info|> Configuration read from: /ephemeral/analyzer/config/template-g++-config-0/coverity_config.xml
+2017-12-05T08:49:41.913851Z|cov-build|14503|info|> Node: coverity
+2017-12-05T08:49:41.913851Z|cov-build|14503|info|>   Node: cit_version Value: 1
+2017-12-05T08:49:41.913851Z|cov-build|14503|info|>   Node: config
+2017-12-05T08:49:41.913851Z|cov-build|14503|info|>     Node: build
+2017-12-05T08:49:41.913851Z|cov-build|14503|info|>       Node: compiler
+2017-12-05T08:49:41.913851Z|cov-build|14503|info|>         Node: template_compiler Value: true
+2017-12-05T08:49:41.913851Z|cov-build|14503|info|>         Node: comp_name Value: g++
+2017-12-05T08:49:41.913851Z|cov-build|14503|info|>         Node: comp_translator Value: g++
+2017-12-05T08:49:41.913851Z|cov-build|14503|info|>         Node: comp_lang Value: C/C++
+2017-12-05T08:49:41.913851Z|cov-build|14503|info|>         Node: comp_generic Value: gnu
+2017-12-05T08:49:41.913851Z|cov-build|14503|info|>       Node: options
+2017-12-05T08:49:41.913851Z|cov-build|14503|info|>         Node: id Value: g++-g++-.*
+2017-12-05T08:49:41.913851Z|cov-build|14503|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-g++-config-0/../user_nodefs.h
+2017-12-05T08:49:41.913851Z|cov-build|14503|info|>         Node: begin_command_line_config
+2017-12-05T08:49:41.913851Z|cov-build|14503|info|>       Node: options
+2017-12-05T08:49:41.913851Z|cov-build|14503|info|>         Node: id Value: g++cc-g++-.*
+2017-12-05T08:49:41.913851Z|cov-build|14503|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-g++-config-0/../user_nodefs.h
+2017-12-05T08:49:41.913851Z|cov-build|14503|info|>         Node: begin_command_line_config
+2017-12-05T08:49:41.913851Z|cov-build|14503|info|>   Node: md5 Value: d8da15d655e23f85d5c6ae35de65d439
+2017-12-05T08:49:41.913851Z|cov-build|14503|info|> 
+2017-12-05T08:49:41.913879Z|cov-build|14503|info|> Configuration read from: /ephemeral/analyzer/config/template-gcc-config-1/coverity_config.xml
+2017-12-05T08:49:41.913879Z|cov-build|14503|info|> Node: coverity
+2017-12-05T08:49:41.913879Z|cov-build|14503|info|>   Node: cit_version Value: 1
+2017-12-05T08:49:41.913879Z|cov-build|14503|info|>   Node: config
+2017-12-05T08:49:41.913879Z|cov-build|14503|info|>     Node: build
+2017-12-05T08:49:41.913879Z|cov-build|14503|info|>       Node: compiler
+2017-12-05T08:49:41.913879Z|cov-build|14503|info|>         Node: template_compiler Value: true
+2017-12-05T08:49:41.913879Z|cov-build|14503|info|>         Node: comp_name Value: gcc-3
+2017-12-05T08:49:41.913879Z|cov-build|14503|info|>         Node: comp_translator Value: gcc
+2017-12-05T08:49:41.913879Z|cov-build|14503|info|>         Node: comp_lang Value: C/C++
+2017-12-05T08:49:41.913879Z|cov-build|14503|info|>         Node: comp_generic Value: gnu
+2017-12-05T08:49:41.913879Z|cov-build|14503|info|>       Node: options
+2017-12-05T08:49:41.913879Z|cov-build|14503|info|>         Node: id Value: gcc-gcc-3-.*
+2017-12-05T08:49:41.913879Z|cov-build|14503|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-gcc-config-1/../user_nodefs.h
+2017-12-05T08:49:41.913879Z|cov-build|14503|info|>         Node: begin_command_line_config
+2017-12-05T08:49:41.913879Z|cov-build|14503|info|>       Node: options
+2017-12-05T08:49:41.913879Z|cov-build|14503|info|>         Node: id Value: g++-gcc-3-.*
+2017-12-05T08:49:41.913879Z|cov-build|14503|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-gcc-config-1/../user_nodefs.h
+2017-12-05T08:49:41.913879Z|cov-build|14503|info|>         Node: begin_command_line_config
+2017-12-05T08:49:41.913879Z|cov-build|14503|info|>       Node: options
+2017-12-05T08:49:41.913879Z|cov-build|14503|info|>         Node: id Value: g++cc-gcc-3-.*
+2017-12-05T08:49:41.913879Z|cov-build|14503|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-gcc-config-1/../user_nodefs.h
+2017-12-05T08:49:41.913879Z|cov-build|14503|info|>         Node: begin_command_line_config
+2017-12-05T08:49:41.913879Z|cov-build|14503|info|>   Node: md5 Value: 6a6dc6f1a6c9360514c721c673fa1951
+2017-12-05T08:49:41.913879Z|cov-build|14503|info|> 
+2017-12-05T08:49:41.913914Z|cov-build|14503|info|> Configuration read from: /ephemeral/analyzer/config/template-gcc-config-2/coverity_config.xml
+2017-12-05T08:49:41.913914Z|cov-build|14503|info|> Node: coverity
+2017-12-05T08:49:41.913914Z|cov-build|14503|info|>   Node: cit_version Value: 1
+2017-12-05T08:49:41.913914Z|cov-build|14503|info|>   Node: config
+2017-12-05T08:49:41.913914Z|cov-build|14503|info|>     Node: build
+2017-12-05T08:49:41.913914Z|cov-build|14503|info|>       Node: compiler
+2017-12-05T08:49:41.913914Z|cov-build|14503|info|>         Node: template_compiler Value: true
+2017-12-05T08:49:41.913914Z|cov-build|14503|info|>         Node: comp_name Value: gcc-4
+2017-12-05T08:49:41.913914Z|cov-build|14503|info|>         Node: comp_translator Value: gcc
+2017-12-05T08:49:41.913914Z|cov-build|14503|info|>         Node: comp_lang Value: C/C++
+2017-12-05T08:49:41.913914Z|cov-build|14503|info|>         Node: comp_generic Value: gnu
+2017-12-05T08:49:41.913914Z|cov-build|14503|info|>       Node: options
+2017-12-05T08:49:41.913914Z|cov-build|14503|info|>         Node: id Value: gcc-gcc-4-.*
+2017-12-05T08:49:41.913914Z|cov-build|14503|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-gcc-config-2/../user_nodefs.h
+2017-12-05T08:49:41.913914Z|cov-build|14503|info|>         Node: begin_command_line_config
+2017-12-05T08:49:41.913914Z|cov-build|14503|info|>       Node: options
+2017-12-05T08:49:41.913914Z|cov-build|14503|info|>         Node: id Value: g++-gcc-4-.*
+2017-12-05T08:49:41.913914Z|cov-build|14503|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-gcc-config-2/../user_nodefs.h
+2017-12-05T08:49:41.913914Z|cov-build|14503|info|>         Node: begin_command_line_config
+2017-12-05T08:49:41.913914Z|cov-build|14503|info|>       Node: options
+2017-12-05T08:49:41.913914Z|cov-build|14503|info|>         Node: id Value: g++cc-gcc-4-.*
+2017-12-05T08:49:41.913914Z|cov-build|14503|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-gcc-config-2/../user_nodefs.h
+2017-12-05T08:49:41.913914Z|cov-build|14503|info|>         Node: begin_command_line_config
+2017-12-05T08:49:41.913914Z|cov-build|14503|info|>   Node: md5 Value: 6f1a220d892e908cc9817e94bdeb7bc5
+2017-12-05T08:49:41.913914Z|cov-build|14503|info|> 
+2017-12-05T08:49:41.913946Z|cov-build|14503|info|> Configuration read from: /ephemeral/analyzer/config/template-g++-config-1/coverity_config.xml
+2017-12-05T08:49:41.913946Z|cov-build|14503|info|> Node: coverity
+2017-12-05T08:49:41.913946Z|cov-build|14503|info|>   Node: cit_version Value: 1
+2017-12-05T08:49:41.913946Z|cov-build|14503|info|>   Node: config
+2017-12-05T08:49:41.913946Z|cov-build|14503|info|>     Node: build
+2017-12-05T08:49:41.913946Z|cov-build|14503|info|>       Node: compiler
+2017-12-05T08:49:41.913946Z|cov-build|14503|info|>         Node: template_compiler Value: true
+2017-12-05T08:49:41.913946Z|cov-build|14503|info|>         Node: comp_name Value: g++-3
+2017-12-05T08:49:41.913946Z|cov-build|14503|info|>         Node: comp_translator Value: g++
+2017-12-05T08:49:41.913946Z|cov-build|14503|info|>         Node: comp_lang Value: C/C++
+2017-12-05T08:49:41.913946Z|cov-build|14503|info|>         Node: comp_generic Value: gnu
+2017-12-05T08:49:41.913946Z|cov-build|14503|info|>       Node: options
+2017-12-05T08:49:41.913946Z|cov-build|14503|info|>         Node: id Value: g++-g++-3-.*
+2017-12-05T08:49:41.913946Z|cov-build|14503|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-g++-config-1/../user_nodefs.h
+2017-12-05T08:49:41.913946Z|cov-build|14503|info|>         Node: begin_command_line_config
+2017-12-05T08:49:41.913946Z|cov-build|14503|info|>       Node: options
+2017-12-05T08:49:41.913946Z|cov-build|14503|info|>         Node: id Value: g++cc-g++-3-.*
+2017-12-05T08:49:41.913946Z|cov-build|14503|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-g++-config-1/../user_nodefs.h
+2017-12-05T08:49:41.913946Z|cov-build|14503|info|>         Node: begin_command_line_config
+2017-12-05T08:49:41.913946Z|cov-build|14503|info|>   Node: md5 Value: ada4013796c1b19ed1fe7ebb4197cd2d
+2017-12-05T08:49:41.913946Z|cov-build|14503|info|> 
+2017-12-05T08:49:41.913977Z|cov-build|14503|info|> Configuration read from: /ephemeral/analyzer/config/template-g++-config-2/coverity_config.xml
+2017-12-05T08:49:41.913977Z|cov-build|14503|info|> Node: coverity
+2017-12-05T08:49:41.913977Z|cov-build|14503|info|>   Node: cit_version Value: 1
+2017-12-05T08:49:41.913977Z|cov-build|14503|info|>   Node: config
+2017-12-05T08:49:41.913977Z|cov-build|14503|info|>     Node: build
+2017-12-05T08:49:41.913977Z|cov-build|14503|info|>       Node: compiler
+2017-12-05T08:49:41.913977Z|cov-build|14503|info|>         Node: template_compiler Value: true
+2017-12-05T08:49:41.913977Z|cov-build|14503|info|>         Node: comp_name Value: g++-4
+2017-12-05T08:49:41.913977Z|cov-build|14503|info|>         Node: comp_translator Value: g++
+2017-12-05T08:49:41.913977Z|cov-build|14503|info|>         Node: comp_lang Value: C/C++
+2017-12-05T08:49:41.913977Z|cov-build|14503|info|>         Node: comp_generic Value: gnu
+2017-12-05T08:49:41.913977Z|cov-build|14503|info|>       Node: options
+2017-12-05T08:49:41.913977Z|cov-build|14503|info|>         Node: id Value: g++-g++-4-.*
+2017-12-05T08:49:41.913977Z|cov-build|14503|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-g++-config-2/../user_nodefs.h
+2017-12-05T08:49:41.913977Z|cov-build|14503|info|>         Node: begin_command_line_config
+2017-12-05T08:49:41.913977Z|cov-build|14503|info|>       Node: options
+2017-12-05T08:49:41.913977Z|cov-build|14503|info|>         Node: id Value: g++cc-g++-4-.*
+2017-12-05T08:49:41.913977Z|cov-build|14503|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-g++-config-2/../user_nodefs.h
+2017-12-05T08:49:41.913977Z|cov-build|14503|info|>         Node: begin_command_line_config
+2017-12-05T08:49:41.913977Z|cov-build|14503|info|>   Node: md5 Value: deb1268a1fd912fa66d290aac3a8d6e1
+2017-12-05T08:49:41.913977Z|cov-build|14503|info|> 
+2017-12-05T08:49:41.914005Z|cov-build|14503|info|> Configuration read from: /ephemeral/analyzer/config/template-ld-config-0/coverity_config.xml
+2017-12-05T08:49:41.914005Z|cov-build|14503|info|> Node: coverity
+2017-12-05T08:49:41.914005Z|cov-build|14503|info|>   Node: cit_version Value: 1
+2017-12-05T08:49:41.914005Z|cov-build|14503|info|>   Node: config
+2017-12-05T08:49:41.914005Z|cov-build|14503|info|>     Node: build
+2017-12-05T08:49:41.914005Z|cov-build|14503|info|>       Node: compiler
+2017-12-05T08:49:41.914005Z|cov-build|14503|info|>         Node: template_compiler Value: true
+2017-12-05T08:49:41.914005Z|cov-build|14503|info|>         Node: comp_name Value: ld
+2017-12-05T08:49:41.914005Z|cov-build|14503|info|>         Node: comp_translator Value: ld
+2017-12-05T08:49:41.914005Z|cov-build|14503|info|>         Node: comp_lang Value: C/C++
+2017-12-05T08:49:41.914005Z|cov-build|14503|info|>         Node: comp_generic Value: gnu
+2017-12-05T08:49:41.914005Z|cov-build|14503|info|>       Node: options
+2017-12-05T08:49:41.914005Z|cov-build|14503|info|>         Node: id Value: ld-ld-.*
+2017-12-05T08:49:41.914005Z|cov-build|14503|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-ld-config-0/../user_nodefs.h
+2017-12-05T08:49:41.914005Z|cov-build|14503|info|>         Node: begin_command_line_config
+2017-12-05T08:49:41.914005Z|cov-build|14503|info|>   Node: md5 Value: a31ebdf549aecdabc7c15e5c23be5e63
+2017-12-05T08:49:41.914005Z|cov-build|14503|info|> 
+2017-12-05T08:49:41.914040Z|cov-build|14503|info|> Configuration read from: /ephemeral/analyzer/config/template-gcc-config-3/coverity_config.xml
+2017-12-05T08:49:41.914040Z|cov-build|14503|info|> Node: coverity
+2017-12-05T08:49:41.914040Z|cov-build|14503|info|>   Node: cit_version Value: 1
+2017-12-05T08:49:41.914040Z|cov-build|14503|info|>   Node: config
+2017-12-05T08:49:41.914040Z|cov-build|14503|info|>     Node: build
+2017-12-05T08:49:41.914040Z|cov-build|14503|info|>       Node: compiler
+2017-12-05T08:49:41.914040Z|cov-build|14503|info|>         Node: template_compiler Value: true
+2017-12-05T08:49:41.914040Z|cov-build|14503|info|>         Node: comp_name Value: gcc
+2017-12-05T08:49:41.914040Z|cov-build|14503|info|>         Node: comp_translator Value: gcc
+2017-12-05T08:49:41.914040Z|cov-build|14503|info|>         Node: comp_lang Value: C/C++
+2017-12-05T08:49:41.914040Z|cov-build|14503|info|>         Node: comp_generic Value: gnu
+2017-12-05T08:49:41.914040Z|cov-build|14503|info|>       Node: options
+2017-12-05T08:49:41.914040Z|cov-build|14503|info|>         Node: id Value: gcc-gcc-.*
+2017-12-05T08:49:41.914040Z|cov-build|14503|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-gcc-config-3/../user_nodefs.h
+2017-12-05T08:49:41.914040Z|cov-build|14503|info|>         Node: begin_command_line_config
+2017-12-05T08:49:41.914040Z|cov-build|14503|info|>       Node: options
+2017-12-05T08:49:41.914040Z|cov-build|14503|info|>         Node: id Value: g++-gcc-.*
+2017-12-05T08:49:41.914040Z|cov-build|14503|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-gcc-config-3/../user_nodefs.h
+2017-12-05T08:49:41.914040Z|cov-build|14503|info|>         Node: begin_command_line_config
+2017-12-05T08:49:41.914040Z|cov-build|14503|info|>       Node: options
+2017-12-05T08:49:41.914040Z|cov-build|14503|info|>         Node: id Value: g++cc-gcc-.*
+2017-12-05T08:49:41.914040Z|cov-build|14503|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-gcc-config-3/../user_nodefs.h
+2017-12-05T08:49:41.914040Z|cov-build|14503|info|>         Node: begin_command_line_config
+2017-12-05T08:49:41.914040Z|cov-build|14503|info|>   Node: md5 Value: 220ab2f621b426ef21b5bff0d14bd626
+2017-12-05T08:49:41.914040Z|cov-build|14503|info|> 
+2017-12-05T08:49:41.914072Z|cov-build|14503|info|> Configuration read from: /ephemeral/analyzer/config/template-g++-config-3/coverity_config.xml
+2017-12-05T08:49:41.914072Z|cov-build|14503|info|> Node: coverity
+2017-12-05T08:49:41.914072Z|cov-build|14503|info|>   Node: cit_version Value: 1
+2017-12-05T08:49:41.914072Z|cov-build|14503|info|>   Node: config
+2017-12-05T08:49:41.914072Z|cov-build|14503|info|>     Node: build
+2017-12-05T08:49:41.914072Z|cov-build|14503|info|>       Node: compiler
+2017-12-05T08:49:41.914072Z|cov-build|14503|info|>         Node: template_compiler Value: true
+2017-12-05T08:49:41.914072Z|cov-build|14503|info|>         Node: comp_name Value: g++
+2017-12-05T08:49:41.914072Z|cov-build|14503|info|>         Node: comp_translator Value: g++
+2017-12-05T08:49:41.914072Z|cov-build|14503|info|>         Node: comp_lang Value: C/C++
+2017-12-05T08:49:41.914072Z|cov-build|14503|info|>         Node: comp_generic Value: gnu
+2017-12-05T08:49:41.914072Z|cov-build|14503|info|>       Node: options
+2017-12-05T08:49:41.914072Z|cov-build|14503|info|>         Node: id Value: g++-g++-.*
+2017-12-05T08:49:41.914072Z|cov-build|14503|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-g++-config-3/../user_nodefs.h
+2017-12-05T08:49:41.914072Z|cov-build|14503|info|>         Node: begin_command_line_config
+2017-12-05T08:49:41.914072Z|cov-build|14503|info|>       Node: options
+2017-12-05T08:49:41.914072Z|cov-build|14503|info|>         Node: id Value: g++cc-g++-.*
+2017-12-05T08:49:41.914072Z|cov-build|14503|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-g++-config-3/../user_nodefs.h
+2017-12-05T08:49:41.914072Z|cov-build|14503|info|>         Node: begin_command_line_config
+2017-12-05T08:49:41.914072Z|cov-build|14503|info|>   Node: md5 Value: d8da15d655e23f85d5c6ae35de65d439
+2017-12-05T08:49:41.914072Z|cov-build|14503|info|> 
+2017-12-05T08:49:41.914103Z|cov-build|14503|info|> Configuration read from: /ephemeral/analyzer/config/template-gcc-config-4/coverity_config.xml
+2017-12-05T08:49:41.914103Z|cov-build|14503|info|> Node: coverity
+2017-12-05T08:49:41.914103Z|cov-build|14503|info|>   Node: cit_version Value: 1
+2017-12-05T08:49:41.914103Z|cov-build|14503|info|>   Node: config
+2017-12-05T08:49:41.914103Z|cov-build|14503|info|>     Node: build
+2017-12-05T08:49:41.914103Z|cov-build|14503|info|>       Node: compiler
+2017-12-05T08:49:41.914103Z|cov-build|14503|info|>         Node: template_compiler Value: true
+2017-12-05T08:49:41.914103Z|cov-build|14503|info|>         Node: comp_name Value: gcc-3
+2017-12-05T08:49:41.914103Z|cov-build|14503|info|>         Node: comp_translator Value: gcc
+2017-12-05T08:49:41.914103Z|cov-build|14503|info|>         Node: comp_lang Value: C/C++
+2017-12-05T08:49:41.914103Z|cov-build|14503|info|>         Node: comp_generic Value: gnu
+2017-12-05T08:49:41.914103Z|cov-build|14503|info|>       Node: options
+2017-12-05T08:49:41.914103Z|cov-build|14503|info|>         Node: id Value: gcc-gcc-3-.*
+2017-12-05T08:49:41.914103Z|cov-build|14503|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-gcc-config-4/../user_nodefs.h
+2017-12-05T08:49:41.914103Z|cov-build|14503|info|>         Node: begin_command_line_config
+2017-12-05T08:49:41.914103Z|cov-build|14503|info|>       Node: options
+2017-12-05T08:49:41.914103Z|cov-build|14503|info|>         Node: id Value: g++-gcc-3-.*
+2017-12-05T08:49:41.914103Z|cov-build|14503|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-gcc-config-4/../user_nodefs.h
+2017-12-05T08:49:41.914103Z|cov-build|14503|info|>         Node: begin_command_line_config
+2017-12-05T08:49:41.914103Z|cov-build|14503|info|>       Node: options
+2017-12-05T08:49:41.914103Z|cov-build|14503|info|>         Node: id Value: g++cc-gcc-3-.*
+2017-12-05T08:49:41.914103Z|cov-build|14503|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-gcc-config-4/../user_nodefs.h
+2017-12-05T08:49:41.914103Z|cov-build|14503|info|>         Node: begin_command_line_config
+2017-12-05T08:49:41.914103Z|cov-build|14503|info|>   Node: md5 Value: 6a6dc6f1a6c9360514c721c673fa1951
+2017-12-05T08:49:41.914103Z|cov-build|14503|info|> 
+2017-12-05T08:49:41.914135Z|cov-build|14503|info|> Configuration read from: /ephemeral/analyzer/config/template-gcc-config-5/coverity_config.xml
+2017-12-05T08:49:41.914135Z|cov-build|14503|info|> Node: coverity
+2017-12-05T08:49:41.914135Z|cov-build|14503|info|>   Node: cit_version Value: 1
+2017-12-05T08:49:41.914135Z|cov-build|14503|info|>   Node: config
+2017-12-05T08:49:41.914135Z|cov-build|14503|info|>     Node: build
+2017-12-05T08:49:41.914135Z|cov-build|14503|info|>       Node: compiler
+2017-12-05T08:49:41.914135Z|cov-build|14503|info|>         Node: template_compiler Value: true
+2017-12-05T08:49:41.914135Z|cov-build|14503|info|>         Node: comp_name Value: gcc-4
+2017-12-05T08:49:41.914135Z|cov-build|14503|info|>         Node: comp_translator Value: gcc
+2017-12-05T08:49:41.914135Z|cov-build|14503|info|>         Node: comp_lang Value: C/C++
+2017-12-05T08:49:41.914135Z|cov-build|14503|info|>         Node: comp_generic Value: gnu
+2017-12-05T08:49:41.914135Z|cov-build|14503|info|>       Node: options
+2017-12-05T08:49:41.914135Z|cov-build|14503|info|>         Node: id Value: gcc-gcc-4-.*
+2017-12-05T08:49:41.914135Z|cov-build|14503|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-gcc-config-5/../user_nodefs.h
+2017-12-05T08:49:41.914135Z|cov-build|14503|info|>         Node: begin_command_line_config
+2017-12-05T08:49:41.914135Z|cov-build|14503|info|>       Node: options
+2017-12-05T08:49:41.914135Z|cov-build|14503|info|>         Node: id Value: g++-gcc-4-.*
+2017-12-05T08:49:41.914135Z|cov-build|14503|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-gcc-config-5/../user_nodefs.h
+2017-12-05T08:49:41.914135Z|cov-build|14503|info|>         Node: begin_command_line_config
+2017-12-05T08:49:41.914135Z|cov-build|14503|info|>       Node: options
+2017-12-05T08:49:41.914135Z|cov-build|14503|info|>         Node: id Value: g++cc-gcc-4-.*
+2017-12-05T08:49:41.914135Z|cov-build|14503|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-gcc-config-5/../user_nodefs.h
+2017-12-05T08:49:41.914135Z|cov-build|14503|info|>         Node: begin_command_line_config
+2017-12-05T08:49:41.914135Z|cov-build|14503|info|>   Node: md5 Value: 6f1a220d892e908cc9817e94bdeb7bc5
+2017-12-05T08:49:41.914135Z|cov-build|14503|info|> 
+2017-12-05T08:49:41.914169Z|cov-build|14503|info|> Configuration read from: /ephemeral/analyzer/config/template-g++-config-4/coverity_config.xml
+2017-12-05T08:49:41.914169Z|cov-build|14503|info|> Node: coverity
+2017-12-05T08:49:41.914169Z|cov-build|14503|info|>   Node: cit_version Value: 1
+2017-12-05T08:49:41.914169Z|cov-build|14503|info|>   Node: config
+2017-12-05T08:49:41.914169Z|cov-build|14503|info|>     Node: build
+2017-12-05T08:49:41.914169Z|cov-build|14503|info|>       Node: compiler
+2017-12-05T08:49:41.914169Z|cov-build|14503|info|>         Node: template_compiler Value: true
+2017-12-05T08:49:41.914169Z|cov-build|14503|info|>         Node: comp_name Value: g++-3
+2017-12-05T08:49:41.914169Z|cov-build|14503|info|>         Node: comp_translator Value: g++
+2017-12-05T08:49:41.914169Z|cov-build|14503|info|>         Node: comp_lang Value: C/C++
+2017-12-05T08:49:41.914169Z|cov-build|14503|info|>         Node: comp_generic Value: gnu
+2017-12-05T08:49:41.914169Z|cov-build|14503|info|>       Node: options
+2017-12-05T08:49:41.914169Z|cov-build|14503|info|>         Node: id Value: g++-g++-3-.*
+2017-12-05T08:49:41.914169Z|cov-build|14503|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-g++-config-4/../user_nodefs.h
+2017-12-05T08:49:41.914169Z|cov-build|14503|info|>         Node: begin_command_line_config
+2017-12-05T08:49:41.914169Z|cov-build|14503|info|>       Node: options
+2017-12-05T08:49:41.914169Z|cov-build|14503|info|>         Node: id Value: g++cc-g++-3-.*
+2017-12-05T08:49:41.914169Z|cov-build|14503|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-g++-config-4/../user_nodefs.h
+2017-12-05T08:49:41.914169Z|cov-build|14503|info|>         Node: begin_command_line_config
+2017-12-05T08:49:41.914169Z|cov-build|14503|info|>   Node: md5 Value: ada4013796c1b19ed1fe7ebb4197cd2d
+2017-12-05T08:49:41.914169Z|cov-build|14503|info|> 
+2017-12-05T08:49:41.914197Z|cov-build|14503|info|> Configuration read from: /ephemeral/analyzer/config/template-g++-config-5/coverity_config.xml
+2017-12-05T08:49:41.914197Z|cov-build|14503|info|> Node: coverity
+2017-12-05T08:49:41.914197Z|cov-build|14503|info|>   Node: cit_version Value: 1
+2017-12-05T08:49:41.914197Z|cov-build|14503|info|>   Node: config
+2017-12-05T08:49:41.914197Z|cov-build|14503|info|>     Node: build
+2017-12-05T08:49:41.914197Z|cov-build|14503|info|>       Node: compiler
+2017-12-05T08:49:41.914197Z|cov-build|14503|info|>         Node: template_compiler Value: true
+2017-12-05T08:49:41.914197Z|cov-build|14503|info|>         Node: comp_name Value: g++-4
+2017-12-05T08:49:41.914197Z|cov-build|14503|info|>         Node: comp_translator Value: g++
+2017-12-05T08:49:41.914197Z|cov-build|14503|info|>         Node: comp_lang Value: C/C++
+2017-12-05T08:49:41.914197Z|cov-build|14503|info|>         Node: comp_generic Value: gnu
+2017-12-05T08:49:41.914197Z|cov-build|14503|info|>       Node: options
+2017-12-05T08:49:41.914197Z|cov-build|14503|info|>         Node: id Value: g++-g++-4-.*
+2017-12-05T08:49:41.914197Z|cov-build|14503|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-g++-config-5/../user_nodefs.h
+2017-12-05T08:49:41.914197Z|cov-build|14503|info|>         Node: begin_command_line_config
+2017-12-05T08:49:41.914197Z|cov-build|14503|info|>       Node: options
+2017-12-05T08:49:41.914197Z|cov-build|14503|info|>         Node: id Value: g++cc-g++-4-.*
+2017-12-05T08:49:41.914197Z|cov-build|14503|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-g++-config-5/../user_nodefs.h
+2017-12-05T08:49:41.914197Z|cov-build|14503|info|>         Node: begin_command_line_config
+2017-12-05T08:49:41.914197Z|cov-build|14503|info|>   Node: md5 Value: deb1268a1fd912fa66d290aac3a8d6e1
+2017-12-05T08:49:41.914197Z|cov-build|14503|info|> 
+2017-12-05T08:49:41.914227Z|cov-build|14503|info|> Configuration read from: /ephemeral/analyzer/config/template-ld-config-1/coverity_config.xml
+2017-12-05T08:49:41.914227Z|cov-build|14503|info|> Node: coverity
+2017-12-05T08:49:41.914227Z|cov-build|14503|info|>   Node: cit_version Value: 1
+2017-12-05T08:49:41.914227Z|cov-build|14503|info|>   Node: config
+2017-12-05T08:49:41.914227Z|cov-build|14503|info|>     Node: build
+2017-12-05T08:49:41.914227Z|cov-build|14503|info|>       Node: compiler
+2017-12-05T08:49:41.914227Z|cov-build|14503|info|>         Node: template_compiler Value: true
+2017-12-05T08:49:41.914227Z|cov-build|14503|info|>         Node: comp_name Value: ld
+2017-12-05T08:49:41.914227Z|cov-build|14503|info|>         Node: comp_translator Value: ld
+2017-12-05T08:49:41.914227Z|cov-build|14503|info|>         Node: comp_lang Value: C/C++
+2017-12-05T08:49:41.914227Z|cov-build|14503|info|>         Node: comp_generic Value: gnu
+2017-12-05T08:49:41.914227Z|cov-build|14503|info|>       Node: options
+2017-12-05T08:49:41.914227Z|cov-build|14503|info|>         Node: id Value: ld-ld-.*
+2017-12-05T08:49:41.914227Z|cov-build|14503|info|>         Node: opt_preinclude_file Value: /ephemeral/analyzer/config/template-ld-config-1/../user_nodefs.h
+2017-12-05T08:49:41.914227Z|cov-build|14503|info|>         Node: begin_command_line_config
+2017-12-05T08:49:41.914227Z|cov-build|14503|info|>   Node: md5 Value: a31ebdf549aecdabc7c15e5c23be5e63
+2017-12-05T08:49:41.914227Z|cov-build|14503|info|> 
+2017-12-05T08:49:41.916658Z|cov-build|14503|info|> Using LD_PRELOAD = /ephemeral/analyzer/bin/libcapture-linux64-${PLATFORM}.so
+[14506] EXECUTING: make
+2017-12-05T08:49:41.920438Z|cov-build|14503|info|> 
+2017-12-05T08:49:41.920438Z|cov-build|14503|info|> Build time (cov-build overall): 00:00:00.023765
+2017-12-05T08:49:41.920438Z|cov-build|14503|info|> 
+2017-12-05T08:49:41.920438Z|cov-build|14503|info|> 
+2017-12-05T08:49:41.975366Z|cov-build|14503|info|> [WARNING] Build command make exited with code 2. Please verify that the build completed successfully.
+2017-12-05T08:49:41.975366Z|cov-build|14503|info|> [WARNING] No files were emitted. This may be due to a problem with your configuration
+2017-12-05T08:49:41.975366Z|cov-build|14503|info|> or because no files were actually compiled by your build command.
+2017-12-05T08:49:41.975366Z|cov-build|14503|info|> Please make sure you have configured the compilers actually used in the compilation.
+2017-12-05T08:49:41.975366Z|cov-build|14503|info|>  For more details, please look at: 
+2017-12-05T08:49:41.975366Z|cov-build|14503|info|>     /root/coverity_project/int_dir/build-log.txt

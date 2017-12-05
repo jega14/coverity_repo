@@ -1,0 +1,188 @@
+<error>
+<domain>STATIC_C</domain>
+<lang>C</lang>
+<checker>READLINK</checker>
+<type>improper_null_termination</type>
+<subtype>readlink</subtype>
+<file>/root/coverity_project/make-3.81/remake.c</file>
+<function>name_mtime</function>
+<score>100</score>
+<ordered>true</ordered>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{(e = stat(name, &amp;st)) == -1}}}}}}</description>
+<line>1361</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{*__errno_location() == 4}}}}}}</description>
+<line>1361</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>loop_end</tag>
+<description>{CovLStrv2{{t{Reached end of loop.}}}}</description>
+<line>1361</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{e == 0}}}}}}</description>
+<line>1362</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>else_branch</tag>
+<description>{CovLStrv2{{t{Reached else branch.}}}}</description>
+<line>1364</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{*__errno_location() == 2}}}}}}</description>
+<line>1364</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>if_fallthrough</tag>
+<description>{CovLStrv2{{t{Falling through to end of if statement.}}}}</description>
+<line>1365</line>
+<path_event>
+<jump>true</jump>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>1370</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{check_symlink_flag}}}}}}</description>
+<line>1379</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{1}}}}}}</description>
+<line>1390</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{(e = lstat(lpath, &amp;st)) == -1}}}}}}</description>
+<line>1397</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>loop_end</tag>
+<description>{CovLStrv2{{t{Reached end of loop.}}}}</description>
+<line>1397</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{e}}}}}}</description>
+<line>1398</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>1404</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{!((st.st_mode &amp; 61440) == 40960)}}}}}}</description>
+<line>1408</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>1409</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{ltime &gt; mtime}}}}}}</description>
+<line>1413</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>readlink_call</tag>
+<description>{CovLStrv2{{t{Passing size argument {0} implies readlink() can return up to {1} bytes.}{{code{4096UL}}}{{code{4096UL}}}}}}</description>
+<line>1417</line>
+</event>
+<event>
+<tag>readlink_assign</tag>
+<description>{CovLStrv2{{t{Assigning: {0} = readlink().}{{code{llen}}}}}}</description>
+<line>1417</line>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{(llen = readlink(lpath, lbuf, 4096)) == -1}}}}}}</description>
+<line>1417</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>loop_end</tag>
+<description>{CovLStrv2{{t{Reached end of loop.}}}}</description>
+<line>1417</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{llen &lt; 0}}}}}}</description>
+<line>1418</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>1423</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<main>true</main>
+<tag>readlink</tag>
+<description>{CovLStrv2{{t{{0} is essentially buffer[sizeof(buffer)] which is an off-by-one error.}{{code{lbuf[llen]}}}}}}</description>
+<line>1424</line>
+</event>
+<extra></extra>
+<subcategory>none</subcategory>
+</error>

@@ -1,0 +1,390 @@
+cmdline: command line: /ephemeral/analyzer/bin/cov-analyze --dir coverity_project/int_dir 
+cmdline: parsed cmdline: [
+cmdline:   { name: "dir", args: [ "coverity_project/int_dir" ] },
+cmdline:   { name: "config", args: [ "/ephemeral/analyzer/config/coverity_config.xml" ] },
+cmdline: ]
+startup: am_pid=15287
+startup: detected platform: Linux 3.10.0-693.2.2.el7.x86_64 x86_64
+startup: target platform: linux64
+startup: Detected 8 logical cpus
+startup: Detected 8 cpu cores
+startup: host name: euca-10-254-76-20.eucalyptus.internal
+startup: user name: root
+startup: Analysis version: 2017.07-SP1 (75a994d703 p-milo1-push-30112.467.287)
+startup: temp directory: /tmp/cov-root/97e791dd9f92616ff8290ded594ecd21
+startup: enable_constraint_fpp=0
+startup: current time: 2017-Dec-05 10:53:55
+startup: Detected amount of memory: 32947104kb
+startup: Limiting memory to 29652393kb
+wlink: Identifying web applications
+wlink: Linking web-app archive bytecode
+emitdb: callgraph.cpp:2860 11111111
+emitdb: callgraph.cpp:2890 11000011
+emitdb: callgraph.cpp:2910 11000011
+directives: ===== User directives:
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+rta: Not running RTA because it doesn't apply to current languages
+emitdb: callgraph.cpp:2920 11000000
+dyncg: N/A or no data
+directives: Optimizing dataflow configuration
+general: Starting analysis
+dm-access-lib: AM listening for DM at 127.0.0.1:40835
+dm-access-lib: AM starting DM with command line: /ephemeral/analyzer/bin/cov-internal-dm --AM-port 40835 --log-file /root/coverity_project/make-3.81/coverity_project/int_dir/output/distributor.log -j 8 --AW-timeout 36000 /ephemeral/analyzer/bin/cov-analyze --worker --message-size-limit 104857600
+dm-access-lib: DM started: dm_pid=15289
+dm-access-lib: AM got connection from DM: (local) 127.0.0.1:40835 - 127.0.0.1:35070 (remote)
+wurlegend: <phase><n> dw_id wup_bytes dw_ms wur_bytes aw_ms [mem] paths (rest are labeled)
+wur: stat17 4 2879 100 372 0 mem=10002432 max=65376256 34 nr=2 n: batch 17
+wur: stat28 4 20745 9 555 0 84 nr=13 n: batch 28
+wur: stat13 5 21981 115 1240 15 mem=10043392 max=65417216 316 nr=10 n: batch 13
+wur: stat27 1 35901 115 1507 6 mem=10067968 max=65441792 261 nr=14 n: batch 27
+wur: stat9 7 18872 113 1390 20 mem=10043392 max=65417216 464 nr=16 n: batch 9
+wur: stat6 4 20601 14 1104 0 131 nr=13 n: batch 6
+wur: stat19 3 15598 111 643 5 mem=10027008 max=65400832 101 nr=20 n: batch 19
+wur: stat26 3 8759 0 292 7 52 nr=12 n: batch 26
+wur: stat0 3 8283 9 757 3 59 nr=8 n: batch 0
+wur: stat21 2 31991 130 2440 30 mem=10190848 max=65429504 659 nr=13 n: batch 21
+wur: stat11 4 12430 0 837 0 72 nr=12 n: batch 11
+wur: stat7 1 33052 14 1321 22 274 nr=17 n: batch 7
+wur: stat29 5 12089 14 1029 3 149 nr=6 n: batch 29
+wur: stat1 3 8568 0 1144 1 85 nr=7 n: batch 1
+wur: stat4 2 18831 7 968 0 95 nr=17 n: batch 4
+wur: stat20 3 4206 7 388 6 24 nr=6 n: batch 20
+wur: stat14 4 20716 18 1189 10 240 nr=8 n: batch 14
+wur: stat5 2 9184 3 533 0 34 nr=5 n: batch 5
+wur: stat2 1 19528 15 1055 12 350 nr=8 n: batch 2
+wur: stat18 6 50822 145 3452 36 mem=11292672 max=66068480 846 nr=18 n: batch 18
+wur: stat8 4 10535 7 783 5 137 nr=4 n: batch 8
+wur: stat10 8 31325 132 2234 20 mem=10059776 max=65433600 346 nr=20 n: batch 10
+wur: stat24 8 2636 1 63 0 8 nr=8 n: batch 24
+wur: stat23 7 40500 37 2556 32 1080 nr=12 n: batch 23
+wur: stat3 7 6237 3 205 3 17 nr=4 n: batch 3
+wur: stat25 6 18417 11 970 11 205 nr=9 n: batch 25
+wur: stat12 1 16691 21 1474 20 362 nr=4 n: batch 12
+wur: stat22 5 40980 43 3613 39 1343 nr=11 n: batch 22
+wur: gen154 1 2900 4 617 3 1 n: lookup_variable_in_set in TU 21
+wur: gen212 1 1556 0 656 0 1 n: start_remote_job in TU 17
+wur: gen149 1 2432 0 640 0 5 n: xstrdup in TU 14
+wur: gen179 7 1601 6 550 6 1 n: lstat in TU 16
+wur: gen134 8 3645 2 534 1 7 n: print_variable_set in TU 21
+wur: gen184 4 2778 10 812 10 5 n: savestring in TU 14
+wur: gen163 7 2439 5 1101 6 6 n: expand_builtin_function in TU 8
+wur: gen151 1 1713 0 153 0 2 n: initialize_variable_output in TU 6
+wur: gen182 1 1599 0 548 0 1 n: stat in TU 3
+wur: gen152 3 3203 16 918 13 14 n: xrealloc in TU 14
+wur: gen168 4 1986 4 827 4 5 n: end_of_token in TU 14
+wur: gen201 6 3492 11 559 16 27 n: merge_variable_sets in TU 21
+wur: gen119 4 2442 2 338 2 10 n: atol in TU 2
+wur: gen199 2 2386 21 593 20 7 n: gpath_search in TU 22
+wur: gen132 2 1955 3 737 0 3 n: next_token in TU 14
+wur: gen188 7 3466 11 670 10 16 n: lookup_file in TU 7
+wur: gen200 7 2809 4 568 0 1 n: file_hash_cmp in TU 7
+wur: gen165 8 2776 20 987 11 25 n: lookup_function in TU 8
+wur: gen164 6 1763 15 1126 10 29 n: find_next_argument in TU 8
+wur: gen167 8 1557 4 924 0 7 n: lindex in TU 14
+wur: gen206 8 1588 0 549 0 1 n: fstat in TU 2
+wur: gen170 7 2724 4 1190 4 5 n: find_next_token in TU 14
+wur: gen145 8 1409 2 101 0 1 n: child_access in TU 14
+wur: gen153 2 3680 10 1411 10 13 n: variable_buffer_output in TU 6
+wur: gen193 7 3375 2 997 2 16 n: ar_parse_name in TU 1
+wur: gen194 6 4935 16 500 16 20 n: enter_file in TU 7
+wur: gen122 3 4016 29 423 29 96 n: log_working_directory in TU 13
+wur: gen129 6 2124 0 555 1 4 n: putchar in TU 7
+wur: gen202 2 2866 11 1334 11 23 n: merge_variable_set_lists in TU 21
+wur: gen177 2 2996 3 104 3 9 n: unblock_sigs in TU 12
+wur: gen118 4 2448 25 338 10 10 n: atoi in TU 2
+wur: gen195 3 3078 7 378 7 9 n: ar_name in TU 1
+wur: gen128 8 5144 18 752 19 41 n: print_commands in TU 3
+wur: gen142 8 2275 0 314 0 1 n: pfatal_with_name in TU 14
+wur: gen211 3 2639 0 834 0 3 n: set_command_state in TU 7
+wur: gen185 1 6133 37 1654 32 92 n: dir_contents_file_exists_p in TU 5
+wur: gen123 2 5199 13 592 11 21 n: error in TU 14
+wur: gen144 3 3000 13 1100 13 12 n: job_next_command in TU 12
+wur: gen150 1 3735 9 951 13 7 n: expand_argument in TU 6
+wur: gen178 2 4749 10 512 10 25 n: message in TU 14
+wur: gen217 2 1637 2 566 0 1 n: remote_status in TU 17
+wur: gen158 4 6091 54 1444 51 72 n: handle_special_var in TU 21
+wur: gen136 1 4049 36 112 34 117 n: print_vpath_data_base in TU 22
+wur: gen186 2 7984 22 653 25 35 n: find_directory in TU 5
+wur: gen220 1 1408 0 101 6 1 n: remote_cleanup in TU 17
+wur: gen137 8 2901 53 692 47 93 n: strcache_print_stats in TU 20
+wur: gen218 8 1450 0 280 0 1 n: start_remote_job_p in TU 17
+wur: gen159 1 4106 11 740 0 15 n: lookup_variable in TU 21
+wur: gen130 8 5125 22 885 22 69 n: print_rule in TU 18
+wur: gen141 8 2548 10 511 10 8 n: child_error in TU 12
+wur: gen161 5 4370 133 2348 133 320 n: find_char_unquote in TU 15
+wur: gen180 5 3519 11 887 11 12 n: file_timestamp_sprintf in TU 7
+wur: gen169 6 5796 104 3256 103 179 n: subst_expand in TU 8
+wur: gen140 6 2526 0 104 0 8 n: block_sigs in TU 12
+wur: gen162 6 2972 3 709 0 10 n: find_percent in TU 15
+wur: gen139 5 3422 10 108 11 48 n: print_version in TU 13
+wur: gen239 5 1408 0 101 0 1 n: make_access in TU 14
+wur: gen181 6 3374 13 740 10 13 n: file_timestamp_cons in TU 7
+wur: gen240 6 1410 0 101 0 1 n: user_access in TU 14
+wur: gen117 5 1710 13 893 12 47 n: glob_pattern_p in TU 1
+wur: gen143 8 6914 45 1451 45 79 n: free_child in TU 12
+wur: gen126 3 5348 117 113 117 404 n: print_dir_data_base in TU 5
+wur: gen127 3 3315 11 104 11 4 n: print_file_data_base in TU 7
+wur: gen232 3 2672 0 572 0 11 n: uniquize_deps in TU 15
+wur: gen133 4 6491 105 1047 105 233 n: print_variable in TU 21
+wur: gen236 5 4203 33 1215 33 51 n: lookup_pattern_var in TU 21
+wur: gen124 4 2361 0 406 0 1 n: perror_with_name in TU 14
+wur: gen131 8 4481 22 107 22 53 n: print_rule_data_base in TU 18
+wur: gen253 5 2032 0 583 0 1 n: dir_setup_glob in TU 5
+wur: gen198 8 4876 11 593 11 26 n: file_timestamp_now in TU 7
+wur: gen166 2 9353 116 1914 113 205 n: handle_function in TU 8
+wur: gen249 8 1994 0 634 0 4 n: free_dep in TU 14
+wur: gen135 5 5475 11 106 11 31 n: print_variable_data_base in TU 21
+wur: gen359 8 2424 0 506 0 1 n: free_variable_set in TU 21
+wur: gen357 4 3364 22 846 22 26 n: free_idep_chain in TU 11
+wur: gen360 4 1926 0 187 0 7 n: print_spaces in TU 14
+wur: gen358 3 2577 43 1452 43 89 n: get_next_word in TU 11
+wur: gen272 5 5763 21 824 21 24 n: file_impossible_p in TU 5
+wur: gen146 8 4816 21 229 21 18 n: exec_command in TU 12
+wur: gen238 3 4577 11 485 9 29 n: set_child_handler_action_flags in TU 12
+wur: gen138 4 3928 0 103 0 22 n: print_data_base in TU 13
+wur: gen241 4 5161 29 180 10 49 n: load_too_high in TU 12
+wur: gen125 5 5565 21 255 21 56 n: clean_jobserver in TU 13
+wur: gen250 3 3395 18 1614 14 27 n: freerule in TU 18
+wur: gen261 4 2088 0 537 0 3 n: dir_name in TU 5
+wur: gen307 4 3074 2 456 0 11 n: remove_comments in TU 15
+wur: gen147 3 2743 6 929 9 33 n: child_execute_job in TU 12
+wur: gen305 5 2786 21 1180 14 20 n: readstring in TU 15
+wur: gen293 3 2053 6 1172 8 12 n: strip_whitespace in TU 8
+wur: gen280 5 2237 7 410 0 13 n: free_dep_chain in TU 14
+wur: gen317 5 2786 0 589 0 8 n: install_conditionals in TU 15
+wur: gen203 2 7222 74 1321 74 158 n: rehash_file in TU 7
+wur: gen171 6 9062 129 3297 118 392 n: patsubst_expand in TU 8
+wur: gen190 6 5096 11 1231 11 16 n: pattern_matches in TU 8
+wur: gen371 3 2954 33 113 25 97 n: init_switches in TU 13
+wur: gen204 6 3439 0 1276 0 4 n: rename_file in TU 7
+wur: gen378 6 1979 0 104 0 1 n: strcache_init in TU 20
+wur: gen356 6 2435 2 104 0 1 n: hash_init_function_table in TU 8
+wur: gen221 8 7466 87 957 87 275 n: remove_intermediates in TU 7
+wur: gen377 6 2106 1 104 0 1 n: init_hash_global_variable_set in TU 21
+wur: gen273 6 2249 2 104 0 1 n: hash_init_directories in TU 5
+wur: gen284 6 1985 2 104 0 1 n: init_hash_files in TU 7
+wur: gen389 6 1406 0 101 0 1 n: remote_setup in TU 17
+wur: gen372 3 3677 22 339 22 46 n: print_usage in TU 13
+wur: gen367 3 1640 0 456 0 3 n: tolower in TU 13
+wur: gen306 5 6768 55 1934 47 87 n: readline in TU 15
+wur: gen308 8 4036 27 356 27 99 n: collapse_continuations in TU 14
+wur: gen295 3 1858 24 1236 11 29 n: fold_newlines in TU 8
+wur: gen285 3 3381 0 375 0 2 n: print_file_variables in TU 21
+wur: gen375 8 2111 11 1524 11 15 n: quote_for_env in TU 13
+wur: gen227 3 3444 10 715 11 9 n: ar_name_equal in TU 2
+wur: gen387 8 1941 11 582 11 7 n: free_ns_chain in TU 14
+wur: gen277 3 1852 7 447 0 1 n: restore_variable_buffer in TU 6
+wur: gen251 4 5421 105 2963 101 310 n: new_pattern_rule in TU 18
+wur: gen365 4 2167 0 338 0 6 n: atof in TU 13
+wur: gen120 1 10858 265 1349 273 655 n: ar_scan in TU 2
+wur: gen187 1 4179 4 878 4 14 n: dir_file_exists_p in TU 5
+wur: gen300 8 3157 6 108 6 4 n: pop_variable_scope in TU 21
+wur: gen290 8 1732 0 376 0 3 n: a_word_hash_2 in TU 8
+wur: gen379 3 2084 13 104 6 1 n: initialize_global_hash_tables in TU 13
+wur: gen183 2 8478 97 1416 93 176 n: name_mtime in TU 16
+wur: gen354 4 1885 4 405 4 6 n: function_table_entry_hash_2 in TU 8
+wur: gen228 8 2288 4 1026 0 2 n: ar_member_date_1 in TU 1
+wur: gen282 1 2512 4 375 4 3 n: file_hash_1 in TU 7
+wur: gen355 4 2342 4 859 4 2 n: function_table_entry_hash_cmp in TU 8
+wur: gen412 1 2546 3 397 3 6 n: variable_hash_2 in TU 21
+wur: gen363 1 2045 0 240 0 3 n: child_handler in TU 12
+wur: gen341 3 3930 3 1179 3 76 n: func_patsubst in TU 8
+wur: gen325 2 1969 3 428 3 4 n: restore_conditionals in TU 15
+wur: gen229 8 2301 0 1054 0 2 n: ar_member_pos in TU 2
+wur: gen196 2 5449 10 631 10 32 n: file_exists_p in TU 5
+wur: gen283 1 2511 4 375 0 3 n: file_hash_2 in TU 7
+wur: gen406 2 1911 4 468 4 1 n: str_hash_cmp in TU 20
+wur: gen292 6 4927 75 1919 75 153 n: abspath in TU 8
+wur: gen410 2 2669 0 509 0 1 n: free_variable_name_and_value in TU 21
+wur: gen276 6 1905 0 581 0 1 n: install_variable_buffer in TU 6
+wur: gen270 1 2133 3 761 0 2 n: dirfile_hash_cmp in TU 5
+wur: gen409 2 1502 3 301 4 2 n: strcache_setbufsize in TU 20
+wur: gen121 8 6785 20 985 18 23 n: ar_glob in TU 1
+wur: gen267 6 2033 4 568 3 1 n: directory_hash_cmp in TU 5
+wur: gen269 2 1716 0 376 0 3 n: dirfile_hash_2 in TU 5
+wur: gen347 1 4513 6 1332 6 9 n: func_value in TU 8
+wur: gen207 4 8857 33 674 32 114 n: ar_member_touch in TU 2
+wur: gen333 8 4632 11 1461 10 22 n: func_flavor in TU 8
+wur: gen268 8 1716 4 376 4 3 n: dirfile_hash_1 in TU 5
+wur: gen346 1 4788 10 1184 9 93 n: func_subst in TU 8
+wur: gen298 4 5449 14 1716 15 29 n: func_and in TU 8
+wur: gen339 8 5447 12 1576 12 21 n: func_or in TU 8
+wur: gen366 4 1535 0 246 0 2 n: debug_signal_handler in TU 13
+wur: gen316 5 4026 93 1903 89 220 n: get_next_mword in TU 15
+wur: gen408 8 1760 0 414 2 10 n: strcache_iscached in TU 20
+wur: gen246 5 1464 0 464 0 1 n: remote_kill in TU 17
+wur: gen405 4 1629 6 290 0 3 n: str_hash_2 in TU 20
+wur: gen403 5 1418 0 101 0 1 n: unblock_remote_children in TU 17
+wur: gen291 8 2124 11 792 4 2 n: a_word_hash_cmp in TU 8
+wur: gen353 4 1886 3 405 0 6 n: function_table_entry_hash_1 in TU 8
+wur: gen413 4 3018 6 957 0 2 n: variable_hash_cmp in TU 21
+wur: gen397 4 1984 4 601 0 2 n: alpha_compare in TU 14
+wur: gen299 2 4804 55 2126 54 295 n: func_basename_dir in TU 8
+wur: gen296 5 6864 28 1736 28 79 n: func_abspath in TU 8
+wur: gen264 2 2174 0 942 0 12 n: directory_contents_hash_cmp in TU 5
+wur: gen404 5 1629 0 290 0 3 n: str_hash_1 in TU 20
+wur: gen401 4 3133 4 1017 0 10 n: dep_hash_cmp in TU 15
+wur: gen266 5 1731 11 375 11 3 n: directory_hash_2 in TU 5
+wur: gen297 8 4863 28 1761 30 160 n: func_addsuffix_addprefix in TU 8
+wur: gen411 4 2547 19 397 0 6 n: variable_hash_1 in TU 21
+wur: gen337 4 3865 12 1608 8 20 n: func_lastword in TU 8
+wur: gen340 5 5201 11 1573 11 59 n: func_origin in TU 8
+wur: gen278 2 5601 34 1142 34 48 n: build_target_list in TU 7
+wur: gen400 5 2696 12 388 12 6 n: dep_hash_2 in TU 15
+wur: gen289 5 1732 0 376 0 3 n: a_word_hash_1 in TU 8
+wur: gen364 5 1429 0 234 0 1 n: job_noop in TU 12
+wur: gen402 5 1416 0 101 0 1 n: block_remote_children in TU 17
+wur: gen336 8 4093 32 1672 30 110 n: func_join in TU 8
+wur: gen342 2 6222 23 1672 16 53 n: func_realpath in TU 8
+wur: gen335 5 5487 23 1541 16 29 n: func_if in TU 8
+wur: gen265 2 1731 0 375 11 3 n: directory_hash_1 in TU 5
+wur: gen287 2 2386 0 496 0 1 n: set_intermediate in TU 7
+wur: gen399 5 2697 9 390 0 6 n: dep_hash_1 in TU 15
+wur: gen332 2 3816 9 1429 11 13 n: func_firstword in TU 8
+wur: gen352 2 4690 9 1321 11 17 n: func_words in TU 8
+wur: gen344 4 7524 55 1749 54 58 n: func_sort in TU 8
+wur: gen262 4 2080 2 497 2 1 n: directory_contents_hash_1 in TU 5
+wur: gen338 8 4797 50 2055 45 226 n: func_notdir_suffix in TU 8
+wur: gen189 3 10944 165 2003 157 573 n: selective_vpath_search in TU 22
+wur: gen345 5 3615 27 1955 32 38 n: func_strip in TU 8
+wur: gen260 8 1729 1 405 1 2 n: ansi_free in TU 5
+wur: gen331 3 3782 6 1341 4 11 n: func_findstring in TU 8
+wur: gen398 5 3628 4 109 3 10 n: close_stdout in TU 14
+wur: gen191 2 4590 22 1438 22 59 n: vpath_search in TU 22
+wur: gen330 1 9652 198 2520 197 490 n: func_filter_filterout in TU 8
+wur: gen197 1 5427 15 755 15 29 n: ar_member_date in TU 1
+wur: gen215 1 7410 20 992 20 42 n: delete_target in TU 3
+wur: gen216 1 3828 6 828 6 17 n: delete_child_targets in TU 3
+wur: gen148 7 10074 766 2638 764 1426 n: construct_command_argv_internal in TU 12
+wur: gen155 7 5745 15 862 15 22 n: variable_append in TU 6
+wur: gen156 1 5273 7 568 7 9 n: allocated_variable_append in TU 6
+wur: gen157 1 5030 36 1573 35 32 n: recursively_expand_for_file in TU 6
+wur: gen160 1 8286 19 1368 19 33 n: reference_variable in TU 6
+wur: gen286 6 9578 562 616 562 mem=13959168 max=68907008 2103 n: print_file in TU 7
+wur: gen263 6 2087 2 496 1 1 n: directory_contents_hash_2 in TU 5
+wur: gen213 2 10326 202 542 202 mem=13017088 max=67801088 528 n: target_environment in TU 21
+wur: gen172 1 19710 307 1560 307 mem=14184448 max=69021696 1518 n: variable_expand_string in TU 6
+wur: gen173 1 2736 3 574 3 8 n: variable_expand in TU 6
+wur: gen174 2 3392 9 1038 7 8 n: variable_expand_for_file in TU 6
+wur: gen175 2 3598 3 870 3 4 n: allocated_variable_expand_for_file in TU 6
+wur: gen176 2 6099 11 1420 9 34 n: construct_command_argv in TU 12
+wur: gen192 1 10197 51 940 51 142 n: library_search in TU 16
+wur: gen205 1 16421 184 3618 182 309 n: f_mtime in TU 16
+wur: gen208 1 10597 23 531 23 80 n: ar_touch in TU 1
+wur: gen209 1 9850 32 701 32 129 n: touch_file in TU 16
+wur: gen210 1 9156 387 3630 385 982 n: notice_finished_file in TU 16
+wur: gen214 1 18114 304 3552 302 826 n: start_job_command in TU 12
+wur: gen242 2 12126 34 10 33 mem=13017088 max=67801088 0 n: start_waiting_job in TU 12
+wur: gen242 2 14163 43 1898 42 114 n: start_waiting_job in TU 12 with extra_info
+wur: gen219 1 19874 1073 1349 1071 mem=17862656 max=72626176 2897 n: reap_children in TU 12
+wur: gen243 2 4306 8 105 7 mem=13017088 max=67801088 25 n: start_waiting_jobs in TU 12
+wur: gen222 1 4226 13 111 11 32 n: die in TU 13
+wur: gen223 1 4894 7 427 7 13 n: fatal in TU 14
+wur: gen391 2 3481 5 313 3 6 n: complain in TU 16
+wur: gen224 4 2615 6 732 7 mem=11501568 max=66658304 7 n: xmalloc in TU 14
+wur: gen294 5 3282 8 511 8 mem=11767808 max=66609152 13 n: check_numeric in TU 8
+wur: gen234 4 2776 0 440 0 3 n: create_new_variable_set in TU 21
+wur: gen247 3 5735 31 413 31 mem=13217792 max=68018176 89 n: fatal_error_signal in TU 3
+wur: gen311 8 2186 0 154 0 mem=11300864 max=66138112 2 n: new_cache in TU 20
+wur: gen368 6 3139 9 111 10 mem=13959168 max=68907008 52 n: decode_debug_flags in TU 13
+wur: gen321 3 3420 11 982 0 3 n: create_pattern_var in TU 21
+wur: gen380 6 4129 15 1087 15 10 n: open_tmpfile in TU 13
+wur: gen303 7 5192 20 1370 10 mem=13463552 max=68407296 26 n: func_error in TU 8
+wur: gen258 6 3794 0 106 0 11 n: install_default_suffix_rules in TU 4
+wur: gen301 6 2074 11 460 0 2 n: push_new_variable_scope in TU 21
+wur: gen351 8 5515 26 1713 26 42 n: func_wordlist in TU 8
+wur: gen225 4 3622 26 1262 26 66 n: concat in TU 14
+wur: gen271 3 7896 26 833 36 41 n: file_impossible in TU 5
+wur: gen350 6 5341 10 1522 10 25 n: func_word in TU 8
+wur: gen318 4 3887 21 1166 11 27 n: copy_dep_chain in TU 14
+wur: gen312 3 3838 13 965 22 23 n: add_string in TU 20
+wur: gen275 6 5000 22 994 22 38 n: read_dirstream in TU 5
+wur: gen226 6 4205 10 1765 10 15 n: ar_glob_match in TU 1
+wur: gen313 6 2660 11 813 11 7 n: add_hash in TU 20
+wur: gen314 6 2433 3 414 0 8 n: strcache_add in TU 20
+wur: gen252 3 7710 42 1021 32 71 n: tilde_expand in TU 15
+wur: gen407 3 3685 4 745 4 11 n: strcache_add_len in TU 20
+wur: gen322 1 8179 106 2273 106 166 n: parse_variable_definition in TU 21
+wur: gen310 1 3197 12 502 12 9 n: alloc_dep in TU 14
+wur: gen369 3 3605 32 1220 31 54 n: enter_command_line_file in TU 13
+wur: gen385 7 7348 117 923 128 264 n: count_implicit_rule_limits in TU 18
+wur: gen231 5 5955 130 2296 129 246 n: define_variable_in_set in TU 21
+wur: gen274 7 4931 10 901 10 22 n: open_dirstream in TU 5
+wur: gen326 2 8757 150 1327 150 558 n: construct_vpath_list in TU 22
+wur: gen230 8 6913 134 2412 124 297 n: chop_commands in TU 3
+wur: gen334 7 11709 28 1559 28 54 n: func_foreach in TU 8
+wur: gen235 1 11138 39 10 39 0 n: do_variable_definition in TU 21
+wur: gen319 2 5921 50 1257 50 111 n: create_pattern_rule in TU 18
+wur: gen343 8 16338 54 1585 54 263 n: func_shell in TU 8
+wur: gen381 8 3308 22 107 22 38 n: build_vpath_lists in TU 22
+wur: gen309 3 13433 103 2447 102 314 n: do_define in TU 15
+wur: gen255 4 10141 197 2325 183 850 n: parse_file_seq in TU 15
+wur: gen254 6 11830 190 2697 189 416 n: multi_glob in TU 15
+wur: gen248 6 4758 6 107 6 19 n: define_default_variables in TU 4
+wur: gen386 1 7149 115 112 115 661 n: define_automatic_variables in TU 21
+wur: gen259 6 8767 7 105 7 42 n: set_default_suffixes in TU 4
+wur: gen279 8 4776 30 1133 29 82 n: parse_prereqs in TU 7
+wur: gen302 4 13582 105 2107 105 223 n: func_call in TU 8
+wur: gen235 1 19471 68 1823 68 113 n: do_variable_definition in TU 21 with extra_info
+wur: gen348 4 8111 15 867 13 54 n: string_glob in TU 8
+wur: gen323 6 6449 16 1559 16 40 n: try_variable_definition in TU 21
+wur: gen370 6 12255 22 789 22 78 n: handle_non_switch_argument in TU 13
+wur: gen237 1 11127 71 1884 74 179 n: initialize_file_variables in TU 21
+wur: gen349 1 3556 11 1148 0 7 n: func_wildcard in TU 8
+wur: gen382 8 9448 99 774 98 231 n: construct_include_path in TU 15
+wur: gen304 5 14748 382 1310 381 1704 n: conditional_line in TU 15
+wur: gen244 7 19537 353 1441 348 650 n: new_job in TU 12
+wur: gen315 4 13695 197 1353 197 411 n: eval_makefile in TU 15
+wur: gen324 1 15167 138 2168 145 365 n: record_target_var in TU 15
+wur: gen388 4 12499 79 1299 79 125 n: read_all_makefiles in TU 15
+wur: gen373 6 8036 263 1451 262 1385 n: decode_switches in TU 13
+wur: gen374 1 8407 47 736 47 103 n: decode_env_switches in TU 13
+wur: gen376 3 14206 614 837 613 2245 n: define_makeflags in TU 13
+wur: gen256 3 9259 27 1157 26 42 n: install_pattern_rule in TU 18
+wur: gen257 1 2591 9 107 8 18 n: install_default_implicit_rules in TU 4
+wur: gen233 5 13318 680 2194 679 mem=15192064 max=70008832 1158 n: set_file_variables in TU 3
+wur: gen245 3 10097 26 2547 25 mem=15462400 max=70275072 47 n: execute_file_commands in TU 3
+wur: gen392 3 10433 40 2715 39 86 n: remake_file in TU 16
+wur: gen320 2 18219 1183 6164 1180 mem=17633280 max=72396800 4518 n: record_files in TU 15
+wur: gen383 2 6434 21 1015 20 25 n: convert_suffix_rule in TU 18
+wur: gen281 4 19031 286 2670 285 mem=15396864 max=70160384 1349 n: expand_deps in TU 7
+wur: gen384 2 7043 117 118 116 378 n: convert_to_pattern in TU 18
+wur: gen288 4 7884 91 115 91 283 n: snap_deps in TU 7
+wur: gen327 3 50193 2529 2325 2527 mem=46178304 max=100941824 10001 PATHOUT=1 n: eval in TU 15
+wur: gen328 2 5364 10 496 8 mem=17633280 max=72966144 12 n: eval_buffer in TU 15
+wur: gen329 2 2962 3 773 2 1 n: func_eval in TU 8
+wur: gen361 1 33194 3786 19354 3777 mem=31252480 max=86134784 10001 PATHOUT=1 n: pattern_search in TU 11
+wur: gen362 1 7974 15 727 14 108 n: try_implicit_rule in TU 11
+wur: gen390 1 11891 337 3678 336 922 n: check_dep in TU 16
+wur: gen393 1 28488 2997 6288 2993 mem=31113216 max=86134784 5245 PATHOUT=1 n: update_file_1 in TU 16
+wur: gen394 1 10894 86 2659 85 163 n: update_file in TU 16
+wur: gen395 1 14436 347 849 346 1170 n: update_goal_chain in TU 16
+wur: gen396 1 66139 283 10 279 0 n: main in TU 13
+wur: gen396 1 107893 1403 422 1399 mem=31113216 max=86134784 5001 PATHOUT=1 n: main in TU 13 with extra_info
+summary: Analysis summary report:
+summary: ------------------------
+summary: Files analyzed                 : 24
+summary: Total LoC input to cov-analyze : 39995
+summary: Functions analyzed             : 297
+summary: Paths analyzed                 : 73739
+summary: Time taken by analysis         : 00:00:15
+summary: Defect occurrences found       : 22 Total
+summary:                                   2 BAD_FREE
+summary:                                   1 CHECKED_RETURN
+summary:                                   4 FORWARD_NULL
+summary:                                   1 NEGATIVE_RETURNS
+summary:                                   6 NO_EFFECT
+summary:                                   2 OVERRUN
+summary:                                   1 READLINK
+summary:                                   2 RESOURCE_LEAK
+summary:                                   1 REVERSE_INULL
+summary:                                   2 USE_AFTER_FREE
+summary: Exceeded path limit of 5000 paths in 0.97% of functions (normally up to 5% of functions encounter this limitation)
+summary: Number of functions: 414
+summary: out_of_memory count: 0
+summary: paths_exceeded count: 4
+summary: recoverable failures: 0
+mem: AM peak mem bytes: 78295040
+assert: suppressed asserts: workers=0, master=0
+failures: recoverable failures: workers=0, master=0

@@ -1,0 +1,379 @@
+<error>
+<domain>STATIC_C</domain>
+<lang>C</lang>
+<checker>USE_AFTER_FREE</checker>
+<type>use_after_free</type>
+<subtype>pointer</subtype>
+<file>/root/coverity_project/make-3.81/read.c</file>
+<function>multi_glob</function>
+<score>100</score>
+<ordered>true</ordered>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{old != NULL}}}}}}</description>
+<line>3026</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{old-&gt;name[0] == '~'}}}}}}</description>
+<line>3034</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{newname != NULL}}}}}}</description>
+<line>3037</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>3041</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{ar_name(old-&gt;name)}}}}}}</description>
+<line>3045</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>if_fallthrough</tag>
+<description>{CovLStrv2{{t{Falling through to end of if statement.}}}}</description>
+<line>3056</line>
+<path_event>
+<jump>true</jump>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>3058</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>switch</tag>
+<description>{CovLStrv2{{t{Switch case value {0}.}{{code{0}}}}}}</description>
+<line>3061</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>switch_case</tag>
+<description>{CovLStrv2{{t{Reached case {0}.}{{code{0}}}}}}</description>
+<line>3063</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{i-- &gt; 0}}}}}}</description>
+<line>3066</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{memname != NULL}}}}}}</description>
+<line>3069</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{found == NULL}}}}}}</description>
+<line>3074</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{size &gt; 16UL /* sizeof (struct nameseq) */}}}}}}</description>
+<line>3081</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>if_fallthrough</tag>
+<description>{CovLStrv2{{t{Falling through to end of if statement.}}}}</description>
+<line>3092</line>
+<path_event>
+<jump>true</jump>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>3104</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>freed_arg</tag>
+<description>{CovLStrv2{{t{{0} frees {1}.}{{code{free}}}{{code{memname}}}}}}</description>
+<line>3106</line>
+</event>
+<event>
+<tag>if_fallthrough</tag>
+<description>{CovLStrv2{{t{Falling through to end of if statement.}}}}</description>
+<line>3107</line>
+<path_event>
+<jump>true</jump>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>3118</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>loop</tag>
+<description>{CovLStrv2{{t{Jumping back to the beginning of the loop.}}}}</description>
+<line>3119</line>
+<path_event>
+<jump>true</jump>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>loop_begin</tag>
+<description>{CovLStrv2{{t{Jumped back to beginning of loop.}}}}</description>
+<line>3066</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{i-- &gt; 0}}}}}}</description>
+<line>3066</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{memname != NULL}}}}}}</description>
+<line>3069</line>
+<path_event></path_event>
+</event>
+<event>
+<main>true</main>
+<tag>deref_arg</tag>
+<description>{CovLStrv2{{t{Calling {0} dereferences freed pointer {1}.}{{code{ar_glob}}}{{code{memname}}}}}}</description>
+<line>3073</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>/root/coverity_project/make-3.81/ar.c</file>
+<function>ar_glob</function>
+<key>e3a30ebb737c107f1c3935ed2520df6b</key>
+<id>3</id>
+</model_ptr>
+</event>
+<extra>memname</extra>
+<subcategory>none</subcategory>
+</error>
+<error>
+<domain>STATIC_C</domain>
+<lang>C</lang>
+<checker>USE_AFTER_FREE</checker>
+<type>use_after_free</type>
+<subtype>double_free</subtype>
+<file>/root/coverity_project/make-3.81/read.c</file>
+<function>eval_makefile</function>
+<score>100</score>
+<ordered>true</ordered>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{2 &amp; db_level}}}}}}</description>
+<line>313</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{flags &amp; (1 /* 1 &lt;&lt; 0 */)}}}}}}</description>
+<line>316</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{flags &amp; (2 /* 1 &lt;&lt; 1 */)}}}}}}</description>
+<line>318</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{flags &amp; (4 /* 1 &lt;&lt; 2 */)}}}}}}</description>
+<line>320</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{flags &amp; (8 /* 1 &lt;&lt; 3 */)}}}}}}</description>
+<line>322</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{!(flags &amp; (8 /* 1 &lt;&lt; 3 */))}}}}}}</description>
+<line>331</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>336</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{ebuf.fp == NULL}}}}}}</description>
+<line>345</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{flags &amp; (2 /* 1 &lt;&lt; 1 */)}}}}}}</description>
+<line>345</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{*filename != '/'}}}}}}</description>
+<line>345</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{include_directories[i] != NULL}}}}}}</description>
+<line>348</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{ebuf.fp}}}}}}</description>
+<line>352</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>356</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>freed_arg</tag>
+<description>{CovLStrv2{{t{{0} frees {1}.}{{code{free}}}{{code{included}}}}}}</description>
+<line>357</line>
+</event>
+<event>
+<tag>loop</tag>
+<description>{CovLStrv2{{t{Jumping back to the beginning of the loop.}}}}</description>
+<line>358</line>
+<path_event>
+<jump>true</jump>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>loop_begin</tag>
+<description>{CovLStrv2{{t{Jumped back to beginning of loop.}}}}</description>
+<line>348</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{include_directories[i] != NULL}}}}}}</description>
+<line>348</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>loop_end</tag>
+<description>{CovLStrv2{{t{Reached end of loop.}}}}</description>
+<line>358</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{filename != included}}}}}}</description>
+<line>360</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>361</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{deps-&gt;file == NULL}}}}}}</description>
+<line>369</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{flags &amp; (4 /* 1 &lt;&lt; 2 */)}}}}}}</description>
+<line>373</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{expanded}}}}}}</description>
+<line>376</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>377</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{included}}}}}}</description>
+<line>378</line>
+<path_event></path_event>
+</event>
+<event>
+<main>true</main>
+<tag>double_free</tag>
+<description>{CovLStrv2{{t{Calling {0} frees pointer {1} which has already been freed.}{{code{free}}}{{code{included}}}}}}</description>
+<line>379</line>
+</event>
+<extra>included</extra>
+<subcategory>double_free</subcategory>
+</error>

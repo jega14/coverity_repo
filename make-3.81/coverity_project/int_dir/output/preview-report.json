@@ -1,0 +1,618 @@
+{
+  "header" : {
+    "format" : "commit preview report",
+    "version" : 2
+  },
+  "analysisInfo" : {
+    "ownerAssignmentRule" : "default_component_owner",
+    "comparisonSnapshotId" : null,
+    "reportTimestamp" : "2017-12-05T09:01:27.424Z",
+    "user" : "admin",
+    "command" : "/ephemeral/analyzer/bin/cov-analyze --dir coverity_project/int_dir"
+  },
+  "issueInfo" : [ {
+    "cid" : 10005,
+    "mergeKey" : "9914ccdc0af02f9534de541c5fa46392",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2017-12-05T09:01:27.424Z",
+    "occurrences" : [ {
+      "checker" : "BAD_FREE",
+      "file" : "/root/coverity_project/make-3.81/read.c",
+      "function" : "record_files",
+      "extra" : "",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "array",
+      "mainEventLineNumber" : 2110,
+      "mainEventDescription" : "\"free\" frees incorrect pointer \"name\".",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    }, {
+      "checker" : "BAD_FREE",
+      "file" : "/root/coverity_project/make-3.81/read.c",
+      "function" : "record_files",
+      "extra" : "",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "array",
+      "mainEventLineNumber" : 2110,
+      "mainEventDescription" : "\"free\" frees incorrect pointer \"name\".",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : { },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 10006,
+    "mergeKey" : "3c450c77c6698223542a06bd8081595d",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2017-12-05T09:01:27.424Z",
+    "occurrences" : [ {
+      "checker" : "CHECKED_RETURN",
+      "file" : "/root/coverity_project/make-3.81/job.c",
+      "function" : "reap_children",
+      "extra" : "remove",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "library_function",
+      "mainEventLineNumber" : 708,
+      "mainEventDescription" : "Calling \"remove(c->sh_batch_file)\" without checking return value. This library function may fail and return an error code.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : { },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 10007,
+    "mergeKey" : "e1519527b1fb605b30bb9c8946fce75d",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2017-12-05T09:01:27.424Z",
+    "occurrences" : [ {
+      "checker" : "FORWARD_NULL",
+      "file" : "/root/coverity_project/make-3.81/rule.c",
+      "function" : "count_implicit_rule_limits",
+      "extra" : "name",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "deref_constant_null",
+      "mainEventLineNumber" : 129,
+      "mainEventDescription" : "Passing null pointer \"name\" to \"memmove\", which dereferences it.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    }, {
+      "checker" : "FORWARD_NULL",
+      "file" : "/root/coverity_project/make-3.81/rule.c",
+      "function" : "count_implicit_rule_limits",
+      "extra" : "name",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "deref_constant_null",
+      "mainEventLineNumber" : 130,
+      "mainEventDescription" : "Dereferencing null pointer \"name\".",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : { },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 10008,
+    "mergeKey" : "a96bf5142ee37a52c96b376055f49fcd",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2017-12-05T09:01:27.424Z",
+    "occurrences" : [ {
+      "checker" : "FORWARD_NULL",
+      "file" : "/root/coverity_project/make-3.81/main.c",
+      "function" : "decode_switches",
+      "extra" : "optarg",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 2428,
+      "mainEventDescription" : "Passing null pointer \"optarg\" to \"handle_non_switch_argument\", which dereferences it.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : { },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 10009,
+    "mergeKey" : "27fd4177be0df52478c8d6802f48e825",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2017-12-05T09:01:27.424Z",
+    "occurrences" : [ {
+      "checker" : "FORWARD_NULL",
+      "file" : "/root/coverity_project/make-3.81/remake.c",
+      "function" : "remake_file",
+      "extra" : "cmds,file",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 1132,
+      "mainEventDescription" : "Passing \"file\" to \"notice_finished_file\", which dereferences null \"file->cmds\".",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : { },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 10010,
+    "mergeKey" : "99b448c523f6f0c1165520630c573c41",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2017-12-05T09:01:27.424Z",
+    "occurrences" : [ {
+      "checker" : "NEGATIVE_RETURNS",
+      "file" : "/root/coverity_project/make-3.81/job.c",
+      "function" : "new_job",
+      "extra" : "dup",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "critical_argument",
+      "mainEventLineNumber" : 1702,
+      "mainEventDescription" : "\"job_rfd\" is passed to a parameter that cannot be negative.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : { },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 10011,
+    "mergeKey" : "490a7829bb92d725be53931062286eed",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2017-12-05T09:01:27.424Z",
+    "occurrences" : [ {
+      "checker" : "NO_EFFECT",
+      "file" : "/root/coverity_project/make-3.81/file.c",
+      "function" : "file_timestamp_cons",
+      "extra" : "",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "unsigned_compare_macros",
+      "mainEventLineNumber" : 775,
+      "mainEventDescription" : "This less-than-zero comparison of an unsigned value is never true. \"18446744073709551615UL < 0UL\".",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : { },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 10014,
+    "mergeKey" : "2c42b1b925a09b90f9ffe5317cb28ffc",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2017-12-05T09:01:27.424Z",
+    "occurrences" : [ {
+      "checker" : "NO_EFFECT",
+      "file" : "/root/coverity_project/make-3.81/vpath.c",
+      "function" : "selective_vpath_search",
+      "extra" : "",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "unsigned_compare_macros",
+      "mainEventLineNumber" : 483,
+      "mainEventDescription" : "This less-than-zero comparison of an unsigned value is never true. \"18446744073709551615UL < 0UL\".",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : { },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 10012,
+    "mergeKey" : "9359825f62b67c550e2e52b91c6fbe0e",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2017-12-05T09:01:27.424Z",
+    "occurrences" : [ {
+      "checker" : "NO_EFFECT",
+      "file" : "/root/coverity_project/make-3.81/remake.c",
+      "function" : "f_mtime",
+      "extra" : "",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "unsigned_compare_macros",
+      "mainEventLineNumber" : 1257,
+      "mainEventDescription" : "This less-than-zero comparison of an unsigned value is never true. \"18446744073709551615UL < 0UL\".",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : { },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 10016,
+    "mergeKey" : "18dab6049ce0ee1c03386133558cfdc8",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2017-12-05T09:01:27.424Z",
+    "occurrences" : [ {
+      "checker" : "NO_EFFECT",
+      "file" : "/root/coverity_project/make-3.81/remake.c",
+      "function" : "notice_finished_file",
+      "extra" : "",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "unsigned_compare_macros",
+      "mainEventLineNumber" : 870,
+      "mainEventDescription" : "This less-than-zero comparison of an unsigned value is never true. \"18446744073709551615UL < 0UL\".",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : { },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 10013,
+    "mergeKey" : "cc21a60b7cc6ec9eaf4c4d69060d5421",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2017-12-05T09:01:27.424Z",
+    "occurrences" : [ {
+      "checker" : "NO_EFFECT",
+      "file" : "/root/coverity_project/make-3.81/remake.c",
+      "function" : "update_file_1",
+      "extra" : "",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "unsigned_compare_macros",
+      "mainEventLineNumber" : 435,
+      "mainEventDescription" : "This less-than-zero comparison of an unsigned value is never true. \"18446744073709551615UL < 0UL\".",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : { },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 10015,
+    "mergeKey" : "6379e9bb8d8715a630f6c0ee507bc172",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2017-12-05T09:01:27.424Z",
+    "occurrences" : [ {
+      "checker" : "NO_EFFECT",
+      "file" : "/root/coverity_project/make-3.81/main.c",
+      "function" : "main",
+      "extra" : "",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "unsigned_compare_macros",
+      "mainEventLineNumber" : 1799,
+      "mainEventDescription" : "This less-than-zero comparison of an unsigned value is never true. \"18446744073709551615UL < 0UL\".",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : { },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 10017,
+    "mergeKey" : "4a323e4a81b001897dbc1655dfbcaa27",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2017-12-05T09:01:27.424Z",
+    "occurrences" : [ {
+      "checker" : "OVERRUN",
+      "file" : "/root/coverity_project/make-3.81/remake.c",
+      "function" : "name_mtime",
+      "extra" : "lbuf",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "write",
+      "mainEventLineNumber" : 1424,
+      "mainEventDescription" : "Overrunning array \"lbuf\" of 4096 bytes at byte offset 4096 using index \"llen\" (which evaluates to 4096).",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : { },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 10018,
+    "mergeKey" : "22d3c8106f387f24d72940666ff72265",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2017-12-05T09:01:27.424Z",
+    "occurrences" : [ {
+      "checker" : "OVERRUN",
+      "file" : "/root/coverity_project/make-3.81/commands.c",
+      "function" : "set_file_variables",
+      "extra" : "__builtin_alloca",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 64,
+      "mainEventDescription" : "Allocating insufficient memory for the terminating null of the string.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : { },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 10019,
+    "mergeKey" : "96a00bdb0553fd26ee7bdfc043a69ccc",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2017-12-05T09:01:27.424Z",
+    "occurrences" : [ {
+      "checker" : "READLINK",
+      "file" : "/root/coverity_project/make-3.81/remake.c",
+      "function" : "name_mtime",
+      "extra" : "",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 1424,
+      "mainEventDescription" : "\"lbuf[llen]\" is essentially buffer[sizeof(buffer)] which is an off-by-one error.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : { },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 10020,
+    "mergeKey" : "a69df2ab7e4ac24907cdc5896caab694",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2017-12-05T09:01:27.424Z",
+    "occurrences" : [ {
+      "checker" : "RESOURCE_LEAK",
+      "file" : "/root/coverity_project/make-3.81/main.c",
+      "function" : "enter_command_line_file",
+      "extra" : "expanded",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 579,
+      "mainEventDescription" : "Returning without freeing \"name\" leaks the storage that it points to.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : { },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 10021,
+    "mergeKey" : "e15e98928d299c9c4eaca2a6fc28bb9b",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2017-12-05T09:01:27.424Z",
+    "occurrences" : [ {
+      "checker" : "RESOURCE_LEAK",
+      "file" : "/root/coverity_project/make-3.81/read.c",
+      "function" : "record_files",
+      "extra" : "cmds",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 2130,
+      "mainEventDescription" : "Variable \"cmds\" going out of scope leaks the storage it points to.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : { },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 10022,
+    "mergeKey" : "b22a9c49e47bd5a59027a6f34bffa03b",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2017-12-05T09:01:27.424Z",
+    "occurrences" : [ {
+      "checker" : "REVERSE_INULL",
+      "file" : "/root/coverity_project/make-3.81/read.c",
+      "function" : "record_files",
+      "extra" : "f",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 2107,
+      "mainEventDescription" : "Null-checking \"f\" suggests that it may be null, but it has already been dereferenced on all paths leading to the check.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : { },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 10023,
+    "mergeKey" : "3b1d3c6891e8788a8127a2a34ffccdc3",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2017-12-05T09:01:27.424Z",
+    "occurrences" : [ {
+      "checker" : "USE_AFTER_FREE",
+      "file" : "/root/coverity_project/make-3.81/read.c",
+      "function" : "multi_glob",
+      "extra" : "memname",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 3073,
+      "mainEventDescription" : "Calling \"ar_glob\" dereferences freed pointer \"memname\".",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : { },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 10024,
+    "mergeKey" : "299868ba7a6976495de9ced703401e0d",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2017-12-05T09:01:27.424Z",
+    "occurrences" : [ {
+      "checker" : "USE_AFTER_FREE",
+      "file" : "/root/coverity_project/make-3.81/read.c",
+      "function" : "eval_makefile",
+      "extra" : "included",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "double_free",
+      "mainEventLineNumber" : 379,
+      "mainEventDescription" : "Calling \"free\" frees pointer \"included\" which has already been freed.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : { },
+    "ownerLdapServerName" : null
+  } ]
+}

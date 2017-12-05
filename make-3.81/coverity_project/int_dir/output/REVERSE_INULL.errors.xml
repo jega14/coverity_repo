@@ -1,0 +1,34 @@
+<error>
+<domain>STATIC_C</domain>
+<lang>C</lang>
+<checker>REVERSE_INULL</checker>
+<type>null_pointer_dereference_crash</type>
+<subtype>before_null_check</subtype>
+<file>/root/coverity_project/make-3.81/read.c</file>
+<function>record_files</function>
+<score>100</score>
+<ordered>false</ordered>
+<event>
+<main>true</main>
+<tag>check_after_deref</tag>
+<description>{CovLStrv2{{t{Null-checking {0} suggests that it may be null, but it has already been dereferenced on all paths leading to the check.}{{code{f}}}}}}</description>
+<line>2107</line>
+</event>
+<event>
+<tag>deref_ptr</tag>
+<description>{CovLStrv2{{t{Directly dereferencing pointer {0}.}{{code{f}}}}}}</description>
+<line>1971</line>
+</event>
+<event>
+<tag>deref_ptr</tag>
+<description>{CovLStrv2{{t{Directly dereferencing pointer {0}.}{{code{f}}}}}}</description>
+<line>2080</line>
+</event>
+<event>
+<tag>alias</tag>
+<description>{CovLStrv2{{t{Assigning: {0} {1}= {2}.}{{code{f-&gt;double_colon}}}{}{{code{f}}}}}}</description>
+<line>2083</line>
+</event>
+<extra>f</extra>
+<subcategory>none</subcategory>
+</error>

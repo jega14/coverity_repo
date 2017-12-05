@@ -1,0 +1,19 @@
+/ephemeral/analyzer/bin/cov-analyze --dir coverity_project/int_dir 
+Analysis summary report:
+------------------------
+Files analyzed                 : 24
+Total LoC input to cov-analyze : 39995
+Functions analyzed             : 297
+Paths analyzed                 : 73739
+Time taken by analysis         : 00:00:15
+Defect occurrences found       : 22 Total
+                                  2 BAD_FREE
+                                  1 CHECKED_RETURN
+                                  4 FORWARD_NULL
+                                  1 NEGATIVE_RETURNS
+                                  6 NO_EFFECT
+                                  2 OVERRUN
+                                  1 READLINK
+                                  2 RESOURCE_LEAK
+                                  1 REVERSE_INULL
+                                  2 USE_AFTER_FREE

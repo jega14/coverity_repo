@@ -1,0 +1,14 @@
+Working directory: "/make-3.81"
+Command line arguments: "--incremental" "-o" "deepakserverkw" "--url" "https://10.157.3.49:8080/deepak" "kwinject.out"
+-----
+Klocwork 11.1.1.358
+Installation directory: "/ephemeral/klocwork/kw-server-11.1.1"
+Tables directory: "/make-3.81/deepakserverkw"
+Jobs number: 9
+-----
+Incremental build message: Updated configuration checksum: 1471521128000;7a1f2cfccc5f031b96369524b231da64en
+August 18, 2016 3:19:01 PM EEST: Running build preparation stage...
+Incremental build message: Analysing build specification changes...
+Incremental build message: Analysing source files dependencies...
+August 18, 2016 3:19:01 PM EEST: Build preparation stage completed
+The project is up to date
